@@ -1,25 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crop Club</title>
-    <link rel="stylesheet" href="../stylesheets/member.css">
-</head>
-<body>
-<header>
-    <h1>Crop Club</h1>
-</header>
-<nav>
-    <ul>
-        <li><a href="index.php">Menu</a></li>
-    </ul>
-</nav>
-<footer>
-    &copy;<?php echo date('Y'); ?> CropFoundation
-</footer>
-</body>
-</html>
+<!--don't change this path to dynamicly genarate!!!!!-->
+<?php require_once('../../private/initialize.php'); ?>
 
+<!--call header hook-->
+<?php include('../../private/shared/members_header.php'); ?>
+
+<div class="content"></div>
+
+<!--call footer hook-->
+<?php include('../../private/shared/members_footer.php') ?>

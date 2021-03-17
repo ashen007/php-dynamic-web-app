@@ -9,6 +9,7 @@ function url_for($script_path)
     return WWW_ROOT . $script_path;
 }
 
+// this function use for privent cross site scripting
 function xss($script="") {
     return htmlspecialchars($script);
 }
@@ -23,6 +24,7 @@ function error_500() {
     exit();
 }
 
+// to do redirections
 function redirect_to($location) {
     header('Location: '.$location);
     exit();

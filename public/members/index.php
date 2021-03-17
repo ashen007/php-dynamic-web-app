@@ -11,14 +11,27 @@
     <div id="main_menu">
         <ul id="menu_wrapper">
             <li class="menu_inner">
-                <a href="<?php echo url_for('/index.php'); ?>">logo</a>
                 <a href="<?php echo url_for('/index.php'); ?>">Home</a>
+            </li>
+            <li>
                 <a href="subjects/index.php">Insights</a>
+            </li>
+            <li>
                 <a href="subjects/index.php">Subjects</a>
+            </li>
+            <li>
                 <a href="subjects/index.php">News</a>
+            </li>
+            <li>
                 <a href="subjects/index.php">decises</a>
+            </li>
+            <li>
                 <a href="subjects/index.php">Events</a>
+            </li>
+            <li>
                 <a href="subjects/index.php">Forum</a>
+            </li>
+            <li>
                 <a href="subjects/index.php">Log out</a>
             </li>
         </ul>

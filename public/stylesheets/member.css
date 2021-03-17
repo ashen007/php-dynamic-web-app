@@ -7,7 +7,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 36px;
+    font-size: 84px;
 }
 
 li {
@@ -17,13 +17,6 @@ li {
 
 a {
     text-decoration: none;
-}
-
-nav {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 header {
@@ -36,6 +29,13 @@ header {
 .container {
     width: 90%;
     margin: 0px auto;
+}
+
+.valign {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 div.main_menu {
@@ -74,32 +74,34 @@ div#logo {
     padding: 12px;
 }
 
-section.landing_vid {
-    width: 100%;
-    height: fit-content;
-}
-
 video#meb_landing {
     width: 100%;
     height: auto;
 }
-
 section.landing_vid {
     width: 100%;
     min-height: 100vh;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     display: flex;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+section.landing_vid h1 {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 video#meb_landing {
     min-width: 100%;
     min-height: 100%;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     z-index: -10;
 }
 

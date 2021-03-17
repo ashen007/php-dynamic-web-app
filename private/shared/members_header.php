@@ -21,7 +21,7 @@ if (!isset($page_title)) {
 <body>
 <header>
     <div class="main_menu">
-        <nav>
+        <nav class="valign">
             <ul>
                 <li class="menu_item"><a href="<?php echo url_for('/members/index.php'); ?>">Home</a></li>
                 <li class="menu_item"><a href="subjects/index.php">Insights</a></li>
@@ -34,7 +34,7 @@ if (!isset($page_title)) {
         <img src="<?php echo url_for('images/WT_logo-1.png'); ?>">
     </div>
     <div class="main_menu">
-        <nav>
+        <nav class="valign">
             <ul>
                 <li class="menu_item"><a href="subjects/index.php">Diseases</a></li>
                 <li class="menu_item"><a href="subjects/index.php">Events</a></li>

@@ -1,7 +1,8 @@
 body {
-    width: 90%;
-    margin: 0px auto;
+    width: 100%;
+    margin: 0px;
     font-family: 'Playfair Display', serif;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -24,6 +25,11 @@ header {
     height: fit-content;
 }
 
+.container {
+    width: 90%;
+    margin: 0px auto;
+}
+
 div.main_menu {
     width: 45%;
     text-align: center;
@@ -40,4 +46,32 @@ div#logo {
     height: auto;
     margin: 0px;
     padding: 12px;
+}
+
+section.landing_vid {
+    width: 100%;
+    height: fit-content;
+}
+
+video#meb_landing {
+    width: 100%;
+    height: auto;
+}
+
+section.landing_vid {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+video#meb_landing {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
 }

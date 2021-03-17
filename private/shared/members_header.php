@@ -20,7 +20,7 @@ if (!isset($page_title)) {
           rel="stylesheet">
 </head>
 <body>
-<header>
+<header class="container">
     <div class="main_menu">
         <nav>
             <ul>

@@ -7,7 +7,13 @@
 <!--call header hook-->
 <?php include(SHARED_PATH . '/members_header.php'); ?>
 
-<div id="content">
+<section class="landing_vid">
+    <video id="meb_landing" autoplay loop muted>
+        <source src="<?php echo url_for('/images/WT_landings1.mp4'); ?>" type="video/mp4">
+    </video>
+</section>
+
+<div id="content" class="container">
     <div id="menu">
         <ul id="menu_wrapper">
             <li class="menu_item">

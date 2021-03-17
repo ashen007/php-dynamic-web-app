@@ -1,5 +1,5 @@
 body {
-    max-width: 90%;
+    width: 90%;
     margin: 0px auto;
     font-family: 'Playfair Display', serif;
 }
@@ -9,9 +9,19 @@ h1 {
     font-size: 36px;
 }
 
+header {
+    display: flex;
+    width: 100%;
+}
+
+div.main_menu {
+    width: 45%;
+}
+
 div#logo {
-    width: fit-content;
+    width: 10%;
     height: fit-content;
+    text-align: center;
 }
 
 #logo img {

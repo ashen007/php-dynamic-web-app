@@ -21,13 +21,21 @@ if (!isset($page_title)) {
 </head>
 <body>
 <header>
+    <div class="main_menu">
+        <nav>
+            <ul>
+                <li><a href="<?php echo url_for('/members/index.php'); ?>">Menu</a></li>
+            </ul>
+        </nav>
+    </div>
     <div id="logo">
         <img src="<?php echo url_for('images/WT_logo-1.png'); ?>">
     </div>
-    <div></div>
+    <div class="main_menu">
+        <nav>
+            <ul>
+                <li><a href="<?php echo url_for('/members/index.php'); ?>">Menu</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
-<nav>
-    <ul>
-        <li><a href="<?php echo url_for('/members/index.php'); ?>">Menu</a></li>
-    </ul>
-</nav>

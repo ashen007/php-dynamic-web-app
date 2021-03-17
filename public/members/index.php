@@ -8,7 +8,7 @@
 <?php include(SHARED_PATH . '/members_header.php'); ?>
 
 <div id="content">
-    <div id="main_menu">
+    <div id="menu">
         <ul id="menu_wrapper">
             <li class="menu_item">
                 <a href="<?php echo url_for('/index.php'); ?>">Home</a>

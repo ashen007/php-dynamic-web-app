@@ -24,7 +24,7 @@ if (!isset($page_title)) {
     <div class="main_menu">
         <nav>
             <ul>
-                <li><a href="<?php echo url_for('/members/index.php'); ?>">Menu</a></li>
+                <li><a href="<?php echo url_for('/members/index.php'); ?>">Left Side Menu</a></li>
             </ul>
         </nav>
     </div>
@@ -34,7 +34,7 @@ if (!isset($page_title)) {
     <div class="main_menu">
         <nav>
             <ul>
-                <li><a href="<?php echo url_for('/members/index.php'); ?>">Menu</a></li>
+                <li><a href="<?php echo url_for('/members/index.php'); ?>">Right Side Menu</a></li>
             </ul>
         </nav>
     </div>

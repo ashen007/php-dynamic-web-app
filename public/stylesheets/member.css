@@ -9,13 +9,24 @@ h1 {
     font-size: 36px;
 }
 
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 header {
     display: flex;
     width: 100%;
+    height: fit-content;
 }
 
 div.main_menu {
     width: 45%;
+    text-align: center;
 }
 
 div#logo {

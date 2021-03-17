@@ -20,11 +20,14 @@ if (!isset($page_title)) {
           rel="stylesheet">
 </head>
 <body>
-<header class="container">
+<header>
     <div class="main_menu">
         <nav>
             <ul>
-                <li><a href="<?php echo url_for('/members/index.php'); ?>">Left Side Menu</a></li>
+                <li><a href="<?php echo url_for('/members/index.php'); ?>">Home</a></li>
+                <li class="menu_item"><a href="subjects/index.php">Insights</a></li>
+                <li class="menu_item"><a href="subjects/index.php">Subjects</a></li>
+                <li class="menu_item"><a href="subjects/index.php">News</a></li>
             </ul>
         </nav>
     </div>
@@ -34,7 +37,10 @@ if (!isset($page_title)) {
     <div class="main_menu">
         <nav>
             <ul>
-                <li><a href="<?php echo url_for('/members/index.php'); ?>">Right Side Menu</a></li>
+                <li class="menu_item"><a href="subjects/index.php">decises</a></li>
+                <li class="menu_item"><a href="subjects/index.php">Events</a></li>
+                <li class="menu_item"><a href="subjects/index.php">Forum</a></li>
+                <li class="menu_item"><a href="subjects/index.php">Log out</a></li>
             </ul>
         </nav>
     </div>

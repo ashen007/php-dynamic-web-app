@@ -21,7 +21,8 @@ a {
 
 header {
     display: flex;
-    width: 100%;
+    background-color: #ffffff;
+    min-width: 100%;
     height: fit-content;
 }
 

@@ -10,28 +10,28 @@
 <div id="content">
     <div id="main_menu">
         <ul id="menu_wrapper">
-            <li class="menu_inner">
+            <li class="menu_item">
                 <a href="<?php echo url_for('/index.php'); ?>">Home</a>
             </li>
-            <li>
+            <li class="menu_item">
                 <a href="subjects/index.php">Insights</a>
             </li>
-            <li>
+            <li class="menu_item">
                 <a href="subjects/index.php">Subjects</a>
             </li>
-            <li>
+            <li class="menu_item">
                 <a href="subjects/index.php">News</a>
             </li>
-            <li>
+            <li class="menu_item">
                 <a href="subjects/index.php">decises</a>
             </li>
-            <li>
+            <li class="menu_item">
                 <a href="subjects/index.php">Events</a>
             </li>
-            <li>
+            <li class="menu_item">
                 <a href="subjects/index.php">Forum</a>
             </li>
-            <li>
+            <li class="menu_item">
                 <a href="subjects/index.php">Log out</a>
             </li>
         </ul>

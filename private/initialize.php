@@ -11,4 +11,7 @@ define("WWW_ROOT", $doc_root);
 
 require_once('functions.php');
 
+
+// username-wt_bridge
+// pass-wt2021#cis
 ?>

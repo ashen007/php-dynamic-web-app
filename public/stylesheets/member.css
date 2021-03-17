@@ -47,7 +47,8 @@ li.menu_item {
 }
 
 .menu_item a {
-    font-size: 24px;
+    font-family: 'Della Respira', serif;
+    font-size: 20px;
 }
 
 div#logo {
@@ -89,4 +90,8 @@ video#meb_landing {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -10;
+}
+
+footer {
+    background-color: #ffffff;
 }

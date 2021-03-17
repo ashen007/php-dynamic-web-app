@@ -1,5 +1,5 @@
 <footer>
-    &copy;<?php echo date('Y'); ?> CropFoundation
+    <span class="container">&copy;<?php echo date('Y'); ?> CropFoundation</span>
 </footer>
 
 </body>

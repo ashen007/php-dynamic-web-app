@@ -37,7 +37,7 @@ if (!isset($page_title)) {
     <div class="main_menu">
         <nav>
             <ul>
-                <li class="menu_item"><a href="subjects/index.php">decises</a></li>
+                <li class="menu_item"><a href="subjects/index.php">Diseases</a></li>
                 <li class="menu_item"><a href="subjects/index.php">Events</a></li>
                 <li class="menu_item"><a href="subjects/index.php">Forum</a></li>
                 <li class="menu_item"><a href="subjects/index.php">Log out</a></li>

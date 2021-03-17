@@ -19,6 +19,13 @@ a {
     text-decoration: none;
 }
 
+nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 header {
     display: flex;
     background-color: #ffffff;
@@ -34,6 +41,7 @@ header {
 div.main_menu {
     width: 45%;
     text-align: center;
+    position: relative;
 }
 
 .main_menu nav ul {
@@ -44,11 +52,12 @@ div.main_menu {
 
 li.menu_item {
     padding: 12px;
+    text-transform: uppercase;
 }
 
 .menu_item a {
     font-family: 'Della Respira', serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 div#logo {
@@ -80,6 +89,7 @@ section.landing_vid {
     position: relative;
     display: flex;
     overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 video#meb_landing {

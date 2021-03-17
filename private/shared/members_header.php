@@ -15,10 +15,16 @@ if (!isset($page_title)) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $page_title; ?></title>
     <link rel="stylesheet" href="<?php echo url_for('/stylesheets/member.css'); ?>">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Playfair+Display:wght@500&display=swap"
+          rel="stylesheet">
 </head>
 <body>
 <header>
-    <h1>Crop Club</h1>
+    <div id="logo">
+        <img src="<?php echo url_for('images/WT_logo-1.png'); ?>">
+    </div>
+    <div></div>
 </header>
 <nav>
     <ul>

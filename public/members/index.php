@@ -9,10 +9,17 @@
 
 <div id="content">
     <div id="main_menu">
-        <h2>Main Menu</h2>
-        <ul>
-            <li>
+        <ul id="menu_wrapper">
+            <li class="menu_inner">
+                <a href="<?php echo url_for('/index.php'); ?>">logo</a>
+                <a href="<?php echo url_for('/index.php'); ?>">Home</a>
+                <a href="subjects/index.php">Insights</a>
                 <a href="subjects/index.php">Subjects</a>
+                <a href="subjects/index.php">News</a>
+                <a href="subjects/index.php">decises</a>
+                <a href="subjects/index.php">Events</a>
+                <a href="subjects/index.php">Forum</a>
+                <a href="subjects/index.php">Log out</a>
             </li>
         </ul>
     </div>

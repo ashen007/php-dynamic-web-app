@@ -56,7 +56,8 @@ li.menu_item {
 }
 
 .menu_item a {
-    font-family: 'Della Respira', serif;
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
     font-size: 16px;
 }
 
@@ -105,3 +106,9 @@ video#meb_landing {
 footer {
     background-color: #ffffff;
 }
+
+/*
+font-family: 'Della Respira', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+*/

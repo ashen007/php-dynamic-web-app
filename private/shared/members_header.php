@@ -16,8 +16,7 @@ if (!isset($page_title)) {
     <title><?php echo $page_title; ?></title>
     <link rel="stylesheet" href="<?php echo url_for('/stylesheets/member.css'); ?>">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Playfair+Display:wght@500&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>

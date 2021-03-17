@@ -23,7 +23,7 @@ if (!isset($page_title)) {
     <div class="main_menu">
         <nav class="valign">
             <ul>
-                <li class="menu_item"><a href="<?php echo url_for('/members/index.php'); ?>">Home</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/members/insights.php'); ?>">Home</a></li>
                 <li class="menu_item"><a href="subjects/index.php">Insights</a></li>
                 <li class="menu_item"><a href="subjects/index.php">Subjects</a></li>
                 <li class="menu_item"><a href="subjects/index.php">News</a></li>

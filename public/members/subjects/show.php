@@ -1,7 +1,9 @@
 <?php
 
-$page = isset($_GET['id']) ? $_GET['id'] : 0;
+require_once('../../../private/initialize.php');
 
-echo $page
+$id = $_GET['id'] ?? '0';
+
+echo xss($id)
 
 ?>

@@ -78,6 +78,7 @@ video#meb_landing {
     width: 100%;
     height: auto;
 }
+
 section.landing_vid {
     width: 100%;
     min-height: 100vh;
@@ -95,7 +96,7 @@ section.landing_vid h1 {
     position: absolute;
     top: 36%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 video#meb_landing {
@@ -103,6 +104,10 @@ video#meb_landing {
     min-height: 100%;
     position: fixed;
     z-index: -10;
+}
+
+section#category {
+    background-color: #ffffff;
 }
 
 footer {

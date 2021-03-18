@@ -21,6 +21,13 @@ function check_db_connection()
     }
 }
 
+// check results avaliability
+function confirm_result($result) {
+    if (!$result) {
+        exit();
+    }
+}
+
 // close the conection with database
 function db_close($connection)
 {

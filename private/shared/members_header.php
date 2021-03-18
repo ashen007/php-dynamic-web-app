@@ -39,7 +39,7 @@ if (!isset($page_title)) {
                 <li class="menu_item"><a href="<?php echo url_for('/members/pages/diseases.php?id='); ?>">Diseases</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/members/pages/events.php?id='); ?>">Events</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/members/pages/forum.php?id='); ?>">Forum</a></li>
-                <li class="menu_item"><a href="subjects/index.php">Log out</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/members/login.php')?>">Log in</a></li>
             </ul>
         </nav>
     </div>

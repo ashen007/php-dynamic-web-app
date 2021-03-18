@@ -30,4 +30,9 @@ function redirect_to($location) {
     exit();
 }
 
+// to ditect form action post
+function request_is_post() {
+    return $_SERVER['REQUEST_METHOD'] == 'POST';
+}
+
 ?>

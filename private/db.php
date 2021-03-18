@@ -6,7 +6,9 @@ require_once('cred.php');
 function db_connect()
 {
     $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_SCHEMA);
-    return $connection;
+    if (mysqli_errno($connection) == 0) {
+        return $connection;
+    }
 }
 
 // close the conection with database

@@ -16,5 +16,13 @@ $page_title = 'Crop Club';
     </video>
 </section>
 
+<section id="category">
+
+</section>
+
+<?php
+mysqli_free_result($category_set);
+?>
+
 <!--call footer hook-->
 <?php include(SHARED_PATH . '/members_footer.php'); ?>

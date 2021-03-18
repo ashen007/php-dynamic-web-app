@@ -6,5 +6,5 @@
 </html>
 
 <?php
-db_close($bd);
+db_close($db);
 ?>

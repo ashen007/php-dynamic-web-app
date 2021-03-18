@@ -30,5 +30,8 @@
         <a class="back" href="<?php echo url_for('/members/register.php') ?>">Create new account</a>
     </div>
 </div>
-</body>
-</html>
+
+<!--call footer hook-->
+<?php
+include(SHARED_PATH . '/members_footer.php');
+?>

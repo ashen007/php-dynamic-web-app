@@ -21,7 +21,7 @@ $category_set = find_all_categories();
     <div class="container">
         <?php while ($cat = mysqli_fetch_assoc($category_set)) { ?>
             <div>
-                <a href="<?php echo url_for('/members/subjects/' . xss($cat['name']) . '.php') ?>"><?php echo xss($cat['name']) ?></a>
+                <?php echo xss($cat['name']) ?>
             </div>
         <?php } ?>
     </div>

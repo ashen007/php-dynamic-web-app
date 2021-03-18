@@ -25,6 +25,8 @@ create table members(
     primary key (id,email)
 );
 
+alter table members add column dob timestamp null;
+
 # create special user client for mysql server to
 # handle web app connections
 # to execute this section you need admin privileges

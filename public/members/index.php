@@ -4,6 +4,7 @@
 <!--page title-->
 <?php
 $page_title = 'Crop Club';
+$category_set = find_all_categories();
 ?>
 
 <!--call header hook-->

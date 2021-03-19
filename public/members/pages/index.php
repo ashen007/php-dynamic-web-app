@@ -7,8 +7,10 @@
 
 <div class="content">
     <ul>
-        <li><a href="<?php echo url_for('/members/subjects/show.php?id=' . $id); ?>">show</a></li>
+        <li><a href="<?php echo url_for('/members/subjects/show.php?id=' . xss($id)); ?>">show</a></li>
         <li><?php echo $id; ?></li>
+        <li><a href="<?php echo url_for('/members/acount/edit.php?id=' . xss($id)); ?>">edit profile</a>
+        </li>
     </ul>
 </div>
 

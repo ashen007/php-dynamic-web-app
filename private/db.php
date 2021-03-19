@@ -37,7 +37,7 @@ function login($username, $password)
     if (empty($member_cred)) {
         redirect_to(url_for('/members/login.php'));
     } else {
-        redirect_to(url_for('/members/pages/index.php?id=' . xss($member_cred['id'])));
+        redirect_to(url_for('/members/pages/index.php?id=' . xss(base64_encode($member_cred['id']))));
     }
 }
 

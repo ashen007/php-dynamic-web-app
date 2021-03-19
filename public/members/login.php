@@ -9,6 +9,8 @@
     <title>Login</title>
 </head>
 <body>
+<section id="log_in">
+    <div class="bg_image"></div>
 <div id="form">
     <a class="back" href="<?php echo url_for('/members/index.php') ?>">Back</a>
 
@@ -30,7 +32,7 @@
         <a class="back" href="<?php echo url_for('/members/register.php') ?>">Create new account</a>
     </div>
 </div>
-
+</section>
 <!--call footer hook-->
 <?php
 include(SHARED_PATH . '/members_footer.php');

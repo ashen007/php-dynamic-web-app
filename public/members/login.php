@@ -8,6 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/form.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/member.css') ?>">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/94d8d2468d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -32,10 +34,10 @@
                     <dd><input type="text" name="password" value=""/></dd>
                 </dl>
                 <div id="operation">
-                    <input type="submit" value="login"/>
+                    <input type="submit" value="Next"/>
                 </div>
             </form>
-            <a class="back" href="<?php echo url_for('/members/register.php') ?>">Create new account</a>
+            <a class="to_reg" href="<?php echo url_for('/members/register.php') ?>">Create new account</a>
         </div>
     </div>
 </section>

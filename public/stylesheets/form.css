@@ -1,4 +1,5 @@
 body {
+    font-family: 'Oswald', sans-serif !important;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -7,6 +8,41 @@ body {
 
 footer {
     display: none !important;
+}
+
+dl {
+    width: 100%;
+    position: relative;
+}
+
+dd {
+    margin: 12px 0px 20px 0px;
+}
+
+dt {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 52px 0px;
+}
+
+input[type="text"] {
+    border-width: 0px 0px 1px 0px;
+    width: 75%;
+    transition-property: border-bottom-color;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+
+input[type="text"]:focus {
+    padding: 0px;
+    border-width: 0px 0px 2px 0px;
+    border-color: #4856fd;
+    outline: none;
+    background: rgba(0, 0, 0, 0);
 }
 
 section#log_in > div, section#reg > div {
@@ -35,9 +71,31 @@ a.back {
     color: #000000;
 }
 
+a.to_reg {
+    color: #4856fd;
+    text-transform: lowercase;
+    display: block;
+    margin: 6% 0% 1% 56%;
+}
+
 div#toback {
     width: fit-content;
     height: auto;
     padding: 15px;
     font-size: 30px;
+}
+
+input[type="submit"] {
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 8%;
+    margin: 10px 0px 0px 0px;
+}
+
+div.login {
+    width: 60%;
 }

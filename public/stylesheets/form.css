@@ -30,8 +30,9 @@ h2 {
 }
 
 input[type="text"] {
-    border-width: 0px 0px 1px 0px;
     width: 75%;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0px 0px 1px 0px;
     transition-property: border-bottom-color;
     transition-duration: 300ms;
     transition-timing-function: linear;
@@ -58,13 +59,14 @@ section#log_in, section#reg {
 
 div#form {
     position: relative;
+    transform: translateX(100%);
 }
 
 div.bg_image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: sticky;
+    position: fixed;
 }
 
 a.back {

@@ -11,7 +11,7 @@ function find_all_categories()
     return $result;
 }
 
-function register_member($first_name,$last_name,$username,$password,$dob,$email)
+function register_member($first_name, $last_name, $username, $password, $dob, $email)
 {
     global $db;
     $sql = "insert into members ";
@@ -30,8 +30,22 @@ function register_member($first_name,$last_name,$username,$password,$dob,$email)
         return true;
     } else {
         db_close($db);
-        exit();
+        exit('fucked');
     }
+}
+
+function check_account($username, $password)
+{
+    global $db;
+    $sql = "select * from members ";
+    $sql .= "where username = '" . $username . "' ";
+    $sql .= "and password = '" . $password . "';";
+    $result = mysqli_query($db, $sql);
+
+    $member_cred = mysqli_fetch_assoc($result);
+    mysqli_free_result($result);
+
+    return $member_cred;
 }
 
 ?>

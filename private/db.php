@@ -22,9 +22,22 @@ function check_db_connection()
 }
 
 // check results avaliability
-function confirm_result($result) {
+function confirm_result($result)
+{
     if (!$result) {
+        redirect_to(url_for('/members/login.php'));
         exit();
+    }
+}
+
+function login($username, $password)
+{
+    $member_cred = check_account($username, $password);
+
+    if (empty($member_cred)) {
+        redirect_to(url_for('/members/login.php'));
+    } else {
+        redirect_to(url_for('/members/pages/index.php?id=' . xss($member_cred['id'])));
     }
 }
 

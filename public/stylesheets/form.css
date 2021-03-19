@@ -57,16 +57,15 @@ section#log_in, section#reg {
     width: 100%;
 }
 
-div#form {
-    position: relative;
-    transform: translateX(100%);
-}
-
 div.bg_image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    /*position: fixed;*/
+}
+
+div#form {
+    position: relative;
 }
 
 a.back {
@@ -100,4 +99,8 @@ input[type="submit"] {
 
 div.login {
     width: 60%;
+    border-left: 2px solid;
+    border-color: #000000;
+    padding-left: 22px;
+    margin: 25px 0px;
 }

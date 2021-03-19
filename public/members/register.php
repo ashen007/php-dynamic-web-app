@@ -10,7 +10,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/form.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/member.css') ?>">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap"
+          rel="stylesheet">
     <script src="https://kit.fontawesome.com/94d8d2468d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -38,24 +39,6 @@
                     <dt>Email</dt>
                     <dd><input type="text" name="email" value=""/></dd>
                 </dl>
-<!--                test-->
-                <dl>
-                    <dt>Last name</dt>
-                    <dd><input type="text" name="last_name" value=""/></dd>
-                </dl>
-                <dl>
-                    <dt>Email</dt>
-                    <dd><input type="text" name="email" value=""/></dd>
-                </dl>
-                <dl>
-                    <dt>Last name</dt>
-                    <dd><input type="text" name="last_name" value=""/></dd>
-                </dl>
-                <dl>
-                    <dt>Email</dt>
-                    <dd><input type="text" name="email" value=""/></dd>
-                </dl>
-<!--                test-->
                 <dl>
                     <dt>Date of birth</dt>
                     <dd><input type="date" name="dob" value=""/></dd>

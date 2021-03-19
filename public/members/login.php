@@ -8,12 +8,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/form.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/member.css') ?>">
+    <script src="https://kit.fontawesome.com/94d8d2468d.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <section id="log_in">
     <div class="bg_image" style="background-image: url('<?php echo url_for('/images/log_.jpg') ?>')"></div>
     <div id="form">
-        <a class="back" href="<?php echo url_for('/members/index.php') ?>">Back</a>
+        <div id="toback">
+            <a class="back" href="<?php echo url_for('/members/index.php') ?>">
+                <i class="far fa-times-circle"></i>
+            </a>
+        </div>
 
         <div class="login valign">
             <h2>Welcome Back!</h2>

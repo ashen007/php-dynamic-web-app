@@ -31,3 +31,13 @@ div.bg_image {
     background-size: cover;
 }
 
+a.back {
+    color: #000000;
+}
+
+div#toback {
+    width: fit-content;
+    height: auto;
+    padding: 15px;
+    font-size: 30px;
+}

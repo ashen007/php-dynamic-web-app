@@ -58,13 +58,13 @@ section#log_in, section#reg {
 
 div#form {
     position: relative;
-    width: 100%;
 }
 
 div.bg_image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: sticky;
 }
 
 a.back {

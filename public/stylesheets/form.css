@@ -9,12 +9,12 @@ footer {
     display: none !important;
 }
 
-section#log_in > div {
+section#log_in > div, section#reg > div {
     width: 50%;
     min-height: 100vh;
 }
 
-section#log_in {
+section#log_in, section#reg {
     position: relative;
     display: flex;
     width: 100%;

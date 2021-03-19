@@ -6,32 +6,33 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/form.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/member.css') ?>">
 </head>
 <body>
 <section id="log_in">
-    <div class="bg_image"></div>
-<div id="form">
-    <a class="back" href="<?php echo url_for('/members/index.php') ?>">Back</a>
+    <div class="bg_image" style="background-image: url('<?php echo url_for('/images/log_.jpg') ?>')"></div>
+    <div id="form">
+        <a class="back" href="<?php echo url_for('/members/index.php') ?>">Back</a>
 
-    <div class="login">
-        <h2>Log in/ Register</h2>
-        <form action="<?php echo url_for('/members/acount/log.php')?>" method="post">
-            <dl>
-                <dt>Username</dt>
-                <dd><input type="text" name="username" value=""/></dd>
-            </dl>
-            <dl>
-                <dt>Password</dt>
-                <dd><input type="text" name="password" value=""/></dd>
-            </dl>
-            <div id="operation">
-                <input type="submit" value="login"/>
-            </div>
-        </form>
-        <a class="back" href="<?php echo url_for('/members/register.php') ?>">Create new account</a>
+        <div class="login valign">
+            <h2>Welcome Back!</h2>
+            <form action="<?php echo url_for('/members/acount/log.php') ?>" method="post">
+                <dl>
+                    <dt>Username</dt>
+                    <dd><input type="text" name="username" value=""/></dd>
+                </dl>
+                <dl>
+                    <dt>Password</dt>
+                    <dd><input type="text" name="password" value=""/></dd>
+                </dl>
+                <div id="operation">
+                    <input type="submit" value="login"/>
+                </div>
+            </form>
+            <a class="back" href="<?php echo url_for('/members/register.php') ?>">Create new account</a>
+        </div>
     </div>
-</div>
 </section>
 <!--call footer hook-->
 <?php

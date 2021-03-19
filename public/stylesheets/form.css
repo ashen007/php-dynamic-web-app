@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+footer {
+    display: none !important;
+}
+
+section#log_in > div {
+    width: 50%;
+    min-height: 100vh;
+}
+
+section#log_in {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+div#form {
+    position: relative;
+    width: 100%;
+}
+
+div.bg_image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

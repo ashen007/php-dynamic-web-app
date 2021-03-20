@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/private/form_validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/form_validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/form_validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/members/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/form.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616173431921</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add basic form validation functions to form validation script">
+      <created>1616237446605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616237446605</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +96,7 @@
     <MESSAGE value="change folder" />
     <MESSAGE value="log in mechanism enabled" />
     <MESSAGE value="update profile mechanism enabled" />
-    <option name="LAST_COMMIT_MESSAGE" value="update profile mechanism enabled" />
+    <MESSAGE value="add basic form validation functions to form validation script" />
+    <option name="LAST_COMMIT_MESSAGE" value="add basic form validation functions to form validation script" />
   </component>
 </project>

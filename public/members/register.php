@@ -41,9 +41,9 @@
                 </dl>
                 <dl>
                     <dt>Date of birth</dt>
-                    <dd class="date"><input type="text" name="date" value="" placeholder="Date"/>
-                        <input type="text" name="month" value="" placeholder="Month"/>
-                        <input type="text" name="year" value="" placeholder="Year"/></dd>
+                    <dd class="date"><input type="text" inputmode="numeric" name="date" value="" placeholder="Date"/>
+                        <input type="text" name="month" inputmode="numeric" value="" placeholder="Month"/>
+                        <input type="text" name="year" inputmode="numeric" value="" placeholder="Year"/></dd>
                 </dl>
                 <dl>
                     <dt>Username</dt>

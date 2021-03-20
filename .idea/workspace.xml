@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616253394225</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add error msg display mechanism to forms">
+      <created>1616254090868</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616254090868</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add error msg's css properties">
+      <created>1616254191816</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616254191816</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +143,8 @@
     <MESSAGE value="add firstname and lastname error checker. if first name or last name empty it return error msg to form" />
     <MESSAGE value="add validations for email,date of birth,username and password" />
     <MESSAGE value="change form processing from duel to single page" />
-    <option name="LAST_COMMIT_MESSAGE" value="change form processing from duel to single page" />
+    <MESSAGE value="add error msg display mechanism to forms" />
+    <MESSAGE value="add error msg's css properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="add error msg's css properties" />
   </component>
 </project>

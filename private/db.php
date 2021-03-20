@@ -38,6 +38,11 @@ function login($username, $password)
     }
 }
 
+function db_escape($connection, $string)
+{
+    return mysqli_real_escape_string($connection, $string);
+}
+
 // close the conection with database
 function db_close($connection)
 {

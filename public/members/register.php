@@ -1,4 +1,21 @@
-<?php require_once('../../private/initialize.php'); ?>
+<?php require_once('../../private/initialize.php');
+
+if (request_is_post()) {
+
+    if (request_is_post()) {
+        $result = register_member($_POST);
+
+        if ($result === true) {
+            $new_id = mysqli_insert_id($db);
+            redirect_to(url_for('/members/pages/index.php?id=' . xss(base64_encode($new_id))));
+        } else {
+            $errors = $result;
+//            var_dump($errors);
+        }
+    }
+}
+
+?>
 
 <!doctype html>
 <html lang="en">
@@ -26,7 +43,7 @@
 
         <div class="login valign">
             <h2>Enter The Club</h2>
-            <form action="<?php echo url_for('/members/acount/new_member.php') ?>" method="post">
+            <form action="<?php echo url_for('/members/register.php') ?>" method="post">
                 <dl>
                     <dt>First name</dt>
                     <dd><input type="text" name="first_name" value=""/></dd>

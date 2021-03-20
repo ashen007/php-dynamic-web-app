@@ -12,8 +12,14 @@ if (request_is_post()) {
     $new_dtl['username'] = $_POST['username'];
     $new_dtl['password'] = $_POST['password'];
     $new_dtl['email'] = $_POST['email'];
+    $result = update_acount_dtl($new_dtl, $id);
 
-    update_acount_dtl($new_dtl,$id);
+    if ($result === true) {
+        redirect_to(url_for('/members/pages/index.php?id=' . xss(base64_encode($id))));
+    } else {
+        $errors = $result;
+        var_dump($errors);
+    }
 } else {
     $member_dtl = get_account_dtl($id);
 }
@@ -33,7 +39,7 @@ if (request_is_post()) {
 </head>
 <body>
 
-<form action="<?php echo url_for('/members/acount/edit.php?id='.xss(base64_encode($id))) ?>" method="post">
+<form action="<?php echo url_for('/members/acount/edit.php?id=' . xss(base64_encode($id))) ?>" method="post">
     <dl>
         <dt>First name</dt>
         <dd><input type="text" name="first_name" value="<?php echo $member_dtl['firstname']; ?>"/></dd>

@@ -1,4 +1,11 @@
-<?php require_once('../../private/initialize.php'); ?>
+<?php require_once('../../private/initialize.php');
+
+if (request_is_post()) {
+    $username = $_POST['username'] ?? '';
+    $password = $_POST['password'] ?? '';
+    login($username,$password);
+}
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -24,7 +31,7 @@
 
         <div class="login valign">
             <h2>Welcome Back!</h2>
-            <form action="<?php echo url_for('/members/acount/log.php') ?>" method="post">
+            <form action="<?php echo url_for('/members/login.php') ?>" method="post">
                 <dl>
                     <dt>Username</dt>
                     <dd><input type="text" name="username" value=""/></dd>

@@ -13,7 +13,7 @@ function validate_form($formdata)
     }
 
 //  check email structure
-    if (has_valid_email_format($formdata['email'])) {
+    if (!has_valid_email_format($formdata['email'])) {
         $errors['email_error'] = 'this is not a valid email';
     }
 
@@ -35,7 +35,7 @@ function validate_form($formdata)
     $options = ['min' => 6, 'max' => 255];
     if (is_blank($formdata['username'])) {
         $errors['username_error'] = 'username cannot be empty';
-    } elseif (has_length($formdata['username'], $options)) {
+    } elseif (!has_length($formdata['username'], $options)) {
         $errors['username_error'] = 'username need more than 6 characters';
     }
 
@@ -82,7 +82,6 @@ function register_member($data)
     if ($result) {
         return true;
     } else {
-        echo $sql;
         db_close($db);
         exit('fucked');
     }
@@ -143,7 +142,7 @@ function update_acount_dtl($new_data, $id)
     $result = mysqli_query($db, $sql);
 
     if ($result) {
-        redirect_to(url_for('/members/pages/index.php?id=' . xss(base64_encode($id))));
+        return true;
     } else {
         db_close($db);
         exit();

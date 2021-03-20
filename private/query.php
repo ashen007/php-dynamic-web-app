@@ -1,13 +1,47 @@
 <?php
 
-function validate_form($formdata) {
+function validate_form($formdata)
+{
     $errors = [];
 
 //    firstname and lastname
     if (is_blank($formdata['first_name'])) {
         $errors['firstname_error'] = 'first name cannot be empty';
-    }elseif (is_blank($formdata['last_name'])) {
+    }
+    if (is_blank($formdata['last_name'])) {
         $errors['lastname_error'] = 'last name cannot be empty';
+    }
+
+//  check email structure
+    if (has_valid_email_format($formdata['email'])) {
+        $errors['email_error'] = 'this is not a valid email';
+    }
+
+//    date of birth
+    $date = (int)$formdata['date'];
+    $month = (int)$formdata['month'];
+    $year = (int)$formdata['year'];
+    if ($date < 1 || $date > 31) {
+        $errors['date_error'] = 'wrong date';
+    }
+    if ($month < 1 || $month > 12) {
+        $errors['month_error'] = 'wrong month';
+    }
+    if ($year < 1000 || $year > 9999) {
+        $errors['year_error'] = 'wrong year';
+    }
+
+//    username
+    $options = ['min' => 6, 'max' => 255];
+    if (is_blank($formdata['username'])) {
+        $errors['username_error'] = 'username cannot be empty';
+    } elseif (has_length($formdata['username'], $options)) {
+        $errors['username_error'] = 'username need more than 6 characters';
+    }
+
+//    password
+    if (is_blank($formdata['password'])) {
+        $errors['password_error'] = 'password cannot be empty';
     }
 
     return $errors;
@@ -40,7 +74,7 @@ function register_member($data)
     $sql .= "'" . $data['last_name'] . "',";
     $sql .= "'" . $data['username'] . "',";
     $sql .= "'" . $data['password'] . "',";
-    $sql .= "'" . "{$data['year']}-{$data['month']}-{$data['date']}"."',";
+    $sql .= "'" . "{$data['year']}-{$data['month']}-{$data['date']}" . "',";
     $sql .= "'" . $data['email'] . "');";
 
     $result = mysqli_query($db, $sql);

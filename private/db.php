@@ -22,10 +22,25 @@ function check_db_connection()
 }
 
 // check results avaliability
-function confirm_result($result) {
+function confirm_result($result)
+{
     if (!$result) {
         exit();
     }
+}
+
+function login($username, $password)
+{
+    $member_cred = check_account($username, $password);
+
+    if (!empty($member_cred)) {
+        redirect_to(url_for('/members/pages/index.php?id=' . xss(base64_encode($member_cred['id']))));
+    }
+}
+
+function db_escape($connection, $string)
+{
+    return mysqli_real_escape_string($connection, $string);
 }
 
 // close the conection with database

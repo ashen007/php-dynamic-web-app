@@ -104,3 +104,14 @@ div.login {
     padding-left: 22px;
     margin: 25px 0px;
 }
+
+.date input[type="text"] {
+    width: 20%;
+    margin: 0px 39px 0px 0px;
+}
+
+.error {
+    color: #fc0808;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+}

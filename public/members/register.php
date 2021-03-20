@@ -1,4 +1,21 @@
-<?php require_once('../../private/initialize.php'); ?>
+<?php require_once('../../private/initialize.php');
+
+if (request_is_post()) {
+
+    if (request_is_post()) {
+        $result = register_member($_POST);
+
+        if ($result === true) {
+            $new_id = mysqli_insert_id($db);
+            redirect_to(url_for('/members/pages/index.php?id=' . xss(base64_encode($new_id))));
+        } else {
+            $errors = $result;
+//            var_dump($errors);
+        }
+    }
+}
+
+?>
 
 <!doctype html>
 <html lang="en">
@@ -26,30 +43,72 @@
 
         <div class="login valign">
             <h2>Enter The Club</h2>
-            <form action="<?php echo url_for('/members/acount/new_member.php') ?>" method="post">
+            <form action="<?php echo url_for('/members/register.php') ?>" method="post">
                 <dl>
                     <dt>First name</dt>
                     <dd><input type="text" name="first_name" value=""/></dd>
+                    <?php
+                    if (isset($errors['firstname_error'])) {
+                        echo "<span class=\"error\">{$errors['firstname_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <dl>
                     <dt>Last name</dt>
                     <dd><input type="text" name="last_name" value=""/></dd>
+                    <?php
+                    if (isset($errors['lastname_error'])) {
+                        echo "<span class=\"error\">{$errors['lastname_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <dl>
                     <dt>Email</dt>
                     <dd><input type="text" name="email" value=""/></dd>
+                    <?php
+                    if (isset($errors['email_error'])) {
+                        echo "<span class=\"error\">{$errors['email_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <dl>
                     <dt>Date of birth</dt>
-                    <dd><input type="date" name="dob" value=""/></dd>
+                    <dd class="date"><input type="text" inputmode="numeric" name="date" value="" placeholder="Date"/>
+                        <?php
+                        if (isset($errors['date_error'])) {
+                            echo "<span class=\"error\">{$errors['date_error']}</span>";
+                        }
+                        ?>
+                        <input type="text" name="month" inputmode="numeric" value="" placeholder="Month"/>
+                        <?php
+                        if (isset($errors['month_error'])) {
+                            echo "<span class=\"error\">{$errors['month_error']}</span>";
+                        }
+                        ?>
+                        <input type="text" name="year" inputmode="numeric" value="" placeholder="Year"/></dd>
+                    <?php
+                    if (isset($errors['year_error'])) {
+                        echo "<span class=\"error\">{$errors['year_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <dl>
                     <dt>Username</dt>
                     <dd><input type="text" name="username" value=""/></dd>
+                    <?php
+                    if (isset($errors['username_error'])) {
+                        echo "<span class=\"error\">{$errors['username_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <dl>
                     <dt>Password</dt>
                     <dd><input type="text" name="password" value=""/></dd>
+                    <?php
+                    if (isset($errors['password_error'])) {
+                        echo "<span class=\"error\">{$errors['password_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <!--            <dl>-->
                 <!--                <dt>Confirm</dt>-->

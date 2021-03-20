@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
+    <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/db.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1pw5CBjQEMOPIfJe8VBp3b04vr6" />
   <component name="ProjectViewState">
@@ -24,44 +35,145 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\WT_final\database" />
+    </key>
+  </component>
+  <component name="SearchEverywhereConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="com.intellij.ide.actions.searcheverywhere.CalculatorSEContributor" />
+      <filtered-out-file-type name="TopHitSEContributor" />
+      <filtered-out-file-type name="RecentFilesSEContributor" />
+      <filtered-out-file-type name="ClassSearchEverywhereContributor" />
+      <filtered-out-file-type name="SymbolSearchEverywhereContributor" />
+      <filtered-out-file-type name="UrlSearchEverywhereContributor" />
+      <filtered-out-file-type name="RunConfigurationsSEContributor" />
+      <filtered-out-file-type name="ActionSearchEverywhereContributor" />
+      <filtered-out-file-type name="Vcs.Git" />
+      <filtered-out-file-type name="YAMLKeysSearchEverywhereContributor" />
+    </file-type-list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="change folder">
+      <created>1616154627521</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616154627521</updated>
+    </task>
+    <task id="LOCAL-00002" summary="log in mechanism enabled">
+      <created>1616161440019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616161440019</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update profile mechanism enabled">
+      <created>1616173431921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616173431921</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add basic form validation functions to form validation script">
+      <created>1616237446605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616237446605</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add functions to check input lengths and email structure">
+      <created>1616243788901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616243788901</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add firstname and lastname error checker. if first name or last name empty it return error msg to form">
+      <created>1616247031042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616247031042</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add validations for email,date of birth,username and password">
+      <created>1616249658229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616249658229</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change form processing from duel to single page">
+      <created>1616253394225</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616253394225</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add error msg display mechanism to forms">
+      <created>1616254090868</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616254090868</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add error msg's css properties">
+      <created>1616254191816</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616254191816</updated>
+    </task>
+    <task id="LOCAL-00011" summary="use custom function to prevent sqli">
+      <created>1616257162972</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616257162972</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add user" />
     <MESSAGE value="alter members table to add date of birth" />
-    <option name="LAST_COMMIT_MESSAGE" value="alter members table to add date of birth" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616081292864">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616081292864" />
-    <state x="587" y="93" key="CommitChangelistDialog2" timestamp="1616082135150">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="587" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1616082135150" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1616081410159">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1616081410159" />
-    <state width="1292" height="285" key="GridCell.Tab.0.bottom" timestamp="1616082001868">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1616082001868" />
-    <state width="1292" height="285" key="GridCell.Tab.0.center" timestamp="1616082001868">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1616082001868" />
-    <state width="1292" height="285" key="GridCell.Tab.0.left" timestamp="1616082001868">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1616082001868" />
-    <state width="1292" height="285" key="GridCell.Tab.0.right" timestamp="1616082001868">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1616082001868" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1616082137771">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1616082137771" />
+    <MESSAGE value="change folder" />
+    <MESSAGE value="log in mechanism enabled" />
+    <MESSAGE value="update profile mechanism enabled" />
+    <MESSAGE value="add basic form validation functions to form validation script" />
+    <MESSAGE value="add functions to check input lengths and email structure" />
+    <MESSAGE value="add firstname and lastname error checker. if first name or last name empty it return error msg to form" />
+    <MESSAGE value="add validations for email,date of birth,username and password" />
+    <MESSAGE value="change form processing from duel to single page" />
+    <MESSAGE value="add error msg display mechanism to forms" />
+    <MESSAGE value="add error msg's css properties" />
+    <MESSAGE value="use custom function to prevent sqli" />
+    <option name="LAST_COMMIT_MESSAGE" value="use custom function to prevent sqli" />
   </component>
 </project>

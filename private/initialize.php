@@ -15,6 +15,7 @@ define("WWW_ROOT", $doc_root);
 require_once('functions.php');
 require_once('db.php');
 require_once('query.php');
+require_once('form_validation.php');
 
 $db = db_connect();
 

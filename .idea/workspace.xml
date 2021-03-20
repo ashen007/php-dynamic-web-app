@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/private/form_validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/acount/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/acount/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/acount/new_member.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/acount/new_member.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/members/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/form.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616161440019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update profile mechanism enabled">
+      <created>1616173431921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616173431921</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +90,7 @@
     <MESSAGE value="alter members table to add date of birth" />
     <MESSAGE value="change folder" />
     <MESSAGE value="log in mechanism enabled" />
-    <option name="LAST_COMMIT_MESSAGE" value="log in mechanism enabled" />
+    <MESSAGE value="update profile mechanism enabled" />
+    <option name="LAST_COMMIT_MESSAGE" value="update profile mechanism enabled" />
   </component>
 </project>

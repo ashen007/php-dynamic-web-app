@@ -33,7 +33,7 @@ function login($username, $password)
 {
     $member_cred = check_account($username, $password);
 
-    if (empty($member_cred)) {
+    if (!empty($member_cred)) {
         redirect_to(url_for('/members/pages/index.php?id=' . xss(base64_encode($member_cred['id']))));
     }
 }

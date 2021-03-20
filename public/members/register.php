@@ -47,28 +47,68 @@ if (request_is_post()) {
                 <dl>
                     <dt>First name</dt>
                     <dd><input type="text" name="first_name" value=""/></dd>
+                    <?php
+                    if (isset($errors['firstname_error'])) {
+                        echo "<span class=\"error\">{$errors['firstname_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <dl>
                     <dt>Last name</dt>
                     <dd><input type="text" name="last_name" value=""/></dd>
+                    <?php
+                    if (isset($errors['lastname_error'])) {
+                        echo "<span class=\"error\">{$errors['lastname_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <dl>
                     <dt>Email</dt>
                     <dd><input type="text" name="email" value=""/></dd>
+                    <?php
+                    if (isset($errors['email_error'])) {
+                        echo "<span class=\"error\">{$errors['email_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <dl>
                     <dt>Date of birth</dt>
                     <dd class="date"><input type="text" inputmode="numeric" name="date" value="" placeholder="Date"/>
+                        <?php
+                        if (isset($errors['date_error'])) {
+                            echo "<span class=\"error\">{$errors['date_error']}</span>";
+                        }
+                        ?>
                         <input type="text" name="month" inputmode="numeric" value="" placeholder="Month"/>
+                        <?php
+                        if (isset($errors['month_error'])) {
+                            echo "<span class=\"error\">{$errors['month_error']}</span>";
+                        }
+                        ?>
                         <input type="text" name="year" inputmode="numeric" value="" placeholder="Year"/></dd>
+                    <?php
+                    if (isset($errors['year_error'])) {
+                        echo "<span class=\"error\">{$errors['year_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <dl>
                     <dt>Username</dt>
                     <dd><input type="text" name="username" value=""/></dd>
+                    <?php
+                    if (isset($errors['username_error'])) {
+                        echo "<span class=\"error\">{$errors['username_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <dl>
                     <dt>Password</dt>
                     <dd><input type="text" name="password" value=""/></dd>
+                    <?php
+                    if (isset($errors['password_error'])) {
+                        echo "<span class=\"error\">{$errors['password_error']}</span>";
+                    }
+                    ?>
                 </dl>
                 <!--            <dl>-->
                 <!--                <dt>Confirm</dt>-->

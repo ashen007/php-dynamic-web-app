@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/acount/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/acount/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/acount/log.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/acount/new_member.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/members/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616249658229</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change form processing from duel to single page">
+      <created>1616253394225</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616253394225</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +127,7 @@
     <MESSAGE value="add functions to check input lengths and email structure" />
     <MESSAGE value="add firstname and lastname error checker. if first name or last name empty it return error msg to form" />
     <MESSAGE value="add validations for email,date of birth,username and password" />
-    <option name="LAST_COMMIT_MESSAGE" value="add validations for email,date of birth,username and password" />
+    <MESSAGE value="change form processing from duel to single page" />
+    <option name="LAST_COMMIT_MESSAGE" value="change form processing from duel to single page" />
   </component>
 </project>

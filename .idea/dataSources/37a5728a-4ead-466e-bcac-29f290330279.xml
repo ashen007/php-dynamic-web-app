@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.19">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.20">
     <root id="1">
       <ServerVersion>8.0.20</ServerVersion>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -876,8 +876,8 @@
     </collation>
     <user id="277" parent="1" name="wt_bridge">
       <Host>localhost</Host>
-      <ObjectGrants>SELECT,INSERT,UPDATE,DELETE|sakila:null
-SELECT,INSERT,UPDATE,DELETE|crop_foundation:null
+      <ObjectGrants>SELECT,INSERT,UPDATE,DELETE|sakila
+SELECT,INSERT,UPDATE,DELETE|crop_foundation
 </ObjectGrants>
     </user>
     <table id="278" parent="2" name="member_privilege"/>

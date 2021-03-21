@@ -51,7 +51,7 @@ if (request_is_post()) {
             </a>
         </div>
         <div class="pp">
-            <img src="<?php echo url_for('/images/WT_logo-1.png'); ?>">
+            <?php echo '<img src = "data:image/png;base64,' . base64_encode($member_dtl['pp']) . '/>'?>
             <span class="user_name"><?php echo $member_dtl['firstname'] . ' ' . $member_dtl['lastname'] ?></span>
         </div>
 

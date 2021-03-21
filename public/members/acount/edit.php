@@ -50,9 +50,12 @@ if (request_is_post()) {
                 <i class="far fa-times-circle"></i>
             </a>
         </div>
+        <div class="pp">
+            <img src="<?php echo url_for('/images/WT_logo-1.png'); ?>">
+            <span class="user_name"><?php echo $member_dtl['firstname'] . ' ' . $member_dtl['lastname'] ?></span>
+        </div>
 
-        <div class="login valign">
-
+        <div class="login valign" style="transform: translate(-50%, -40%);">
             <form action="<?php echo url_for('/members/acount/edit.php?id=' . xss(base64_encode($id))) ?>"
                   method="post">
                 <dl>
@@ -70,9 +73,12 @@ if (request_is_post()) {
                 <dl>
                     <dt>Date of birth</dt>
                     <dd class="date">
-                        <input type="text" inputmode="numeric" name="date" value="<?php echo substr($member_dtl['dob'],8,2); ?>" placeholder="Date"/>
-                        <input type="text" name="month" inputmode="numeric" value="<?php echo substr($member_dtl['dob'],5,2); ?>" placeholder="Month"/>
-                        <input type="text" name="year" inputmode="numeric" value="<?php echo substr($member_dtl['dob'],0,4); ?>" placeholder="Year"/>
+                        <input type="text" inputmode="numeric" name="date"
+                               value="<?php echo substr($member_dtl['dob'], 8, 2); ?>" placeholder="Date"/>
+                        <input type="text" name="month" inputmode="numeric"
+                               value="<?php echo substr($member_dtl['dob'], 5, 2); ?>" placeholder="Month"/>
+                        <input type="text" name="year" inputmode="numeric"
+                               value="<?php echo substr($member_dtl['dob'], 0, 4); ?>" placeholder="Year"/>
                     </dd>
                 </dl>
                 <dl>

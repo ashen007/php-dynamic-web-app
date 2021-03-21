@@ -124,3 +124,24 @@ div.login {
     transform: translate(-50%, -50%);
     background-color: #ffffff;
 }
+
+.pp {
+    width: fit-content;
+    margin: 0px auto;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.pp img {
+    width: 142px;
+    height: 142px;
+    border: none;
+    border-radius: 100%;
+}
+
+span.user_name {
+    display: block;
+    margin: 8px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+}

@@ -46,7 +46,7 @@ if (request_is_post()) {
             <form action="<?php echo url_for('/members/register.php') ?>" method="post">
                 <dl>
                     <dt>First name</dt>
-                    <dd><input type="text" name="first_name" value=""/></dd>
+                    <dd><input type="text" name="first_name" value="<?php echo $_POST['first_name']; ?>"/></dd>
                     <?php
                     if (isset($errors['firstname_error'])) {
                         echo "<span class=\"error\">{$errors['firstname_error']}</span>";
@@ -55,7 +55,7 @@ if (request_is_post()) {
                 </dl>
                 <dl>
                     <dt>Last name</dt>
-                    <dd><input type="text" name="last_name" value=""/></dd>
+                    <dd><input type="text" name="last_name" value="<?php echo $_POST['last_name']; ?>"/></dd>
                     <?php
                     if (isset($errors['lastname_error'])) {
                         echo "<span class=\"error\">{$errors['lastname_error']}</span>";
@@ -64,7 +64,7 @@ if (request_is_post()) {
                 </dl>
                 <dl>
                     <dt>Email</dt>
-                    <dd><input type="text" name="email" value=""/></dd>
+                    <dd><input type="text" name="email" value="<?php echo $_POST['email']; ?>"/></dd>
                     <?php
                     if (isset($errors['email_error'])) {
                         echo "<span class=\"error\">{$errors['email_error']}</span>";
@@ -73,19 +73,20 @@ if (request_is_post()) {
                 </dl>
                 <dl>
                     <dt>Date of birth</dt>
-                    <dd class="date"><input type="text" inputmode="numeric" name="date" value="" placeholder="Date"/>
+                    <dd class="date">
+                        <input type="text" inputmode="numeric" name="date" value="<?php echo $_POST['date']; ?>" placeholder="Date"/>
                         <?php
                         if (isset($errors['date_error'])) {
                             echo "<span class=\"error\">{$errors['date_error']}</span>";
                         }
                         ?>
-                        <input type="text" name="month" inputmode="numeric" value="" placeholder="Month"/>
+                        <input type="text" name="month" inputmode="numeric" value="<?php echo $_POST['month']; ?>" placeholder="Month"/>
                         <?php
                         if (isset($errors['month_error'])) {
                             echo "<span class=\"error\">{$errors['month_error']}</span>";
                         }
                         ?>
-                        <input type="text" name="year" inputmode="numeric" value="" placeholder="Year"/></dd>
+                        <input type="text" name="year" inputmode="numeric" value="<?php echo $_POST['year']; ?>" placeholder="Year"/></dd>
                     <?php
                     if (isset($errors['year_error'])) {
                         echo "<span class=\"error\">{$errors['year_error']}</span>";
@@ -94,7 +95,7 @@ if (request_is_post()) {
                 </dl>
                 <dl>
                     <dt>Username</dt>
-                    <dd><input type="text" name="username" value=""/></dd>
+                    <dd><input type="text" name="username" value="<?php echo $_POST['username']; ?>"/></dd>
                     <?php
                     if (isset($errors['username_error'])) {
                         echo "<span class=\"error\">{$errors['username_error']}</span>";
@@ -103,7 +104,7 @@ if (request_is_post()) {
                 </dl>
                 <dl>
                     <dt>Password</dt>
-                    <dd><input type="text" name="password" value=""/></dd>
+                    <dd><input type="text" name="password" value="<?php echo $_POST['password']; ?>"/></dd>
                     <?php
                     if (isset($errors['password_error'])) {
                         echo "<span class=\"error\">{$errors['password_error']}</span>";

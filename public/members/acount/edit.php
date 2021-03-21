@@ -2,6 +2,7 @@
 
 $id = $_GET['id'];
 $id = base64_decode($id);
+$member_dtl = get_account_dtl($id);
 
 if (request_is_post()) {
     // update records
@@ -22,9 +23,8 @@ if (request_is_post()) {
         $errors = $result;
         var_dump($errors);
     }
-} else {
-    $member_dtl = get_account_dtl($id);
 }
+
 ?>
 
 <!doctype html>
@@ -46,7 +46,7 @@ if (request_is_post()) {
 <section id="log_in" class="bg_image" style="background-image: url('<?php echo url_for('/images/edit-1.png') ?>')">
     <div class="edit">
         <div id="toback">
-            <a class="back" href="<?php echo url_for('/members/index.php') ?>">
+            <a class="back" href="<?php echo url_for('/members/pages/index.php?id=' . xss(base64_encode($id))) ?>">
                 <i class="far fa-times-circle"></i>
             </a>
         </div>

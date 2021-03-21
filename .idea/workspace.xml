@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/edit-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/members/acount/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/acount/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/members/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,9 +156,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616307701374</updated>
-      <workItem from="1616307704816" duration="3437000" />
+      <workItem from="1616307704816" duration="7941000" />
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="edit page complete">
+      <created>1616322938618</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616322938618</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +209,7 @@
     <MESSAGE value="add error msg display mechanism to forms" />
     <MESSAGE value="add error msg's css properties" />
     <MESSAGE value="use custom function to prevent sqli" />
-    <option name="LAST_COMMIT_MESSAGE" value="use custom function to prevent sqli" />
+    <MESSAGE value="edit page complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit page complete" />
   </component>
 </project>

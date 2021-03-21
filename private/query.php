@@ -2,6 +2,7 @@
 
 function validate_form($formdata)
 {
+    global $db;
     $errors = [];
 
 //    firstname and lastname
@@ -39,6 +40,27 @@ function validate_form($formdata)
         $errors['username_error'] = 'username need more than 6 characters';
     }
 
+    if (!is_blank($formdata['username']) && !is_blank($formdata['email'])){
+        $check_un = "select * from members ";
+        $check_un .= "where username = '" . db_escape($db, $formdata['username']) . "'; ";
+        $check_email = "select * from members ";
+        $check_email .= "where email = '" . db_escape($db, $formdata['email']) . "'; ";
+
+        $result_un = mysqli_query($db,$check_un);
+        $result_email = mysqli_query($db,$check_email);
+        $un = mysqli_fetch_assoc($result_un);
+        $email = mysqli_fetch_assoc($result_email);
+        mysqli_free_result($result_un);
+        mysqli_free_result($result_email);
+
+        if (!empty($un)){
+            $errors['username_error'] = 'this username already taken';
+        }
+        if (!empty($email)){
+            $errors['email_error'] = 'acount registered under this email';
+        }
+    }
+
 //    password
     if (is_blank($formdata['password'])) {
         $errors['password_error'] = 'password cannot be empty';
@@ -56,6 +78,14 @@ function find_all_categories()
     $result = mysqli_query($db, $sql);
     confirm_result($result);
     return $result;
+}
+
+function check_availability($data){
+//    check username and email availability
+    global $db;
+    global $errors;
+
+
 }
 
 function register_member($data)

@@ -55,9 +55,10 @@ section#log_in, section#reg {
     position: relative;
     display: flex;
     width: 100%;
+    min-height: 100vh;
 }
 
-div.bg_image {
+.bg_image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,4 +115,12 @@ div.login {
     color: #fc0808;
     font-size: 12px;
     font-family: 'Oswald', sans-serif;
+}
+
+.edit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
 }

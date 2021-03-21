@@ -8,7 +8,9 @@ if (request_is_post()) {
     $new_dtl = [];
     $new_dtl['first_name'] = $_POST['first_name'];
     $new_dtl['last_name'] = $_POST['last_name'];
-    $new_dtl['dob'] = $_POST['dob'];
+    $new_dtl['date'] = $_POST['date'];
+    $new_dtl['month'] = $_POST['month'];
+    $new_dtl['year'] = $_POST['year'];
     $new_dtl['username'] = $_POST['username'];
     $new_dtl['password'] = $_POST['password'];
     $new_dtl['email'] = $_POST['email'];
@@ -35,39 +37,59 @@ if (request_is_post()) {
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/form.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/member.css') ?>">
     <script src="https://kit.fontawesome.com/94d8d2468d.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<form action="<?php echo url_for('/members/acount/edit.php?id=' . xss(base64_encode($id))) ?>" method="post">
-    <dl>
-        <dt>First name</dt>
-        <dd><input type="text" name="first_name" value="<?php echo $member_dtl['firstname']; ?>"/></dd>
-    </dl>
-    <dl>
-        <dt>Last name</dt>
-        <dd><input type="text" name="last_name" value="<?php echo $member_dtl['lastname']; ?>"/></dd>
-    </dl>
-    <dl>
-        <dt>Email</dt>
-        <dd><input type="text" name="email" value="<?php echo $member_dtl['email']; ?>"/></dd>
-    </dl>
-    <dl>
-        <dt>Date of birth</dt>
-        <dd><input type="date" name="dob" value="<?php echo $member_dtl['dob']; ?>"/></dd>
-    </dl>
-    <dl>
-        <dt>Username</dt>
-        <dd><input type="text" name="username" value="<?php echo $member_dtl['username']; ?>"/></dd>
-    </dl>
-    <dl>
-        <dt>Password</dt>
-        <dd><input type="text" name="password" value="<?php echo $member_dtl['password']; ?>"/></dd>
-    </dl>
-    <div id="operation">
-        <input type="submit" value="Save"/>
+<section id="log_in" class="bg_image" style="background-image: url('<?php echo url_for('/images/edit-1.png') ?>')">
+    <div class="edit">
+        <div id="toback">
+            <a class="back" href="<?php echo url_for('/members/index.php') ?>">
+                <i class="far fa-times-circle"></i>
+            </a>
+        </div>
+
+        <div class="login valign">
+
+            <form action="<?php echo url_for('/members/acount/edit.php?id=' . xss(base64_encode($id))) ?>"
+                  method="post">
+                <dl>
+                    <dt>First name</dt>
+                    <dd><input type="text" name="first_name" value="<?php echo $member_dtl['firstname']; ?>"/></dd>
+                </dl>
+                <dl>
+                    <dt>Last name</dt>
+                    <dd><input type="text" name="last_name" value="<?php echo $member_dtl['lastname']; ?>"/></dd>
+                </dl>
+                <dl>
+                    <dt>Email</dt>
+                    <dd><input type="text" name="email" value="<?php echo $member_dtl['email']; ?>"/></dd>
+                </dl>
+                <dl>
+                    <dt>Date of birth</dt>
+                    <dd class="date">
+                        <input type="text" inputmode="numeric" name="date" value="<?php echo substr($member_dtl['dob'],8,2); ?>" placeholder="Date"/>
+                        <input type="text" name="month" inputmode="numeric" value="<?php echo substr($member_dtl['dob'],5,2); ?>" placeholder="Month"/>
+                        <input type="text" name="year" inputmode="numeric" value="<?php echo substr($member_dtl['dob'],0,4); ?>" placeholder="Year"/>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Username</dt>
+                    <dd><input type="text" name="username" value="<?php echo $member_dtl['username']; ?>"/></dd>
+                </dl>
+                <dl>
+                    <dt>Password</dt>
+                    <dd><input type="text" name="password" value="<?php echo $member_dtl['password']; ?>"/></dd>
+                </dl>
+                <div id="operation">
+                    <input type="submit" value="Save"/>
+                </div>
+            </form>
+        </div>
     </div>
-</form>
+</section>
 
 <?php
 // call footer hook

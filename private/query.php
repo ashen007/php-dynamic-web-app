@@ -70,12 +70,12 @@ function register_member($data)
     $sql = "insert into members ";
     $sql .= "(firstname,lastname,username,password,dob,email) ";
     $sql .= "values (";
-    $sql .= "'" . db_escape($db,$data['first_name']) . "',";
-    $sql .= "'" . db_escape($db,$data['last_name']) . "',";
-    $sql .= "'" . db_escape($db,$data['username']) . "',";
-    $sql .= "'" . db_escape($db,$data['password']) . "',";
-    $sql .= "'" . db_escape($db,$data['year']) . '-' . db_escape($db,$data['month']) . '-' . db_escape($db,$data['date']) . "',";
-    $sql .= "'" . db_escape($db,$data['email']) . "');";
+    $sql .= "'" . db_escape($db, $data['first_name']) . "',";
+    $sql .= "'" . db_escape($db, $data['last_name']) . "',";
+    $sql .= "'" . db_escape($db, $data['username']) . "',";
+    $sql .= "'" . db_escape($db, $data['password']) . "',";
+    $sql .= "'" . db_escape($db, $data['year']) . '-' . db_escape($db, $data['month']) . '-' . db_escape($db, $data['date']) . "',";
+    $sql .= "'" . db_escape($db, $data['email']) . "');";
 
     $result = mysqli_query($db, $sql);
 
@@ -91,8 +91,8 @@ function check_account($username, $password)
 {
     global $db;
     $sql = "select * from members ";
-    $sql .= "where username = '" . db_escape($db,$username) . "' ";
-    $sql .= "and password = '" . db_escape($db,$password) . "';";
+    $sql .= "where username = '" . db_escape($db, $username) . "' ";
+    $sql .= "and password = '" . db_escape($db, $password) . "';";
     $result = mysqli_query($db, $sql);
     confirm_result($result);
 
@@ -106,7 +106,7 @@ function get_account_dtl($id)
 {
     global $db;
     $sql = "select * from members ";
-    $sql .= "where id = '" . db_escape($db,$id) . "';";
+    $sql .= "where id = '" . db_escape($db, $id) . "';";
     $result = mysqli_query($db, $sql);
 
     confirm_result($result);
@@ -131,13 +131,13 @@ function update_acount_dtl($new_data, $id)
     }
 
     $sql = "update members set ";
-    $sql .= "firstname='" . db_escape($db,$new_data['first_name']) . "', ";
-    $sql .= "lastname='" . db_escape($db,$new_data['last_name']) . "', ";
-    $sql .= "dob='" . db_escape($db,$new_data['dob']) . "', ";
-    $sql .= "username='" . db_escape($db,$new_data['username']) . "', ";
-    $sql .= "password='" . db_escape($db,$new_data['password']) . "', ";
-    $sql .= "email='" . db_escape($db,$new_data['email']) . "' ";
-    $sql .= "where id='" . db_escape($db,$id) . "' ";
+    $sql .= "firstname='" . db_escape($db, $new_data['first_name']) . "', ";
+    $sql .= "lastname='" . db_escape($db, $new_data['last_name']) . "', ";
+    $sql .= "dob='" . db_escape($db, $new_data['year']) . '-' . db_escape($db, $new_data['month']) . '-' . db_escape($db, $new_data['date']) . "',";
+    $sql .= "username='" . db_escape($db, $new_data['username']) . "', ";
+    $sql .= "password='" . db_escape($db, $new_data['password']) . "', ";
+    $sql .= "email='" . db_escape($db, $new_data['email']) . "' ";
+    $sql .= "where id='" . db_escape($db, $id) . "' ";
     $sql .= "limit 1;";
     $result = mysqli_query($db, $sql);
 

@@ -26,7 +26,7 @@ $page_set = find_all_categories();
 <header>
     <div class="profile_menu">
         <nav class="navigation">
-            <ul>
+            <ul class="pm_nav">
                 <?php while ($page = mysqli_fetch_assoc($page_set)) { ?>
                     <li>
                         <a href="<?php echo url_for($page['path'] . "'" . xss($id) . "'&page='" . xss($page['name']) . "'"); ?>">

@@ -22,6 +22,7 @@ $picture = get_account_dtl(xss(base64_decode($id)))['pp'];
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap"
           rel="stylesheet">
+    <script rel="script" type="text/javascript" src="<?php echo url_for('/scripts/members.js') ?>"></script>
 </head>
 <body>
 <header>
@@ -43,8 +44,24 @@ $picture = get_account_dtl(xss(base64_decode($id)))['pp'];
         </nav>
     </div>
     <div class="block_r">
-        <div class="profile valign">
+        <div id="pp" class="profile valign" onclick="drop_down()">
             <img src="data:image/jpg;base64,<?php echo base64_encode($picture); ?>">
         </div>
+    </div>
+    <div id="drop_down">
+        <ul>
+            <li>
+                <a href="<?php echo url_for('/members/acount/edit.php?id=' . xss($id)); ?>">edit profile</a>
+            </li>
+            <li>
+                <a href="<?php echo url_for('/members/acount/edit.php?id=' . xss($id)); ?>">option</a>
+            </li>
+            <li>
+                <a href="<?php echo url_for('/members/acount/edit.php?id=' . xss($id)); ?>">option</a>
+            </li>
+            <li>
+                <a href="<?php echo url_for('/members/acount/edit.php?id=' . xss($id)); ?>">option</a>
+            </li>
+        </ul>
     </div>
 </header>

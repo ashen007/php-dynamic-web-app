@@ -1,4 +1,4 @@
-head {
+header {
     background-color: #000000;
 }
 
@@ -15,4 +15,18 @@ ul.pm_nav {
     margin: 0px;
     width: inherit;
     display: flex;
+}
+
+.pm_nav li {
+    text-align: center;
+    margin: 0px 12px;
+    padding: 16px 0px;
+}
+
+.pm_nav li a {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }

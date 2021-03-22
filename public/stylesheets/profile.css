@@ -1,5 +1,5 @@
 header {
-    background-color: #000000;
+    background-color: #0A413E;
 }
 
 .profile_menu {
@@ -24,7 +24,7 @@ ul.pm_nav {
 }
 
 .pm_nav li a {
-    color: #ffffff;
+    color: #F2AB01;
     font-family: 'Oswald', sans-serif;
     font-size: 13px;
     text-transform: uppercase;

@@ -18,6 +18,7 @@ $page_set = find_all_categories();
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $page_title; ?></title>
     <link rel="stylesheet" href="<?php echo url_for('/stylesheets/member.css'); ?>">
+    <link rel="stylesheet" href="<?php echo url_for('/stylesheets/profile.css'); ?>">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap"
           rel="stylesheet">

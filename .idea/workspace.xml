@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +171,7 @@
       <updated>1616307701374</updated>
       <workItem from="1616307704816" duration="16143000" />
       <workItem from="1616385027828" duration="854000" />
-      <workItem from="1616386906817" duration="14295000" />
+      <workItem from="1616386906817" duration="14359000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -217,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616406267311</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add stylesheet for profile page">
+      <created>1616407100709</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616407100709</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +271,7 @@
     <MESSAGE value="add profile name and profile image to edit page" />
     <MESSAGE value="adding profile picture to edit page" />
     <MESSAGE value="members only pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="members only pages" />
+    <MESSAGE value="add stylesheet for profile page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add stylesheet for profile page" />
   </component>
 </project>

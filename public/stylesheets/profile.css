@@ -1,4 +1,18 @@
+head {
+    background-color: #000000;
+}
+
 .profile_menu {
     width: 70%;
+}
+
+nav.navigation {
+    width: 100%;
+}
+
+ul.pm_nav {
+    padding: 0px;
+    margin: 0px;
+    width: inherit;
     display: flex;
 }

@@ -25,8 +25,10 @@ $picture = get_account_dtl(xss(base64_decode($id)))['pp'];
 </head>
 <body>
 <header>
-    <div class="logo_offset">
-        <img src="<?php echo url_for('/images/logo offset.png') ?>">
+    <div class="block_l">
+        <div class="logo_offset">
+            <img src="<?php echo url_for('/images/logo offset.png') ?>">
+        </div>
     </div>
     <div class="profile_menu">
         <nav class="navigation valign">
@@ -40,7 +42,9 @@ $picture = get_account_dtl(xss(base64_decode($id)))['pp'];
             </ul>
         </nav>
     </div>
-    <div class="profile">
-        <img src="data:image/jpg;base64,<?php echo base64_encode($picture); ?>">
+    <div class="block_r">
+        <div class="profile valign">
+            <img src="data:image/jpg;base64,<?php echo base64_encode($picture); ?>">
+        </div>
     </div>
 </header>

@@ -33,7 +33,7 @@ ul.pm_nav {
 }
 
 .logo_offset {
-    width: 4%;
+    width: 76px;
     height: 76px;
     margin: 16px;
 }
@@ -41,4 +41,24 @@ ul.pm_nav {
 .logo_offset img {
     width: 100%;
     height: 100%;
+}
+
+.profile {
+    width: 56px;
+    height: 56px;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 100%;
+}
+
+.block_l {
+    width: 15%;
+}
+.block_r {
+    width: 15%;
+    position: relative;
 }

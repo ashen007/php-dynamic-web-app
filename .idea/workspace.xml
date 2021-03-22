@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/logo offset.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/profile.css" afterDir="false" />
@@ -175,7 +174,7 @@
       <updated>1616307701374</updated>
       <workItem from="1616307704816" duration="16143000" />
       <workItem from="1616385027828" duration="854000" />
-      <workItem from="1616386906817" duration="20191000" />
+      <workItem from="1616386906817" duration="21250000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -247,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616408085728</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add offset logo to member index page">
+      <created>1616421445265</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1616421445265</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +305,8 @@
     <MESSAGE value="add stylesheet for profile page" />
     <MESSAGE value="show navigation items inline" />
     <MESSAGE value="change css properties of navigation links" />
-    <option name="LAST_COMMIT_MESSAGE" value="change css properties of navigation links" />
+    <MESSAGE value="add offset logo to member index page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add offset logo to member index page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

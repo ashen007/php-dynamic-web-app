@@ -73,7 +73,7 @@ function find_all_categories()
 {
     global $db;
 
-    $sql = 'select id,name from member_privilege ';
+    $sql = 'select * from member_privilege ';
     $sql .= 'order by id asc';
     $result = mysqli_query($db, $sql);
     confirm_result($result);

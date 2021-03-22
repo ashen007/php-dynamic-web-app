@@ -39,6 +39,7 @@ if (request_is_post()) {
           rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/form.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/member.css') ?>">
+    <script rel="script" type="text/javascript" src="<?php echo url_for('/scripts/forms.js') ?>"
     <script src="https://kit.fontawesome.com/94d8d2468d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -51,46 +52,62 @@ if (request_is_post()) {
             </a>
         </div>
         <div class="pp">
-            <img src = "data:image/jpg;base64,<?php echo base64_encode($member_dtl['pp']); ?>"/>
+            <img src="data:image/jpg;base64,<?php echo base64_encode($member_dtl['pp']); ?>"/>
             <span class="user_name"><?php echo $member_dtl['firstname'] . ' ' . $member_dtl['lastname'] ?></span>
         </div>
 
         <div class="login valign" style="transform: translate(-50%, -40%);">
             <form action="<?php echo url_for('/members/acount/edit.php?id=' . xss(base64_encode($id))) ?>"
                   method="post">
-                <dl>
-                    <dt>First name</dt>
-                    <dd><input type="text" name="first_name" value="<?php echo $member_dtl['firstname']; ?>"/></dd>
-                </dl>
-                <dl>
-                    <dt>Last name</dt>
-                    <dd><input type="text" name="last_name" value="<?php echo $member_dtl['lastname']; ?>"/></dd>
-                </dl>
-                <dl>
-                    <dt>Email</dt>
-                    <dd><input type="text" name="email" value="<?php echo $member_dtl['email']; ?>"/></dd>
-                </dl>
-                <dl>
-                    <dt>Date of birth</dt>
-                    <dd class="date">
-                        <input type="text" inputmode="numeric" name="date"
-                               value="<?php echo substr($member_dtl['dob'], 8, 2); ?>" placeholder="Date"/>
-                        <input type="text" name="month" inputmode="numeric"
-                               value="<?php echo substr($member_dtl['dob'], 5, 2); ?>" placeholder="Month"/>
-                        <input type="text" name="year" inputmode="numeric"
-                               value="<?php echo substr($member_dtl['dob'], 0, 4); ?>" placeholder="Year"/>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>Username</dt>
-                    <dd><input type="text" name="username" value="<?php echo $member_dtl['username']; ?>"/></dd>
-                </dl>
-                <dl>
-                    <dt>Password</dt>
-                    <dd><input type="text" name="password" value="<?php echo $member_dtl['password']; ?>"/></dd>
-                </dl>
-                <div id="operation">
-                    <input type="submit" value="Save"/>
+                <div id="standard">
+                    <dl>
+                        <dt>First name</dt>
+                        <dd><input type="text" name="first_name" value="<?php echo $member_dtl['firstname']; ?>"/></dd>
+                    </dl>
+                    <dl>
+                        <dt>Last name</dt>
+                        <dd><input type="text" name="last_name" value="<?php echo $member_dtl['lastname']; ?>"/></dd>
+                    </dl>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><input type="text" name="email" value="<?php echo $member_dtl['email']; ?>"/></dd>
+                    </dl>
+                    <dl>
+                        <dt>Date of birth</dt>
+                        <dd class="date">
+                            <input type="text" inputmode="numeric" name="date"
+                                   value="<?php echo substr($member_dtl['dob'], 8, 2); ?>" placeholder="Date"/>
+                            <input type="text" name="month" inputmode="numeric"
+                                   value="<?php echo substr($member_dtl['dob'], 5, 2); ?>" placeholder="Month"/>
+                            <input type="text" name="year" inputmode="numeric"
+                                   value="<?php echo substr($member_dtl['dob'], 0, 4); ?>" placeholder="Year"/>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Username</dt>
+                        <dd><input type="text" name="username" value="<?php echo $member_dtl['username']; ?>"/></dd>
+                    </dl>
+                    <dl>
+                        <dt>Password</dt>
+                        <dd><input type="text" name="password" value="<?php echo $member_dtl['password']; ?>"/></dd>
+                    </dl>
+                    <div id="next" class="edit_save">
+                        <div id="next_page" onclick="gonext()">Next</div>
+                    </div>
+                </div>
+                <div id="extended">
+                    <dl>
+                        <dt>Bio</dt>
+                        <dd><input type="text" name="username" value="<?php echo $member_dtl['bio']; ?>"/></dd>
+                    </dl>
+                    <dl>
+                        <dt>Profile picture</dt>
+                        <dd><input type="text" name="password" value="<?php echo ''; ?>"/></dd>
+                    </dl>
+                    <div id="operation">
+                        <input type="submit" value="Save"/>
+                    </div>
+                    <span class="to_reg go_back" onclick="goback()">back</span>
                 </div>
             </form>
         </div>

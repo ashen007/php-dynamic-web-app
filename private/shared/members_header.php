@@ -23,10 +23,10 @@ if (!isset($page_title)) {
     <div class="main_menu">
         <nav class="valign">
             <ul>
-                <li class="menu_item"><a href="<?php echo url_for('/members/index.php?id='); ?>">Home</a></li>
-                <li class="menu_item"><a href="<?php echo url_for('/members/pages/insights.php?id='); ?>">Insights</a></li>
-                <li class="menu_item"><a href="<?php echo url_for('/members/subjects/index.php?id='); ?>">Subjects</a></li>
-                <li class="menu_item"><a href="<?php echo url_for('/members/pages/news.php?id='); ?>">News</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/members/index.php'); ?>">Home</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/members/pages/'); ?>">Insights</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/members/subjects/index.php'); ?>">Subjects</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/members/pages/'); ?>">News</a></li>
             </ul>
         </nav>
     </div>
@@ -36,9 +36,9 @@ if (!isset($page_title)) {
     <div class="main_menu">
         <nav class="valign">
             <ul>
-                <li class="menu_item"><a href="<?php echo url_for('/members/pages/diseases.php?id='); ?>">Diseases</a></li>
-                <li class="menu_item"><a href="<?php echo url_for('/members/pages/events.php?id='); ?>">Events</a></li>
-                <li class="menu_item"><a href="<?php echo url_for('/members/pages/forum.php?id='); ?>">Forum</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/members/pages/'); ?>">Diseases</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/members/pages/'); ?>">Events</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/members/pages/'); ?>">Forum</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/members/login.php')?>">Log in</a></li>
             </ul>
         </nav>

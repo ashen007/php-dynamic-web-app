@@ -51,7 +51,7 @@ if (request_is_post()) {
             </a>
         </div>
         <div class="pp">
-            <?php echo '<img src = "data:image/png;base64,' . base64_encode($member_dtl['pp']) . '/>'?>
+            <img src = "data:image/jpg;base64,<?php echo base64_encode($member_dtl['pp']); ?>"/>
             <span class="user_name"><?php echo $member_dtl['firstname'] . ' ' . $member_dtl['lastname'] ?></span>
         </div>
 

@@ -6,7 +6,7 @@ if (!isset($page_title)) {
 
 $id = $_GET['id'];
 $page_set = find_all_categories();
-
+$picture = get_account_dtl(xss(base64_decode($id)))['pp'];
 ?>
 
 <!doctype html>
@@ -25,8 +25,11 @@ $page_set = find_all_categories();
 </head>
 <body>
 <header>
+    <div class="logo_offset">
+        <img src="<?php echo url_for('/images/logo offset.png') ?>">
+    </div>
     <div class="profile_menu">
-        <nav class="navigation">
+        <nav class="navigation valign">
             <ul class="pm_nav">
                 <?php while ($page = mysqli_fetch_assoc($page_set)) { ?>
                     <li>
@@ -36,5 +39,8 @@ $page_set = find_all_categories();
                 <?php } ?>
             </ul>
         </nav>
+    </div>
+    <div class="profile">
+        <img src="data:image/jpg;base64,<?php echo base64_encode($picture); ?>">
     </div>
 </header>

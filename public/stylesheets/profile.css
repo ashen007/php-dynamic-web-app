@@ -1,0 +1,116 @@
+header {
+    background-color: #0A413E;
+    position: relative;
+}
+
+.profile_menu {
+    width: 70%;
+    position: relative;
+}
+
+nav.navigation {
+    width: 100%;
+}
+
+ul.pm_nav {
+    padding: 0px;
+    margin: 0px;
+    width: inherit;
+    display: flex;
+}
+
+.pm_nav li {
+    text-align: center;
+    margin: 0px 12px;
+    padding: 16px 0px;
+}
+
+.pm_nav li a {
+    color: #F2AB01;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.logo_offset {
+    width: 76px;
+    height: 76px;
+    margin: 16px;
+}
+
+.logo_offset img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile {
+    width: 56px;
+    height: 56px;
+    left: 84%;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 100%;
+}
+
+#pp {
+    cursor: pointer;
+}
+
+.block_l {
+    width: 15%;
+    position: relative;
+}
+
+.block_r {
+    width: 15%;
+    position: relative;
+}
+
+.drop {
+    display: block !important;
+    bottom: -193% !important;
+}
+
+div#drop_down {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    right: 0%;
+    width: 12%;
+    background-color: #F2AB01;
+    z-index: -10;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+#drop_down ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#drop_down ul li {
+    font-family: 'Oswald', sans-serif;
+    padding: 14px 32px;
+    text-align: center;
+}
+
+#drop_down ul li:hover {
+    background-color: #0A413E;
+}
+
+#drop_down ul li:hover a {
+    color: #F2AB01;
+}
+
+#drop_down ul li a {
+    color: #0A413E;
+}
+
+footer {
+    display: none;
+}

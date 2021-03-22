@@ -6,11 +6,7 @@
 <?php $id = $_GET['id']; ?>
 
 <div class="content">
-    <ul>
-        <li>
-            <a href="<?php echo url_for('/members/acount/edit.php?id=' . xss($id)); ?>">edit profile</a>
-        </li>
-    </ul>
+
 </div>
 
 <!--call footer hook-->

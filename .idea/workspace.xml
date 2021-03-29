@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/member_landing.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/members_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/members_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member_landing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/member_landing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/profile.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +175,7 @@
       <workItem from="1616307704816" duration="16143000" />
       <workItem from="1616385027828" duration="854000" />
       <workItem from="1616386906817" duration="25523000" />
-      <workItem from="1617031933860" duration="1592000" />
+      <workItem from="1617031933860" duration="2613000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -263,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616423377289</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add landing img in profile page">
+      <created>1617036180600</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617036180600</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +322,8 @@
     <MESSAGE value="change css properties of navigation links" />
     <MESSAGE value="add offset logo to member index page" />
     <MESSAGE value="add profile picture to navigation bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add profile picture to navigation bar" />
+    <MESSAGE value="add landing img in profile page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add landing img in profile page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

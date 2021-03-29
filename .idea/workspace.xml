@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/scripts/members.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member_landing.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/members_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/members_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/profile.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +177,7 @@
       <workItem from="1616307704816" duration="16143000" />
       <workItem from="1616385027828" duration="854000" />
       <workItem from="1616386906817" duration="25523000" />
+      <workItem from="1617031933860" duration="1592000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -279,7 +280,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="profile_landing" />
                       </list>
                     </value>
                   </entry>

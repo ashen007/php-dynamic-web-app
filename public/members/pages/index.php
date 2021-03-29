@@ -6,7 +6,11 @@
 <?php $id = $_GET['id']; ?>
 
 <div class="content">
-
+    <section class="landing_img">
+        <div class="header_bg_img"
+             style="background-image: url('<?php echo url_for('/images/member_landing.jpg'); ?>')">
+        </div>
+    </section>
 </div>
 
 <!--call footer hook-->

@@ -111,17 +111,21 @@ div#drop_down {
     color: #0A413E;
 }
 
-section.landing_img {
+#landing_img {
     height: 100vh;
-    width: 50%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
 }
 
-.header_bg_img {
+#header_bg_img {
     height: 100%;
     background-position: center;
     background-size: cover;
-    z-index: -10;
-    width: 50%;
+    /*z-index: -10;*/
+    width: 100%;
 }
 
 footer {

@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="">
+    <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="add insert data">
+      <change afterPath="$PROJECT_DIR$/database/insert_other.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/insert.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,44 +45,71 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ashen\DatagripProjects\php-dynamic-web-app\database" />
+      <recent name="C:\Users\ashen\DatagripProjects\php-dynamic-web-app\database files" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add user" />
     <MESSAGE value="alter members table to add date of birth" />
-    <option name="LAST_COMMIT_MESSAGE" value="alter members table to add date of birth" />
+    <MESSAGE value="add insert data" />
+    <option name="LAST_COMMIT_MESSAGE" value="add insert data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616081292864">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616081292864" />
-    <state x="587" y="93" key="CommitChangelistDialog2" timestamp="1616082135150">
+    <state x="587" y="93" key="CommitChangelistDialog2" timestamp="1616154252472">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="587" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1616082135150" />
+    <state x="587" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1616154252472" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1616081410159">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1616081410159" />
-    <state width="1292" height="285" key="GridCell.Tab.0.bottom" timestamp="1616082001868">
+    <state width="1292" height="285" key="GridCell.Tab.0.bottom" timestamp="1616344268431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1616082001868" />
-    <state width="1292" height="285" key="GridCell.Tab.0.center" timestamp="1616082001868">
+    <state width="1292" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1616344268431" />
+    <state width="1292" height="285" key="GridCell.Tab.0.center" timestamp="1616344268431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1616082001868" />
-    <state width="1292" height="285" key="GridCell.Tab.0.left" timestamp="1616082001868">
+    <state width="1292" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1616344268431" />
+    <state width="1292" height="285" key="GridCell.Tab.0.left" timestamp="1616344268431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1616082001868" />
-    <state width="1292" height="285" key="GridCell.Tab.0.right" timestamp="1616082001868">
+    <state width="1292" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1616344268431" />
+    <state width="1292" height="285" key="GridCell.Tab.0.right" timestamp="1616344268431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1616082001868" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1616082137771">
+    <state width="1292" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1616344268431" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1616154420195">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1616082137771" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1616154420195" />
+    <state x="883" y="470" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1616085151910">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="883" y="470" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1920.1050@0.0.1920.1050" timestamp="1616085151910" />
+    <state x="706" y="394" key="data.grid.dml.preview.dialog" timestamp="1616341535236">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="706" y="394" key="data.grid.dml.preview.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616341535236" />
   </component>
 </project>

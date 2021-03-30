@@ -162,9 +162,35 @@ ul#news_list {
     font-weight: inherit;
 }
 
-.left,.right {
-    height: 500px;
+#basic_dash {
     background-color: #000000;
+}
+
+.sec_top, .sec_bottom {
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.left {
+    border-right: 0.1px solid #ffffff;
+}
+
+.left, .right {
+    width: 50%;
+    height: 500px;
+}
+
+.sec_top .left {
+    border-bottom: 0.1em solid #ffffff;
+}
+
+.dash_text p {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    margin: 32px 50px;
+    font-size: 24px;
+    text-align: justify;
 }
 
 /*footer {*/

@@ -25,6 +25,17 @@ $headlines = get_top_headlines();
             </div>
         </div>
     </section>
+
+    <section id="basic_dash">
+        <div class="sec_part">
+            <section class="left"></section>
+            <section class="right"></section>
+        </div>
+        <div class="sec_part">
+            <section class="left"></section>
+            <section class="right"></section>
+        </div>
+    </section>
 </div>
 
 <!--call footer hook-->

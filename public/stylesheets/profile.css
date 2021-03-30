@@ -168,8 +168,6 @@ ul#news_list {
 
 .sec_top, .sec_bottom {
     display: flex;
-    width: 90%;
-    margin: 0px auto;
 }
 
 .left {

@@ -25,9 +25,8 @@ $headlines = get_top_headlines();
             </div>
         </div>
     </section>
-
     <section id="basic_dash">
-        <div class="sec_top">
+        <div class="sec_top container">
             <section class="left">
                 <div class="dash_text">
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
@@ -43,9 +42,21 @@ $headlines = get_top_headlines();
             </section>
             <section class="right"></section>
         </div>
-        <div class="sec_bottom">
+        <div class="sec_bottom container">
             <section class="left"></section>
             <section class="right"></section>
+        </div>
+    </section>
+    <section id="brands">
+        <div class="brand_wrapper container">
+            <ul class="brand_list">
+                <li><a class="valign" href="#">logo</a></li>
+                <li><a class="valign" href="#">logo</a></li>
+                <li><a class="valign" href="#">logo</a></li>
+                <li><a class="valign" href="#">logo</a></li>
+                <li><a class="valign" href="#">logo</a></li>
+                <li><a class="valign" href="#">logo</a></li>
+            </ul>
         </div>
     </section>
 </div>

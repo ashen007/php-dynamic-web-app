@@ -110,6 +110,23 @@ section#category {
     background-color: #ffffff;
 }
 
+ul.brand_list {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.brand_list li {
+    position: relative;
+    height: 150px;
+    padding: 32px 0px;
+    width: 16.67%;
+}
+
+section#brands {
+    border-bottom: 1px solid #000000;
+}
+
 footer {
     background-color: #ffffff;
 }

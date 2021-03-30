@@ -18,7 +18,7 @@ $headlines = get_top_headlines();
                 <ul id="news_list">
                     <?php while ($head = mysqli_fetch_assoc($headlines)) { ?>
                         <li class="news_item">
-                            <h1><?php echo substr($head['head_body'], 0, 64) . "<br>" . substr($head['head_body'], 65, -1) ?></h1>
+                            <h1><?php echo $head['head_body'] ?></h1>
                         </li>
                     <?php } ?>
                 </ul>

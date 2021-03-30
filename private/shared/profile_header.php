@@ -24,7 +24,6 @@ $picture = get_account_dtl(xss(base64_decode($id)))['pp'];
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap" rel="stylesheet">
-    <script rel="script" type="text/javascript" src="<?php echo url_for('/scripts/members.js') ?>"></script>
 </head>
 <body>
 <header>

@@ -26,8 +26,8 @@ create table members(
 );
 
 create table headlines(
-    head_id int not null,
-    head_body varchar(64) not null,
+    head_id int not null auto_increment,
+    head_body varchar(128) not null,
     created_at timestamp default current_timestamp,
     primary key (head_id)
 );

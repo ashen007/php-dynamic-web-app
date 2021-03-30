@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="add insert data">
-      <change afterPath="$PROJECT_DIR$/database/insert_other.sql" afterDir="false" />
+    <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/insert.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/insert_other.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/insert_other.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,41 +67,46 @@
     <MESSAGE value="add user" />
     <MESSAGE value="alter members table to add date of birth" />
     <MESSAGE value="add insert data" />
-    <option name="LAST_COMMIT_MESSAGE" value="add insert data" />
+    <MESSAGE value="add headlines table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add headlines table" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616081292864">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616081292864" />
-    <state x="587" y="93" key="CommitChangelistDialog2" timestamp="1616154252472">
+    <state x="587" y="93" key="CommitChangelistDialog2" timestamp="1617087601346">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="587" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1616154252472" />
+    <state x="587" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1617087601346" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1616081410159">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1616081410159" />
-    <state width="1292" height="285" key="GridCell.Tab.0.bottom" timestamp="1616344268431">
+    <state width="1292" height="285" key="GridCell.Tab.0.bottom" timestamp="1617088133484">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1616344268431" />
-    <state width="1292" height="285" key="GridCell.Tab.0.center" timestamp="1616344268431">
+    <state width="1292" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617088133484" />
+    <state width="1292" height="285" key="GridCell.Tab.0.center" timestamp="1617088133484">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1616344268431" />
-    <state width="1292" height="285" key="GridCell.Tab.0.left" timestamp="1616344268431">
+    <state width="1292" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617088133484" />
+    <state width="1292" height="285" key="GridCell.Tab.0.left" timestamp="1617088133484">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1616344268431" />
-    <state width="1292" height="285" key="GridCell.Tab.0.right" timestamp="1616344268431">
+    <state width="1292" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617088133484" />
+    <state width="1292" height="285" key="GridCell.Tab.0.right" timestamp="1617088133484">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1616344268431" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1616154420195">
+    <state width="1292" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617088133484" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1617087620613">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1616154420195" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1617087620613" />
+    <state x="838" y="412" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1617088110292">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="838" y="412" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1050@0.0.1920.1050" timestamp="1617088110292" />
     <state x="883" y="470" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1616085151910">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

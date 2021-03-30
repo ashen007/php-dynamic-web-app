@@ -80,6 +80,17 @@ function find_all_categories()
     return $result;
 }
 
+function get_top_headlines()
+{
+    global $db;
+
+    $sql = 'select head_body from headlines ';
+    $sql .= 'order by created_at desc limit 5;';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
 function check_availability($data){
 //    check username and email availability
     global $db;

@@ -134,10 +134,27 @@ div#headline {
     text-transform: capitalize;
     text-align: right;
     transform: translate(0%, -50%);
+    height: 48vh;
+    overflow: hidden;
 }
 
 .innertext {
     color: #ffffff;
+    overflow: hidden;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+ul#news_list {
+    margin-right: 15px;
+    padding: 0px;
+    line-height: 10em;
+}
+
+.news_item h1 {
+    border-bottom: 4px solid #ffffff;
+    font-size: 78px;
+    line-height: 1.3em;
+    font-weight: inherit;
 }
 
 footer {

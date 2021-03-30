@@ -10,11 +10,10 @@
         <div id="header_bg_img"
              style="background-image: url('<?php echo url_for('/images/member_landing.jpg'); ?>')">
         </div>
-        <div id="headline">
+        <div id="headline" class="valign">
             <div class="innertext">
                 <ul id="news_list">
-                    <li class="news_item"><h1>this come from headline table</h1>
-                    </li>
+                    <li class="news_item"><h1>this come from <br>headline table</h1></li>
                 </ul>
             </div>
         </div>

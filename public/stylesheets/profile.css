@@ -129,11 +129,15 @@ div#drop_down {
 }
 
 div#headline {
-    position: absolute;
-    top: 0;
-    right: 0;
+    /*top: 0;*/
+    /*right: 0;*/
     text-transform: capitalize;
     text-align: right;
+    transform: translate(0%, -50%);
+}
+
+.innertext {
+    color: #ffffff;
 }
 
 footer {

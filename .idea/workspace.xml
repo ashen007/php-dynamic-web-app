@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/siteplan.vsdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/~$$siteplan.~vsdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/profile.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +176,7 @@
       <workItem from="1616307704816" duration="16143000" />
       <workItem from="1616385027828" duration="854000" />
       <workItem from="1616386906817" duration="25523000" />
-      <workItem from="1617031933860" duration="3369000" />
+      <workItem from="1617031933860" duration="6009000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -275,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617037001057</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="set image position fixed">
+      <created>1617037682108</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1617037682108</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +300,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="profile_landing" />
+                        <option value="landing" />
                       </list>
                     </value>
                   </entry>
@@ -330,7 +338,8 @@
     <MESSAGE value="add offset logo to member index page" />
     <MESSAGE value="add profile picture to navigation bar" />
     <MESSAGE value="add landing img in profile page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add landing img in profile page" />
+    <MESSAGE value="set image position fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="set image position fixed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

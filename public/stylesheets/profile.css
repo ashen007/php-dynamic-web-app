@@ -128,6 +128,14 @@ div#drop_down {
     width: 100%;
 }
 
+div#headline {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-transform: capitalize;
+    text-align: right;
+}
+
 footer {
     display: none;
 }

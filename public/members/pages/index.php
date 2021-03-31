@@ -59,6 +59,51 @@ $headlines = get_top_headlines();
             </ul>
         </div>
     </section>
+    <section class="basic_report">
+        <div class="container">
+            <section class="sec_top">
+                <div class="left" style="border-right: 1px solid #000000;border-bottom: 1px solid #000000"></div>
+                <div class="right"></div>
+            </section>
+            <section class="sec_bottom">
+                <div class="left"></div>
+                <div class="right"
+                     style="border-left: 1px solid #000000;border-top: 1px solid #000000;margin: -1px 0px 0px -1px;"></div>
+            </section>
+        </div>
+    </section>
+    <section class="more">
+        <div class="container">
+            <section class="sec_top">
+                <div class="left"></div>
+                <div class="right" style="border-bottom: 1px solid #ffffff;"></div>
+            </section>
+            <section class="sec_mid">
+                <div class="left"></div>
+                <div class="right"></div>
+            </section>
+            <section class="sec_bottom">
+                <div class="left"></div>
+                <div class="right"></div>
+            </section>
+        </div>
+    </section>
+    <section class="news_events">
+        <div class="container">
+            <section class="sec_top">
+                <div class="left"></div>
+                <div class="right"></div>
+            </section>
+        </div>
+    </section>
+    <section class="forms">
+        <div class="container">
+            <section class="sec_top">
+                <div class="left" style="border-bottom: none"></div>
+                <div class="right"></div>
+            </section>
+        </div>
+    </section>
 </div>
 
 <!--call footer hook-->

@@ -162,11 +162,11 @@ ul#news_list {
     font-weight: inherit;
 }
 
-#basic_dash {
+#basic_dash, .more, .forms {
     background-color: #000000;
 }
 
-.sec_top, .sec_bottom {
+.sec_top, .sec_mid, .sec_bottom {
     display: flex;
 }
 
@@ -176,11 +176,15 @@ ul#news_list {
 
 .left, .right {
     width: 50%;
-    height: 500px;
+    min-height: 500px;
 }
 
 .sec_top .left {
     border-bottom: 0.1em solid #ffffff;
+}
+
+.sec_mid .left, .sec_mid .right {
+    border-bottom: 1px solid #ffffff;
 }
 
 .dash_text p {

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/scripts/members.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/pages/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/profile.css" afterDir="false" />
     </list>
@@ -40,6 +38,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$" />
@@ -177,6 +176,7 @@
       <workItem from="1616307704816" duration="16143000" />
       <workItem from="1616385027828" duration="854000" />
       <workItem from="1616386906817" duration="25523000" />
+      <workItem from="1617031933860" duration="32763000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -262,7 +262,84 @@
       <option name="project" value="LOCAL" />
       <updated>1616423377289</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add landing img in profile page">
+      <created>1617036180600</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617036180600</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add landing img in profile page">
+      <created>1617037001057</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1617037001057</updated>
+    </task>
+    <task id="LOCAL-00027" summary="set image position fixed">
+      <created>1617037682108</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1617037682108</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add headline displayed to landing section">
+      <created>1617084992610</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1617084992610</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add more css properties to headline and align to right">
+      <created>1617085653263</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1617085653263</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add headlines from db">
+      <created>1617090536654</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1617090536654</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add sliding headlines">
+      <created>1617110586352</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1617110586352</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add basic dashboard and change paralex effect">
+      <created>1617112939621</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1617112939621</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add more css properties to dashboard section">
+      <created>1617117322181</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1617117322181</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add branding section">
+      <created>1617119950212</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1617119950212</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add branding section">
+      <created>1617120122169</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1617120122169</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +356,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="landing" />
                       </list>
                     </value>
                   </entry>
@@ -293,13 +370,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add user" />
-    <MESSAGE value="alter members table to add date of birth" />
-    <MESSAGE value="change folder" />
-    <MESSAGE value="log in mechanism enabled" />
-    <MESSAGE value="update profile mechanism enabled" />
-    <MESSAGE value="add basic form validation functions to form validation script" />
-    <MESSAGE value="add functions to check input lengths and email structure" />
     <MESSAGE value="add firstname and lastname error checker. if first name or last name empty it return error msg to form" />
     <MESSAGE value="add validations for email,date of birth,username and password" />
     <MESSAGE value="change form processing from duel to single page" />
@@ -316,7 +386,16 @@
     <MESSAGE value="change css properties of navigation links" />
     <MESSAGE value="add offset logo to member index page" />
     <MESSAGE value="add profile picture to navigation bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add profile picture to navigation bar" />
+    <MESSAGE value="add landing img in profile page" />
+    <MESSAGE value="set image position fixed" />
+    <MESSAGE value="add headline displayed to landing section" />
+    <MESSAGE value="add more css properties to headline and align to right" />
+    <MESSAGE value="add headlines from db" />
+    <MESSAGE value="add sliding headlines" />
+    <MESSAGE value="add basic dashboard and change paralex effect" />
+    <MESSAGE value="add more css properties to dashboard section" />
+    <MESSAGE value="add branding section" />
+    <option name="LAST_COMMIT_MESSAGE" value="add branding section" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

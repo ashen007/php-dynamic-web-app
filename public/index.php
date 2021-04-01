@@ -1,13 +1,14 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crop Foundation</title>
-</head>
-<body>
-<h1>under construction</h1>
-</body>
-</html>
+<!--don't change this path to dynamicly genarate!!!!!-->
+<?php require_once('../private/initialize.php'); ?>
+
+<!--page title-->
+<?php
+$page_title = 'Crop Foundation';
+?>
+
+<!--call header hook-->
+<?php include(SHARED_PATH . '/public_header.php'); ?>
+
+
+<!--call footer hook-->
+<?php include(SHARED_PATH . '/members_footer.php'); ?>

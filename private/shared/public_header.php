@@ -50,7 +50,14 @@ if (!isset($page_title)) {
                 <li class="board"></li>
             </ul>
         </div>
-        <div class="public_header"></div>
-        <div class="public_sub_header"></div>
+        <div class="moto valign">
+            <div class="moto_content">
+                <div class="public_header">crop foundation</div>
+                <div class="public_sub_header">community of modern farmers</div>
+            </div>
+            <div class="land_img">
+                <img src="<?php echo url_for('/images/public_landing.png') ?>">
+            </div>
+        </div>
     </div>
 </section>

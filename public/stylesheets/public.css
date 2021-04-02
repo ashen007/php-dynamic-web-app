@@ -41,10 +41,36 @@ ul.cliper {
 li.board {
     height: inherit;
     width: 25%;
-    border-left: 1px solid rgba(0,0,0,0.07);
+    border-left: 1px solid rgba(0, 0, 0, 0.07);
     float: left;
 }
 
 ul.cliper :last-child {
-    border-right: 1px solid rgba(0,0,0,0.07);
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.moto {
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.land_img, .moto_content {
+    width: 50%;
+}
+
+.land_img img {
+    width: 95%;
+    transform: scale3d(0.95, 0.95, 0.95);
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+}
+
+.land_img img:hover {
+    transform: scale3d(1, 1, 1);
+    transition-duration: 100ms;
+    transition-timing-function: linear;
 }

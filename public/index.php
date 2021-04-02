@@ -52,6 +52,18 @@ $page_title = 'Crop Foundation';
     </div>
 </section>
 
+<section class="services">
+    <div class="container valign">
+        <ul>
+            <li class="serv_card"></li>
+            <li class="serv_card"></li>
+            <li class="serv_card"></li>
+            <li class="serv_card"></li>
+            <li class="serv_card"></li>
+        </ul>
+    </div>
+</section>
+
 
 <!--call footer hook-->
 <?php include(SHARED_PATH . '/public_footer.php'); ?>

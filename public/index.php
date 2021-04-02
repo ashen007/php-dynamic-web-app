@@ -11,4 +11,4 @@ $page_title = 'Crop Foundation';
 
 
 <!--call footer hook-->
-<?php include(SHARED_PATH . '/members_footer.php'); ?>
+<?php include(SHARED_PATH . '/public_footer.php'); ?>

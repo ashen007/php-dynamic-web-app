@@ -52,8 +52,29 @@ if (!isset($page_title)) {
         </div>
         <div class="moto valign">
             <div class="moto_content">
-                <div class="public_header">crop foundation</div>
-                <div class="public_sub_header">community of modern farmers</div>
+                <div class="public_header valign">
+                    <div><h1>crop foundation</h1></div>
+                </div>
+                <div class="public_sub_header valign">
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                    <h2>community of modern farmers</h2>
+                </div>
             </div>
             <div class="land_img">
                 <img src="<?php echo url_for('/images/public_landing.png') ?>">

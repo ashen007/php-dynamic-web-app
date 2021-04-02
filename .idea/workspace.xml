@@ -177,7 +177,7 @@
       <workItem from="1616307704816" duration="16143000" />
       <workItem from="1616385027828" duration="854000" />
       <workItem from="1616386906817" duration="13479000" />
-      <workItem from="1617339080176" duration="2100000" />
+      <workItem from="1617339080176" duration="7067000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617339158346</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add img,main header, sub header to landing">
+      <created>1617341241781</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1617341241781</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +286,8 @@
     <MESSAGE value="create header hook and footer hook for public page" />
     <MESSAGE value="create landing background" />
     <MESSAGE value="create public navigation, add public pages and create landing background" />
-    <option name="LAST_COMMIT_MESSAGE" value="create public navigation, add public pages and create landing background" />
+    <MESSAGE value="add img,main header, sub header to landing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add img,main header, sub header to landing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

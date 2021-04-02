@@ -3,6 +3,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 #logo img {
@@ -56,10 +57,12 @@ ul.cliper :last-child {
     width: 100%;
     overflow: hidden;
     display: flex;
+    transform: translate(-50%, -43%);
 }
 
 .land_img, .moto_content {
     width: 50%;
+    position: relative;
 }
 
 .land_img img {
@@ -73,4 +76,36 @@ ul.cliper :last-child {
     transform: scale3d(1, 1, 1);
     transition-duration: 100ms;
     transition-timing-function: linear;
+}
+
+.public_header {
+    width: fit-content;
+    transform: translate(-50%, -62%);
+}
+
+.public_header div h1 {
+    font-family: 'Oswald', sans-serif;
+    text-shadow: -8px 0 #ffffff, 0 8px #ffffff, 8px 0 #ffffff, 0 -8px #ffffff;
+    font-size: 162px;
+    margin: 0px;
+}
+
+.public_sub_header h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 52px;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    color: #ffffff;
+    margin: 0px;
+    line-height: 36px;
+}
+
+.public_sub_header {
+    position: absolute;
+    bottom: 0;
+    /*left: 41%;*/
+    width: 100%;
+    height: fit-content;
+    z-index: -1;
+    font-family: 'Hind Siliguri', sans-serif;
 }

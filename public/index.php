@@ -161,5 +161,130 @@ $page_title = 'Crop Foundation';
     </ul>
 </section>
 
+<section class="tiny_store bottom_gap">
+    <ul class="tiny_store_wrapper valign">
+        <li class="tiny_rack">
+            <ul class="tiny_rack_list">
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="tiny_rack">
+            <ul class="tiny_rack_list">
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+                <li class="tiny_product">
+                    <ul class="tiny_prod_dtl">
+                        <li class="tiny_prod_img">img</li>
+                        <li class="tiny_prod_title">title</li>
+                        <li class="tiny_prod_price">price</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
 <!--call footer hook-->
 <?php include(SHARED_PATH . '/public_footer.php'); ?>

@@ -220,3 +220,31 @@ ul.status_list.valign {
 li.stat {
     width: 20%;
 }
+
+section.tiny_store {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+}
+
+ul.tiny_store_wrapper {
+    width: 90%;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.tiny_rack_list {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+li.tiny_product {
+    width: 12.5%;
+    height: fit-content;
+    margin: 0px 12px;
+}
+
+li.tiny_rack {
+    padding: 24px 0px;
+}

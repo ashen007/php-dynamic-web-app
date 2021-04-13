@@ -204,3 +204,19 @@ li.about_sections {
     width: 33.33%;
 }
 
+section.comp_status.bottom_gap {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+}
+
+ul.status_list.valign {
+    width: 90%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+li.stat {
+    width: 20%;
+}

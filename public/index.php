@@ -46,7 +46,7 @@ $page_title = 'Crop Foundation';
                 </div>
             </div>
             <div class="land_img">
-                <img src="<?php echo url_for('/images/public_landing.png') ?>">
+                <img src="<?php echo url_for('/images/public_landing.png') ?>" alt="landing image">
             </div>
         </div>
     </div>
@@ -94,6 +94,72 @@ $page_title = 'Crop Foundation';
     </div>
 </section>
 
+<section class="about top_gap bottom_gap">
+    <ul class="about_wrapper valign">
+        <li class="about_sections">
+            <ul class="about_header">
+                <li>text</li>
+                <li>link to about page</li>
+            </ul>
+        </li>
+        <li class="about_sections">
+            <span>image</span>
+        </li>
+        <li class="about_sections">
+            <p class="about_content">text</p>
+        </li>
+    </ul>
+</section>
+
+<section class="comp_status bottom_gap">
+    <ul class="status_list valign">
+        <li class="stat">
+            <ul class="stat_cont">
+                <li class="stat_year">0000</li>
+                <li class="stat_title">text</li>
+                <li class="stat_content">
+                    <p>details</p>
+                </li>
+            </ul>
+        </li>
+        <li class="stat">
+            <ul class="stat_cont">
+                <li class="stat_year">0000</li>
+                <li class="stat_title">text</li>
+                <li class="stat_content">
+                    <p>details</p>
+                </li>
+            </ul>
+        </li>
+        <li class="stat">
+            <ul class="stat_cont">
+                <li class="stat_year">0000</li>
+                <li class="stat_title">text</li>
+                <li class="stat_content">
+                    <p>details</p>
+                </li>
+            </ul>
+        </li>
+        <li class="stat">
+            <ul class="stat_cont">
+                <li class="stat_year">0000</li>
+                <li class="stat_title">text</li>
+                <li class="stat_content">
+                    <p>details</p>
+                </li>
+            </ul>
+        </li>
+        <li class="stat">
+            <ul class="stat_cont">
+                <li class="stat_year">0000</li>
+                <li class="stat_title">text</li>
+                <li class="stat_content">
+                    <p>details</p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</section>
 
 <!--call footer hook-->
 <?php include(SHARED_PATH . '/public_footer.php'); ?>

@@ -185,3 +185,22 @@ li.serv_card_img {
 .serv_card_img img {
     width: 100%;
 }
+
+section.about {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+}
+
+ul.about_wrapper {
+    display: flex;
+    height: inherit;
+    width: 90%;
+    padding: 0px;
+    margin: 0px;
+}
+
+li.about_sections {
+    width: 33.33%;
+}
+

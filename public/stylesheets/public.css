@@ -6,6 +6,18 @@ header {
     z-index: 1;
 }
 
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.top_gap {
+    padding-top: 36px;
+}
+
+.bottom_gap {
+    padding-bottom: 36px;
+}
+
 #logo img {
     width: 86px;
 }
@@ -94,8 +106,7 @@ ul.cliper :last-child {
     text-align: center;
     text-transform: uppercase;
     font-size: 52px;
-    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
-    color: #ffffff;
+    /*text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;*/
     margin: 0px;
     line-height: 36px;
 }
@@ -116,4 +127,61 @@ ul.cliper :last-child {
     height: fit-content;
     z-index: -1;
     font-family: 'Hind Siliguri', sans-serif;
+}
+
+section.services {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.services div ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+li.serv_card {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 0px 16px;
+    min-height: 60vh;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+li.serv_card_header {
+    width: 20%;
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+li.serv_card_inner, li.serv_card_content {
+    padding: 0px 24px;
+    margin: 12px;
+}
+
+li.serv_card_content {
+    width: 80%;
+    text-align: left;
+}
+
+.serv_card_inner {
+    min-width: 58%;
+}
+
+.serv_card_content p {
+    text-align: justify;
+}
+
+li.serv_card_img {
+    margin: 12px 32px;
+    width: 60px;
+    height: 60px;
+}
+
+.serv_card_img img {
+    width: 100%;
 }

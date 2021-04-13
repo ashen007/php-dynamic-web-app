@@ -95,7 +95,7 @@ $page_title = 'Crop Foundation';
 </section>
 
 <section class="about top_gap bottom_gap">
-    <ul class="about_wrapper valign">
+    <ul class="about_wrapper valign section_wrapper">
         <li class="about_sections">
             <ul class="about_header">
                 <li>text</li>
@@ -112,7 +112,7 @@ $page_title = 'Crop Foundation';
 </section>
 
 <section class="comp_status bottom_gap">
-    <ul class="status_list valign">
+    <ul class="status_list valign section_wrapper">
         <li class="stat">
             <ul class="stat_cont">
                 <li class="stat_year">0000</li>
@@ -162,7 +162,7 @@ $page_title = 'Crop Foundation';
 </section>
 
 <section class="tiny_store bottom_gap">
-    <ul class="tiny_store_wrapper valign">
+    <ul class="tiny_store_wrapper valign section_wrapper">
         <li class="tiny_rack">
             <ul class="tiny_rack_list">
                 <li class="tiny_product">
@@ -287,12 +287,16 @@ $page_title = 'Crop Foundation';
 </section>
 
 <section class="testimonial bottom_gap">
-    <div class="test_wrapper valign">
+    <div class="test_wrapper valign section_wrapper">
         <ul class="review">
             <li class="review_header">text</li>
             <li class="review_subheader">text</li>
             <li class="review_content">
                 <p>text</p>
+            </li>
+            <li class="review_author">
+                img
+                <span>name</span>
             </li>
         </ul>
     </div>

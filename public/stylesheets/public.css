@@ -248,3 +248,20 @@ li.tiny_product {
 li.tiny_rack {
     padding: 24px 0px;
 }
+
+section.testimonial {
+    width: 100%;
+    height: 65vh;
+    position: relative;
+}
+
+.test_wrapper {
+    width: 90%;
+    height: fit-content;
+}
+
+ul.review {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}

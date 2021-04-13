@@ -286,5 +286,17 @@ $page_title = 'Crop Foundation';
     </ul>
 </section>
 
+<section class="testimonial bottom_gap">
+    <div class="test_wrapper valign">
+        <ul class="review">
+            <li class="review_header">text</li>
+            <li class="review_subheader">text</li>
+            <li class="review_content">
+                <p>text</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
 <!--call footer hook-->
 <?php include(SHARED_PATH . '/public_footer.php'); ?>

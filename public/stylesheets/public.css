@@ -285,3 +285,10 @@ li.public_events {
     width: 25%;
     height: fit-content;
 }
+
+section.queries.bottom_gap {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+}
+

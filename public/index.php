@@ -321,5 +321,53 @@ $page_title = 'Crop Foundation';
     </div>
 </section>
 
+<section class="queries bottom_gap">
+    <div class="queries_wrapper valign section_wrapper">
+        <form id="queries" action="#" method="post">
+            <dl>
+                <dt>field name</dt>
+                <dd>
+                    <input type="text" value="" placeholder="enter your details">
+                </dd>
+            </dl>
+            <dl>
+                <dt>field name</dt>
+                <dd>
+                    <input type="text" value="" placeholder="enter your details">
+                </dd>
+            </dl>
+            <dl>
+                <dt>field name</dt>
+                <dd>
+                    <input type="text" value="" placeholder="enter your details">
+                </dd>
+            </dl>
+            <dl>
+                <dt>field name</dt>
+                <dd>
+                    <input type="text" value="" placeholder="enter your details">
+                </dd>
+            </dl>
+            <dl>
+                <dt>field name</dt>
+                <dd>
+                    <input type="text" value="" placeholder="enter your details">
+                </dd>
+            </dl>
+            <dl>
+                <dt>field name</dt>
+                <dd>
+                    <input type="text" value="" placeholder="enter your details">
+                </dd>
+            </dl>
+            <dl>
+                <dd>
+                    <input type="submit" value="submit">
+                </dd>
+            </dl>
+        </form>
+    </div>
+</section>
+
 <!--call footer hook-->
 <?php include(SHARED_PATH . '/public_footer.php'); ?>

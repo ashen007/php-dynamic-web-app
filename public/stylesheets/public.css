@@ -310,3 +310,11 @@ ul.landing_header {
     left: 9%;
 }
 
+ul.event_gal_cards {
+    display: flex;
+}
+
+li.event_gal_col {
+    width: 30%;
+    padding: 0px 46px;
+}

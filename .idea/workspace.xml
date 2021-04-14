@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/public.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +20,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="profile_landing" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +41,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$" />
@@ -55,9 +57,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -175,8 +176,11 @@
       <updated>1616307701374</updated>
       <workItem from="1616307704816" duration="16143000" />
       <workItem from="1616385027828" duration="854000" />
-      <workItem from="1616386906817" duration="25523000" />
-      <workItem from="1617031933860" duration="32763000" />
+      <workItem from="1616386906817" duration="13479000" />
+      <workItem from="1617339080176" duration="11082000" />
+      <workItem from="1618294386684" duration="633000" />
+      <workItem from="1618296229603" duration="6236000" />
+      <workItem from="1618326587572" duration="8938000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -213,133 +217,105 @@
       <option name="project" value="LOCAL" />
       <updated>1616389633965</updated>
     </task>
-    <task id="LOCAL-00018" summary="members only pages">
-      <created>1616406267311</created>
+    <task id="LOCAL-00018" summary="create header hook and footer hook for public page">
+      <created>1617276935396</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1616406267311</updated>
+      <updated>1617276935396</updated>
     </task>
-    <task id="LOCAL-00019" summary="add stylesheet for profile page">
-      <created>1616407100709</created>
+    <task id="LOCAL-00019" summary="create public navigation, add public pages and create landing background">
+      <created>1617339158346</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1616407100709</updated>
+      <updated>1617339158346</updated>
     </task>
-    <task id="LOCAL-00020" summary="show navigation items inline">
-      <created>1616407462885</created>
+    <task id="LOCAL-00020" summary="add img,main header, sub header to landing">
+      <created>1617341241781</created>
       <option name="number" value="00020" />
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1616407462885</updated>
+      <updated>1617341241781</updated>
     </task>
-    <task id="LOCAL-00021" summary="change css properties of navigation links">
-      <created>1616407934267</created>
+    <task id="LOCAL-00021" summary="complete landing area">
+      <created>1617352737651</created>
       <option name="number" value="00021" />
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1616407934267</updated>
+      <updated>1617352737651</updated>
     </task>
-    <task id="LOCAL-00022" summary="change css properties of navigation links">
-      <created>1616408085728</created>
+    <task id="LOCAL-00022" summary="complete landing area">
+      <created>1617352851060</created>
       <option name="number" value="00022" />
       <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1616408085728</updated>
+      <updated>1617352851060</updated>
     </task>
-    <task id="LOCAL-00023" summary="add offset logo to member index page">
-      <created>1616421445265</created>
+    <task id="LOCAL-00023" summary="add hover effects to headers">
+      <created>1617353015936</created>
       <option name="number" value="00023" />
       <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1616421445265</updated>
+      <updated>1617353015936</updated>
     </task>
-    <task id="LOCAL-00024" summary="add profile picture to navigation bar">
-      <created>1616423377289</created>
+    <task id="LOCAL-00024" summary="add services section and it contains links to specified areas.">
+      <created>1617353579430</created>
       <option name="number" value="00024" />
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1616423377289</updated>
+      <updated>1617353579430</updated>
     </task>
-    <task id="LOCAL-00025" summary="add landing img in profile page">
-      <created>1617036180600</created>
+    <task id="LOCAL-00025" summary="complete service detail area">
+      <created>1618300422386</created>
       <option name="number" value="00025" />
       <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1617036180600</updated>
+      <updated>1618300422386</updated>
     </task>
-    <task id="LOCAL-00026" summary="add landing img in profile page">
-      <created>1617037001057</created>
+    <task id="LOCAL-00026" summary="add brief about section and company status section">
+      <created>1618328558040</created>
       <option name="number" value="00026" />
       <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1617037001057</updated>
+      <updated>1618328558040</updated>
     </task>
-    <task id="LOCAL-00027" summary="set image position fixed">
-      <created>1617037682108</created>
+    <task id="LOCAL-00027" summary="add structure to about section and company status section">
+      <created>1618328912467</created>
       <option name="number" value="00027" />
       <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1617037682108</updated>
+      <updated>1618328912467</updated>
     </task>
-    <task id="LOCAL-00028" summary="add headline displayed to landing section">
-      <created>1617084992610</created>
+    <task id="LOCAL-00028" summary="add tiny store and complete structure">
+      <created>1618330859020</created>
       <option name="number" value="00028" />
       <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1617084992610</updated>
+      <updated>1618330859020</updated>
     </task>
-    <task id="LOCAL-00029" summary="add more css properties to headline and align to right">
-      <created>1617085653263</created>
+    <task id="LOCAL-00029" summary="add testimonial section">
+      <created>1618332282509</created>
       <option name="number" value="00029" />
       <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1617085653263</updated>
+      <updated>1618332282509</updated>
     </task>
-    <task id="LOCAL-00030" summary="add headlines from db">
-      <created>1617090536654</created>
+    <task id="LOCAL-00030" summary="re-organize css class">
+      <created>1618332605184</created>
       <option name="number" value="00030" />
       <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1617090536654</updated>
+      <updated>1618332605184</updated>
     </task>
-    <task id="LOCAL-00031" summary="add sliding headlines">
-      <created>1617110586352</created>
+    <task id="LOCAL-00031" summary="add recent event gallery structure">
+      <created>1618364571469</created>
       <option name="number" value="00031" />
       <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1617110586352</updated>
+      <updated>1618364571469</updated>
     </task>
-    <task id="LOCAL-00032" summary="add basic dashboard and change paralex effect">
-      <created>1617112939621</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1617112939621</updated>
-    </task>
-    <task id="LOCAL-00033" summary="add more css properties to dashboard section">
-      <created>1617117322181</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1617117322181</updated>
-    </task>
-    <task id="LOCAL-00034" summary="add branding section">
-      <created>1617119950212</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1617119950212</updated>
-    </task>
-    <task id="LOCAL-00035" summary="add branding section">
-      <created>1617120122169</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1617120122169</updated>
-    </task>
-    <option name="localTasksCounter" value="36" />
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +332,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="landing" />
+                        <option value="public" />
                       </list>
                     </value>
                   </entry>
@@ -370,6 +346,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="add functions to check input lengths and email structure" />
     <MESSAGE value="add firstname and lastname error checker. if first name or last name empty it return error msg to form" />
     <MESSAGE value="add validations for email,date of birth,username and password" />
     <MESSAGE value="change form processing from duel to single page" />
@@ -380,22 +357,21 @@
     <MESSAGE value="change some error displaying techs in registration from and add availability check before register a new user for existing records" />
     <MESSAGE value="add profile name and profile image to edit page" />
     <MESSAGE value="adding profile picture to edit page" />
-    <MESSAGE value="members only pages" />
-    <MESSAGE value="add stylesheet for profile page" />
-    <MESSAGE value="show navigation items inline" />
-    <MESSAGE value="change css properties of navigation links" />
-    <MESSAGE value="add offset logo to member index page" />
-    <MESSAGE value="add profile picture to navigation bar" />
-    <MESSAGE value="add landing img in profile page" />
-    <MESSAGE value="set image position fixed" />
-    <MESSAGE value="add headline displayed to landing section" />
-    <MESSAGE value="add more css properties to headline and align to right" />
-    <MESSAGE value="add headlines from db" />
-    <MESSAGE value="add sliding headlines" />
-    <MESSAGE value="add basic dashboard and change paralex effect" />
-    <MESSAGE value="add more css properties to dashboard section" />
-    <MESSAGE value="add branding section" />
-    <option name="LAST_COMMIT_MESSAGE" value="add branding section" />
+    <MESSAGE value="create header hook and footer hook for public page" />
+    <MESSAGE value="create landing background" />
+    <MESSAGE value="create public navigation, add public pages and create landing background" />
+    <MESSAGE value="add img,main header, sub header to landing" />
+    <MESSAGE value="complete landing area" />
+    <MESSAGE value="add hover effects to headers" />
+    <MESSAGE value="add services section and it contains links to specified areas." />
+    <MESSAGE value="complete service detail area" />
+    <MESSAGE value="add brief about section and company status section" />
+    <MESSAGE value="add structure to about section and company status section" />
+    <MESSAGE value="add tiny store and complete structure" />
+    <MESSAGE value="add testimonial section" />
+    <MESSAGE value="re-organize css class" />
+    <MESSAGE value="add recent event gallery structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add recent event gallery structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

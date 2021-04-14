@@ -292,3 +292,21 @@ section.queries.bottom_gap {
     height: 65vh;
 }
 
+section.landing_bg {
+    height: 65vh;
+    width: 100%;
+    position: relative;
+}
+
+.event_land_img {
+    width: inherit;
+    height: inherit;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+}
+
+ul.landing_header {
+    left: 9%;
+}
+

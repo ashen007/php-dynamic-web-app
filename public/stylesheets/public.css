@@ -6,6 +6,11 @@ header {
     z-index: 1;
 }
 
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
 }
@@ -264,4 +269,19 @@ ul.review {
     padding: 0px;
     margin: 0px;
     text-align: center;
+}
+
+section.events_gal.bottom_gap {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+ul.event_gal_list {
+    display: flex;
+}
+
+li.public_events {
+    width: 25%;
+    height: fit-content;
 }

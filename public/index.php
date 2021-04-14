@@ -302,5 +302,24 @@ $page_title = 'Crop Foundation';
     </div>
 </section>
 
+<section class="events_gal bottom_gap">
+    <div class="event_gal_wrapper valign section_wrapper">
+        <ul class="event_gal_list">
+            <li class="public_events">
+                <div class="event">event headline image</div>
+            </li>
+            <li class="public_events">
+                <div class="event">event headline image</div>
+            </li>
+            <li class="public_events">
+                <div class="event">event headline image</div>
+            </li>
+            <li class="public_events">
+                <div class="event">event headline image</div>
+            </li>
+        </ul>
+    </div>
+</section>
+
 <!--call footer hook-->
 <?php include(SHARED_PATH . '/public_footer.php'); ?>

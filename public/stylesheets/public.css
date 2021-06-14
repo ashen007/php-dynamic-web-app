@@ -177,21 +177,16 @@ ul.cliper :last-child {
     color: #00000096;
 }
 
-section.about {
+.services-list {
     position: relative;
-    height: 60vh;
-    width: 100%;
+    width: 45%;
 }
 
-ul.about_wrapper {
-    display: flex;
-    height: inherit;
-    padding: 0px;
-    margin: 0px;
-}
-
-li.about_sections {
-    width: 33.33%;
+.service-img {
+    margin: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 section.comp_status {

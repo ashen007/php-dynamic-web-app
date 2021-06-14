@@ -37,7 +37,7 @@ $page_title = 'Crop Foundation';
 <section class="services top_gap bottom_gap">
     <div class="container">
         <div class="serv_card_inner">
-            <div class="serv_card_header">AgriCom Farm Ecology Products</div>
+            <div class="serv_card_header">Crop Foundation<br> Farm Ecology Products</div>
             <div class="serv-cover">
                 <div class="cow-img">
                     <img src="<?php echo url_for('/images/79cb8a70129685.5b990b414065d.jpg') ?>" alt="landing image">
@@ -57,20 +57,58 @@ $page_title = 'Crop Foundation';
 </section>
 
 <section class="about top_gap bottom_gap">
-    <ul class="about_wrapper valign section_wrapper">
-        <li class="about_sections">
-            <ul class="about_header">
-                <li>text</li>
-                <li>link to about page</li>
-            </ul>
-        </li>
-        <li class="about_sections">
-            <span>image</span>
-        </li>
-        <li class="about_sections">
-            <p class="about_content">text</p>
-        </li>
-    </ul>
+    <div class="container">
+        <div class="serv_card_inner">
+            <div class="serv_card_header">The Largest Crop Ever</div>
+            <div class="serv-cover">
+                <div class="serv_card_content">
+                    <h4> Smells racy free announcing than durable zesty smart exotic far feel.
+                        Screamin' affordable secret way absolutely.</h4>
+                    <p>Stimulates vast a real proven works discount secure care. Market invigorate a awesome handcrafted
+                        bigger comes newer recommended lifetime.<br><br>
+                        Stimulates vast a real proven works discount secure care. Market invigorate a awesome
+                        handcrafted bigger comes newer recommended lifetime. Evulates vast a real proven works discount
+                        secure care. Market invigorate a awesome handcrafted bigger comes newer recommended lifetime.
+                        Odor to yummy high racy bonus soaking mouthwatering. First superior
+                    </p>
+                </div>
+                <div class="services-list">
+                    <div class="valign" style="display: flex;">
+                        <div style="height: fit-content; width: fit-content; text-align: center">
+                            <div class="service-img"
+                                 style="background-image: url('<?php echo url_for('/images/ico_1-77x77.png') ?>');
+                                         width:90px; height:90px;"></div>
+                            <label>Agriculture<br>Products</label>
+                        </div>
+                        <div style="height: fit-content; width: fit-content; text-align: center">
+                            <div class="service-img"
+                                 style="background-image: url('<?php echo url_for('/images/ico_2-77x77.png') ?>');
+                                         width:90px; height:90px;"></div>
+                            <label>Fresh<br>Vegatables</label>
+                        </div>
+                        <div style="height: fit-content; width: fit-content; text-align: center">
+                            <div class="service-img"
+                                 style="background-image: url('<?php echo url_for('/images/ico_3-90x77.png') ?>');
+                                         width:90px; height:90px;"></div>
+                            <label>Different<br>Livestock</label>
+                        </div>
+                        <div style="height: fit-content; width: fit-content; text-align: center">
+                            <div class="service-img"
+                                 style="background-image: url('<?php echo url_for('/images/ico_4-90x77.png') ?>');
+                                         width:90px; height:90px;"></div>
+                            <label>Modern<br>Technique</label>
+                        </div>
+                        <div style="height: fit-content; width: fit-content; text-align: center">
+                            <div class="service-img"
+                                 style="background-image: url('<?php echo url_for('/images/ico_5-77x77.png') ?>');
+                                         width:90px; height:90px;"></div>
+                            <label>Farm<br>Factory</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="comp_status bottom_gap">
@@ -93,6 +131,17 @@ $page_title = 'Crop Foundation';
                 </li>
             </ul>
         </li>
+        <li class="stat">
+            <ul class="stat_cont">
+                <li class="stat_year">0000</li>
+                <li class="stat_title">text</li>
+                <li class="stat_content">
+                    <p>details</p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="status_list valign section_wrapper">
         <li class="stat">
             <ul class="stat_cont">
                 <li class="stat_year">0000</li>

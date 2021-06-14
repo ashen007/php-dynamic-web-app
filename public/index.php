@@ -25,24 +25,6 @@ $page_title = 'Crop Foundation';
                     <div><h1>crop foundation</h1></div>
                 </div>
                 <div class="public_sub_header valign">
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
                 </div>
             </div>
             <div class="land_img">
@@ -52,45 +34,25 @@ $page_title = 'Crop Foundation';
     </div>
 </section>
 
-<section class="services top_gap bottom_gap"
-         style="background-image: url('<?php echo url_for('/images/services.jpg') ?>')">
+<section class="services top_gap bottom_gap">
     <div class="container">
-        <ul>
-            <li class="serv_card">
-                <ul class="serv_card_inner valign">
-                    <li class="serv_card_header">AgriCom Farm Ecology Products</li>
-                    <li class="serv_card_content"><span style="font-weight: bolder"> Smells racy free announcing than durable zesty smart exotic far feel. Screamin' affordable
-                        secret way absolutely.</span>
-                        <p>Evaluates vast a real proven works discount secure care. Market invigorate a awesome
-                            handcrafted
-                            bigger comes newer recommended lifetime. Odor to yummy high racy bonus soaking
-                            mouthwatering.
-                            First superior full-bodied drink. Like outstanding odor economical deal clinically.
-                        </p>
-                        <ul class="services_list">
-                            <li class="serv_card_img">
-                                <img src="<?php echo url_for('/images/ico_1-77x77.png'); ?>" alt="services">
-                            </li>
-                            <li class="serv_card_img">
-                                <img src="<?php echo url_for('/images/ico_2-77x77.png'); ?>" alt="services">
-                            </li>
-                            <li class="serv_card_img" style="width: 77px; height: 60px">
-                                <img src="<?php echo url_for('/images/ico_3-90x77.png'); ?>" alt="services">
-                            </li>
-                            <li class="serv_card_img" style="width: 77px; height: 60px">
-                                <img src="<?php echo url_for('/images/ico_4-90x77.png'); ?>" alt="services">
-                            </li>
-                            <li class="serv_card_img">
-                                <img src="<?php echo url_for('/images/ico_5-77x77.png'); ?>" alt="services">
-                            </li>
-                            <li class="serv_card_img">
-                                <img src="<?php echo url_for('/images/ico_1-77x77.png'); ?>" alt="services">
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <div class="serv_card_inner">
+            <div class="serv_card_header">AgriCom Farm Ecology Products</div>
+            <div class="serv-cover">
+                <div class="cow-img">
+                    <img src="<?php echo url_for('/images/79cb8a70129685.5b990b414065d.jpg') ?>" alt="landing image">
+                </div>
+                <div class="serv_card_content">
+                    <h4> Smells racy free announcing than durable zesty smart exotic
+                        far feel. Screamin' affordable secret way absolutely.</h4>
+                    <p>Evaluates vast a real proven works discount secure care. Market invigorate a awesome
+                        handcrafted bigger comes newer recommended lifetime. Odor to yummy high racy bonus soaking
+                        mouthwatering. First superior full-bodied drink. Like outstanding odor economical deal
+                        clinically.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

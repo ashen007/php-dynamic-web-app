@@ -138,61 +138,43 @@ ul.cliper :last-child {
     font-family: 'Hind Siliguri', sans-serif;
 }
 
-section.services {
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-section.services div ul {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-}
-
-li.serv_card {
-    width: 100%;
-    padding: 16px 0px;
-    margin: 0px 16px;
-    min-height: 60vh;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 10px;
-}
-
-li.serv_card_header {
-    width: 20%;
-    text-align: left;
-    font-size: 2.5rem;
-}
-
-li.serv_card_inner, li.serv_card_content {
-    padding: 0px 24px;
-    margin: 12px;
-}
-
-li.serv_card_content {
-    width: 80%;
-    text-align: left;
+.serv_card_header {
+    text-align: center;
+    font-size: 46px;
+    padding: 32px 0;
 }
 
 .serv_card_inner {
-    min-width: 58%;
+    height: fit-content;
+}
+
+.serv-cover {
+    display: flex;
+    justify-content: center;
+    padding-top: 56px;
+}
+
+.cow-img {
+    width: 56%;
+    float: left;
+}
+
+.serv_card_content {
+    width: 30%;
+    float: left;
+}
+
+.serv_card_content h4 {
+    font-size: 23px;
+    font-weight: lighter;
+    padding: 0 52px;
+    color: #91BB57;
 }
 
 .serv_card_content p {
     text-align: justify;
-}
-
-li.serv_card_img {
-    margin: 12px 32px;
-    width: 60px;
-    height: 60px;
-}
-
-.serv_card_img img {
-    width: 100%;
+    padding: 0 52px;
+    color: #00000096;
 }
 
 section.about {

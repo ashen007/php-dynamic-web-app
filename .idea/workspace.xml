@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/products/cabage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/products/carrots.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/products/frutes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/products/green_apple.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/products/potato.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/products/tea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/products/tomato.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/members_footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +192,8 @@
       <workItem from="1620978520863" duration="229000" />
       <workItem from="1620985048967" duration="134000" />
       <workItem from="1623650751083" duration="192000" />
-      <workItem from="1623651051964" duration="20276000" />
+      <workItem from="1623651051964" duration="21077000" />
+      <workItem from="1623687379425" duration="820000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -383,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623672192141</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="product section completed">
+      <created>1623680169772</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1623680169773</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +415,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit page complete" />
     <MESSAGE value="change some error displaying techs in registration from and add availability check before register a new user for existing records" />
     <MESSAGE value="add profile name and profile image to edit page" />
     <MESSAGE value="adding profile picture to edit page" />
@@ -439,7 +439,8 @@
     <MESSAGE value="about page basic structure" />
     <MESSAGE value="service section complete" />
     <MESSAGE value="about section completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="about section completed" />
+    <MESSAGE value="product section completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="product section completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

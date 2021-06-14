@@ -112,64 +112,61 @@ $page_title = 'Crop Foundation';
 </section>
 
 <section class="comp_status bottom_gap">
-    <ul class="status_list valign section_wrapper">
-        <li class="stat">
-            <ul class="stat_cont">
-                <li class="stat_year">0000</li>
-                <li class="stat_title">text</li>
-                <li class="stat_content">
-                    <p>details</p>
-                </li>
-            </ul>
-        </li>
-        <li class="stat">
-            <ul class="stat_cont">
-                <li class="stat_year">0000</li>
-                <li class="stat_title">text</li>
-                <li class="stat_content">
-                    <p>details</p>
-                </li>
-            </ul>
-        </li>
-        <li class="stat">
-            <ul class="stat_cont">
-                <li class="stat_year">0000</li>
-                <li class="stat_title">text</li>
-                <li class="stat_content">
-                    <p>details</p>
-                </li>
-            </ul>
-        </li>
-    </ul>
-    <ul class="status_list valign section_wrapper">
-        <li class="stat">
-            <ul class="stat_cont">
-                <li class="stat_year">0000</li>
-                <li class="stat_title">text</li>
-                <li class="stat_content">
-                    <p>details</p>
-                </li>
-            </ul>
-        </li>
-        <li class="stat">
-            <ul class="stat_cont">
-                <li class="stat_year">0000</li>
-                <li class="stat_title">text</li>
-                <li class="stat_content">
-                    <p>details</p>
-                </li>
-            </ul>
-        </li>
-        <li class="stat">
-            <ul class="stat_cont">
-                <li class="stat_year">0000</li>
-                <li class="stat_title">text</li>
-                <li class="stat_content">
-                    <p>details</p>
-                </li>
-            </ul>
-        </li>
-    </ul>
+    <div class="product-gallery container valign">
+        <ul class="status_list section_wrapper">
+            <li class="stat ">
+                <ul class="stat_cont">
+                    <li class="stat_year"><h3>Our Products</h3></li>
+                    <li class="stat_title"><p>Appetizing luscious savor hot senses.
+                            Effervescent the secure special. Kids spicey chance</p></li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/frutes.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Oranges</li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/green_apple.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Green Apples</li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/tea.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Tea</li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="status_list section_wrapper">
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/cabage.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Lettuce</li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/carrots.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Carrot</li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/potato.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Potato</li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/tomato.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Tomato</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </section>
 
 <section class="tiny_store bottom_gap">

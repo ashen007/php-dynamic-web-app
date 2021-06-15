@@ -75,6 +75,9 @@ create table crop_foundation.comments
     primary key (comment_id)
 );
 
+alter table crop_foundation.comments
+    add column email varchar(255) not null;
+
 # create special user client for mysql server to
 # handle web app connections
 # to execute this section you need admin privileges

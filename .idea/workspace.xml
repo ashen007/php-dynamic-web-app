@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/events.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/members.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WT_final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WT_final.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/insert.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +75,7 @@
     <MESSAGE value="populate headline table with dummy data" />
     <MESSAGE value="add image column to product price table (long blob)" />
     <MESSAGE value="create event page content table" />
-    <option name="LAST_COMMIT_MESSAGE" value="create event page content table" />
+    <MESSAGE value="add data to events table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add data to events table" />
   </component>
 </project>

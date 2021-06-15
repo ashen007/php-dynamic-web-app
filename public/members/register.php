@@ -43,7 +43,7 @@ if (request_is_post()) {
 
         <div class="login valign">
             <h2>Enter The Club</h2>
-            <form action="<?php echo url_for('/members/register.php') ?>" method="post">
+            <form action="<?php echo url_for('/members/register.php') ?>" method="post" target="_blank">
                 <dl>
                     <dt>First name</dt>
                     <dd><input type="text" name="first_name" value=""/></dd>

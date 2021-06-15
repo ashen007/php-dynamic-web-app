@@ -116,5 +116,5 @@ if (request_is_post()) {
 
 <?php
 // call footer hook
-include(SHARED_PATH . '/members_footer.php');
+include(SHARED_PATH . '/profile_footer.php');
 ?>

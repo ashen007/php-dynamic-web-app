@@ -295,17 +295,20 @@ $event_dtl = get_top_events()
     </ul>
 </section>
 
-<section class="events_gal bottom_gap">
-    <div class="event_gal_wrapper valign section_wrapper">
+<section class="events_gal">
+    <div class="event_gal_wrapper section_wrapper" style="width: 100%">
         <ul class="event_gal_list">
-            <?php while ($head = mysqli_fetch_assoc($event_dtl)) { ?>
+            <?php while ($event = mysqli_fetch_assoc($event_dtl)) { ?>
                 <li class="public_events">
                     <div class="event"
-                    style="">
-                        <h4>
-                            <?php echo $head['headline'] ?>
-                        </h4>
+                         style="background-image: url('data:image/jpg;base64,<?php echo base64_encode($event["event_banner"]); ?>');
+                                 height: inherit; background-position: left; background-repeat: no-repeat;
+                                 background-size: cover;">
                     </div>
+                    <a class="event-link"
+                       href="<?php echo url_for('/shared/show.php?page=' . base64_encode(xss('events')) . '&event=' . base64_encode(xss($event['event_id']))); ?>">
+                        <?php echo $event['headline'] ?>
+                    </a>
                 </li>
             <?php } ?>
         </ul>

@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/private/shared/profile_footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shared/show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/WT_landings1.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/members.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/members.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/members/acount/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/acount/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/members/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/members/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/public.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SERVER\htdocs\WT_final\public\shared" />
       <recent name="D:\SERVER\htdocs\WT_final\public" />
       <recent name="D:\SERVER\htdocs" />
       <recent name="C:\xampp\htdocs\WT_final\database" />
@@ -196,8 +203,7 @@
       <workItem from="1620985048967" duration="134000" />
       <workItem from="1623650751083" duration="192000" />
       <workItem from="1623651051964" duration="21077000" />
-      <workItem from="1623687379425" duration="2132000" />
-      <workItem from="1623729666543" duration="4376000" />
+      <workItem from="1623687379425" duration="820000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -388,35 +394,7 @@
       <option name="project" value="LOCAL" />
       <updated>1623680169773</updated>
     </task>
-    <task id="LOCAL-00040" summary="member footer removed, login page link add to public navigation..">
-      <created>1623688262285</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1623688262285</updated>
-    </task>
-    <task id="LOCAL-00041" summary="member header removed">
-      <created>1623688283062</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1623688283062</updated>
-    </task>
-    <task id="LOCAL-00042" summary="member page removed.. un-needed thing">
-      <created>1623688376338</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1623688376338</updated>
-    </task>
-    <task id="LOCAL-00043" summary="remove subject directory - useless">
-      <created>1623733640332</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1623733640332</updated>
-    </task>
-    <option name="localTasksCounter" value="44" />
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,6 +425,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="change some error displaying techs in registration from and add availability check before register a new user for existing records" />
+    <MESSAGE value="add profile name and profile image to edit page" />
+    <MESSAGE value="adding profile picture to edit page" />
+    <MESSAGE value="create header hook and footer hook for public page" />
     <MESSAGE value="create landing background" />
     <MESSAGE value="create public navigation, add public pages and create landing background" />
     <MESSAGE value="add img,main header, sub header to landing" />
@@ -468,11 +450,7 @@
     <MESSAGE value="service section complete" />
     <MESSAGE value="about section completed" />
     <MESSAGE value="product section completed" />
-    <MESSAGE value="member footer removed, login page link add to public navigation.." />
-    <MESSAGE value="member header removed" />
-    <MESSAGE value="member page removed.. un-needed thing" />
-    <MESSAGE value="remove subject directory - useless" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove subject directory - useless" />
+    <option name="LAST_COMMIT_MESSAGE" value="product section completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

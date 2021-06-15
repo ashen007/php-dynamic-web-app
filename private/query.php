@@ -95,7 +95,7 @@ function get_top_events()
 {
     global $db;
 
-    $sql = 'select event_id, headline,event_banner from events ';
+    $sql = 'select event_id, headline,event_banner,DATE(event_date) as event_date from events ';
     $sql .= 'order by event_date desc limit 4;';
     $result = mysqli_query($db, $sql);
     confirm_result($result);

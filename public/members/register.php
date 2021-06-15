@@ -36,14 +36,14 @@ if (request_is_post()) {
     <div class="bg_image" style="background-image: url('<?php echo url_for('/images/reg.jpg') ?>')"></div>
     <div id="form">
         <div id="toback">
-            <a class="back" href="<?php echo url_for('/members/index.php') ?>">
+            <a class="back" href="<?php echo url_for('/index.php') ?>">
                 <i class="far fa-times-circle"></i>
             </a>
         </div>
 
         <div class="login valign">
             <h2>Enter The Club</h2>
-            <form action="<?php echo url_for('/members/register.php') ?>" method="post">
+            <form action="<?php echo url_for('/members/register.php') ?>" method="post" target="_blank">
                 <dl>
                     <dt>First name</dt>
                     <dd><input type="text" name="first_name" value=""/></dd>

@@ -6,11 +6,14 @@ function validate_form($formdata)
     $errors = [];
 
 //    firstname and lastname
-    if (is_blank($formdata['first_name'])) {
+    if (isset($formdata['first_name']) && is_blank($formdata['first_name'])) {
         $errors['firstname_error'] = 'first name cannot be empty';
     }
-    if (is_blank($formdata['last_name'])) {
+    if (isset($formdata['last_name']) && is_blank($formdata['last_name'])) {
         $errors['lastname_error'] = 'last name cannot be empty';
+    }
+    if (isset($formdata['name_of_user']) && is_blank($formdata['name_of_user'])) {
+        $errors['name_error'] = 'name cannot be empty';
     }
 
 //  check email structure
@@ -19,53 +22,58 @@ function validate_form($formdata)
     }
 
 //    date of birth
-    $date = (int)$formdata['date'];
-    $month = (int)$formdata['month'];
-    $year = (int)$formdata['year'];
-    if ($date < 1 || $date > 31) {
-        $errors['date_error'] = 'wrong date';
-    }
-    if ($month < 1 || $month > 12) {
-        $errors['month_error'] = 'wrong month';
-    }
-    if ($year < 1000 || $year > 9999) {
-        $errors['year_error'] = 'wrong year';
+    if (isset($formdata['date']) && isset($formdata['month']) && isset($formdata['year'])) {
+        $date = (int)$formdata['date'];
+        $month = (int)$formdata['month'];
+        $year = (int)$formdata['year'];
+        if ($date < 1 || $date > 31) {
+            $errors['date_error'] = 'wrong date';
+        }
+        if ($month < 1 || $month > 12) {
+            $errors['month_error'] = 'wrong month';
+        }
+        if ($year < 1000 || $year > 9999) {
+            $errors['year_error'] = 'wrong year';
+        }
     }
 
 //    username
     $options = ['min' => 6, 'max' => 255];
-    if (is_blank($formdata['username'])) {
-        $errors['username_error'] = 'username cannot be empty';
-    } elseif (!has_length($formdata['username'], $options)) {
-        $errors['username_error'] = 'username need more than 6 characters';
-    }
-
-    if (!is_blank($formdata['username']) && !is_blank($formdata['email'])){
-        $check_un = "select * from members ";
-        $check_un .= "where username = '" . db_escape($db, $formdata['username']) . "'; ";
-        $check_email = "select * from members ";
-        $check_email .= "where email = '" . db_escape($db, $formdata['email']) . "'; ";
-
-        $result_un = mysqli_query($db,$check_un);
-        $result_email = mysqli_query($db,$check_email);
-        $un = mysqli_fetch_assoc($result_un);
-        $email = mysqli_fetch_assoc($result_email);
-        mysqli_free_result($result_un);
-        mysqli_free_result($result_email);
-
-        if (!empty($un)){
-            $errors['username_error'] = 'this username already taken';
+    if (isset($formdata['username'])) {
+        if (is_blank($formdata['username'])) {
+            $errors['username_error'] = 'username cannot be empty';
+        } elseif (!has_length($formdata['username'], $options)) {
+            $errors['username_error'] = 'username need more than 6 characters';
         }
-        if (!empty($email)){
-            $errors['email_error'] = 'acount registered under this email';
+
+        if (!is_blank($formdata['username']) && !is_blank($formdata['email'])) {
+            $check_un = "select * from members ";
+            $check_un .= "where username = '" . db_escape($db, $formdata['username']) . "'; ";
+            $check_email = "select * from members ";
+            $check_email .= "where email = '" . db_escape($db, $formdata['email']) . "'; ";
+
+            $result_un = mysqli_query($db, $check_un);
+            $result_email = mysqli_query($db, $check_email);
+            $un = mysqli_fetch_assoc($result_un);
+            $email = mysqli_fetch_assoc($result_email);
+            mysqli_free_result($result_un);
+            mysqli_free_result($result_email);
+
+            if (!empty($un)) {
+                $errors['username_error'] = 'this username already taken';
+            }
+            if (!empty($email)) {
+                $errors['email_error'] = 'acount registered under this email';
+            }
         }
     }
 
 //    password
-    if (is_blank($formdata['password'])) {
-        $errors['password_error'] = 'password cannot be empty';
+    if (isset($formdata['password'])) {
+        if (is_blank($formdata['password'])) {
+            $errors['password_error'] = 'password cannot be empty';
+        }
     }
-
     return $errors;
 }
 
@@ -91,12 +99,50 @@ function get_top_headlines()
     return $result;
 }
 
-function check_availability($data){
+function get_top_events()
+{
+    global $db;
+
+    $sql = 'select event_id, headline,event_banner,DATE(event_date) as event_date from events ';
+    $sql .= 'order by event_date desc limit 4;';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
+function check_availability($data)
+{
 //    check username and email availability
     global $db;
     global $errors;
 
 
+}
+
+function add_comment($data)
+{
+    global $db;
+    $errors = validate_form($data);
+
+    if (!empty($errors)) {
+        return $errors;
+    }
+
+    $sql = "insert into comments ";
+    $sql .= "(name,email,comment) ";
+    $sql .= "values (";
+    $sql .= "'" . db_escape($db, $data['name_of_user']) . "',";
+    $sql .= "'" . db_escape($db, $data['email']) . "',";
+    $sql .= "'" . db_escape($db, $data['comment']) . "');";
+
+    $result = mysqli_query($db, $sql);
+
+    if ($result) {
+        return true;
+    } else {
+        db_close($db);
+        exit('');
+    }
 }
 
 function register_member($data)

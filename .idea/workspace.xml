@@ -5,13 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/Agricultural-Heritage-scaled.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/Biopesticide-Summit-May-2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/TA-Conference-Sustainable-Manufacturing-in-Africa-23-March-2021.v1-1024x474.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/dozynki_polish_harvest_fest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/eng-farming-conf-2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/future-of-british-farming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/innov-preception-2017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/lincolnshire-agri-con-2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/perception-agri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/rhs_london_harvest_fest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/smart-agri-2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/south-eng-farmind-conf-2021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/spring-conf-2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/strawbalewineryharvestfest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/walse-new-food.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/world-trendsin-agri-london-summit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/fe8f81120512813.60b36e22d2ec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/contacts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/public_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/public.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="public" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,10 +80,12 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SERVER\htdocs\WT_final\public\shared" />
       <recent name="D:\SERVER\htdocs\WT_final\public" />
       <recent name="D:\SERVER\htdocs" />
       <recent name="C:\xampp\htdocs\WT_final\database" />
@@ -185,6 +204,18 @@
       <workItem from="1618294386684" duration="633000" />
       <workItem from="1618296229603" duration="6236000" />
       <workItem from="1618326587572" duration="12144000" />
+      <workItem from="1619248140531" duration="592000" />
+      <workItem from="1619493457924" duration="521000" />
+      <workItem from="1619505056384" duration="113000" />
+      <workItem from="1619505518636" duration="657000" />
+      <workItem from="1619506620449" duration="614000" />
+      <workItem from="1620823274042" duration="23000" />
+      <workItem from="1620882805845" duration="76000" />
+      <workItem from="1620978520863" duration="229000" />
+      <workItem from="1620985048967" duration="134000" />
+      <workItem from="1623650751083" duration="192000" />
+      <workItem from="1623651051964" duration="21077000" />
+      <workItem from="1623687379425" duration="820000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -326,7 +357,56 @@
       <option name="project" value="LOCAL" />
       <updated>1618367275384</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="events landing">
+      <created>1618373404773</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1618373404773</updated>
+    </task>
+    <task id="LOCAL-00034" summary="event gallery structure added">
+      <created>1618374892490</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1618374892490</updated>
+    </task>
+    <task id="LOCAL-00035" summary="blog showcase structure created">
+      <created>1618375503512</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1618375503512</updated>
+    </task>
+    <task id="LOCAL-00036" summary="about page basic structure">
+      <created>1618377578546</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1618377578546</updated>
+    </task>
+    <task id="LOCAL-00037" summary="service section complete">
+      <created>1623658956576</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1623658956576</updated>
+    </task>
+    <task id="LOCAL-00038" summary="about section completed">
+      <created>1623672192141</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1623672192141</updated>
+    </task>
+    <task id="LOCAL-00039" summary="product section completed">
+      <created>1623680169772</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1623680169773</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +423,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="public" />
+                        <option value="public_pages" />
                       </list>
                     </value>
                   </entry>
@@ -357,13 +437,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add firstname and lastname error checker. if first name or last name empty it return error msg to form" />
-    <MESSAGE value="add validations for email,date of birth,username and password" />
-    <MESSAGE value="change form processing from duel to single page" />
-    <MESSAGE value="add error msg display mechanism to forms" />
-    <MESSAGE value="add error msg's css properties" />
-    <MESSAGE value="use custom function to prevent sqli" />
-    <MESSAGE value="edit page complete" />
     <MESSAGE value="change some error displaying techs in registration from and add availability check before register a new user for existing records" />
     <MESSAGE value="add profile name and profile image to edit page" />
     <MESSAGE value="adding profile picture to edit page" />
@@ -382,7 +455,14 @@
     <MESSAGE value="re-organize css class" />
     <MESSAGE value="add recent event gallery structure" />
     <MESSAGE value="add query form structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add query form structure" />
+    <MESSAGE value="events landing" />
+    <MESSAGE value="event gallery structure added" />
+    <MESSAGE value="blog showcase structure created" />
+    <MESSAGE value="about page basic structure" />
+    <MESSAGE value="service section complete" />
+    <MESSAGE value="about section completed" />
+    <MESSAGE value="product section completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="product section completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

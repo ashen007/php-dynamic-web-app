@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/events.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/members.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WT_final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WT_final.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/insert.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,8 @@
     <property name="DBE.Init.BalloonShown" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/events.sql" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -72,6 +79,7 @@
     <MESSAGE value="add headlines table" />
     <MESSAGE value="populate headline table with dummy data" />
     <MESSAGE value="add image column to product price table (long blob)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add image column to product price table (long blob)" />
+    <MESSAGE value="create event page content table" />
+    <option name="LAST_COMMIT_MESSAGE" value="create event page content table" />
   </component>
 </project>

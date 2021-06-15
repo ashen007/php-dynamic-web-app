@@ -59,12 +59,10 @@ create table crop_foundation.events(
     event_date datetime not null ,
     headline text not null ,
     content longtext not null,
-    event_banner blob not null ,
+    event_banner longblob not null ,
 
     primary key (event_id)
 );
-
-
 
 # create special user client for mysql server to
 # handle web app connections

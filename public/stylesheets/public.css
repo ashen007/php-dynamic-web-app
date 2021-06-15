@@ -138,94 +138,106 @@ ul.cliper :last-child {
     font-family: 'Hind Siliguri', sans-serif;
 }
 
-section.services {
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-section.services div ul {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-}
-
-li.serv_card {
-    width: 100%;
-    padding: 16px 0px;
-    margin: 0px 16px;
-    min-height: 60vh;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 10px;
-}
-
-li.serv_card_header {
-    width: 20%;
-    text-align: left;
-    font-size: 2.5rem;
-}
-
-li.serv_card_inner, li.serv_card_content {
-    padding: 0px 24px;
-    margin: 12px;
-}
-
-li.serv_card_content {
-    width: 80%;
-    text-align: left;
+.serv_card_header {
+    text-align: center;
+    font-size: 46px;
+    padding: 32px 0;
 }
 
 .serv_card_inner {
-    min-width: 58%;
+    height: fit-content;
+}
+
+.serv-cover {
+    display: flex;
+    justify-content: center;
+    padding-top: 56px;
+}
+
+.cow-img {
+    width: 56%;
+    float: left;
+}
+
+.serv_card_content {
+    width: 30%;
+    float: left;
+}
+
+.serv_card_content h4 {
+    font-size: 23px;
+    font-weight: lighter;
+    padding: 0 52px;
+    color: #91BB57;
 }
 
 .serv_card_content p {
     text-align: justify;
+    padding: 0 52px;
+    color: #00000096;
 }
 
-li.serv_card_img {
-    margin: 12px 32px;
-    width: 60px;
-    height: 60px;
-}
-
-.serv_card_img img {
-    width: 100%;
-}
-
-section.about {
+.services-list {
     position: relative;
-    height: 60vh;
-    width: 100%;
+    width: 45%;
 }
 
-ul.about_wrapper {
-    display: flex;
-    height: inherit;
-    padding: 0px;
-    margin: 0px;
+.service-img {
+    margin: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-li.about_sections {
-    width: 33.33%;
+.product-gallery {
+    height: fit-content;
+    padding-top: 56px;
 }
 
 section.comp_status {
     position: relative;
     width: 100%;
-    height: 65vh;
+    height: 75vh;
+    background-color: #E9F1EE;
 }
 
 ul.status_list {
     padding: 0px;
-    margin: 0px;
+    margin: 0 auto;
     display: flex;
+    justify-content: center;
+}
+
+.top_layer ul {
+    position: absolute;
+    top: 78%;
+    left: 5%;
+    color: #fff;
+    font-size: 19px;
+}
+
+.stat_year h3 {
+    font-size: 3.5rem;
+    font-weight: lighter;
 }
 
 li.stat {
+    position: relative;
     width: 20%;
+    height: 308px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li.top_layer::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(10, 65, 62, 0.27);
 }
 
 section.tiny_store {
@@ -274,7 +286,7 @@ ul.review {
 section.events_gal.bottom_gap {
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: fit-content;
 }
 
 ul.event_gal_list {
@@ -282,8 +294,9 @@ ul.event_gal_list {
 }
 
 li.public_events {
+    position: relative;
     width: 25%;
-    height: fit-content;
+    height: 30vh;
 }
 
 section.queries.bottom_gap {
@@ -292,3 +305,52 @@ section.queries.bottom_gap {
     height: 65vh;
 }
 
+section.landing_bg {
+    height: 65vh;
+    width: 100%;
+    position: relative;
+}
+
+.event_land_img {
+    width: inherit;
+    height: inherit;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.event {
+    position: relative;
+}
+
+.event::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0 0 0 / 62%);
+}
+
+.event-link {
+    position: absolute;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 20px;
+    top: 80%;
+    left: 8%;
+}
+
+ul.landing_header {
+    left: 9%;
+}
+
+ul.event_gal_cards {
+    display: flex;
+}
+
+li.event_gal_col {
+    width: 30%;
+    padding: 0px 46px;
+}

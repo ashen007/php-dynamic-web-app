@@ -4,6 +4,7 @@
 <!--page title-->
 <?php
 $page_title = 'Crop Foundation';
+$event_dtl = get_top_events()
 ?>
 
 <!--call header hook-->
@@ -25,24 +26,6 @@ $page_title = 'Crop Foundation';
                     <div><h1>crop foundation</h1></div>
                 </div>
                 <div class="public_sub_header valign">
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #5f5b5b">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #76A793">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
-                    <h2 style="color: #F2AB01">community of modern farmers</h2>
                 </div>
             </div>
             <div class="land_img">
@@ -52,113 +35,139 @@ $page_title = 'Crop Foundation';
     </div>
 </section>
 
-<section class="services top_gap bottom_gap"
-         style="background-image: url('<?php echo url_for('/images/services.jpg') ?>')">
+<section class="services top_gap bottom_gap">
     <div class="container">
-        <ul>
-            <li class="serv_card">
-                <ul class="serv_card_inner valign">
-                    <li class="serv_card_header">AgriCom Farm Ecology Products</li>
-                    <li class="serv_card_content"><span style="font-weight: bolder"> Smells racy free announcing than durable zesty smart exotic far feel. Screamin' affordable
-                        secret way absolutely.</span>
-                        <p>Evaluates vast a real proven works discount secure care. Market invigorate a awesome
-                            handcrafted
-                            bigger comes newer recommended lifetime. Odor to yummy high racy bonus soaking
-                            mouthwatering.
-                            First superior full-bodied drink. Like outstanding odor economical deal clinically.
-                        </p>
-                        <ul class="services_list">
-                            <li class="serv_card_img">
-                                <img src="<?php echo url_for('/images/ico_1-77x77.png'); ?>" alt="services">
-                            </li>
-                            <li class="serv_card_img">
-                                <img src="<?php echo url_for('/images/ico_2-77x77.png'); ?>" alt="services">
-                            </li>
-                            <li class="serv_card_img" style="width: 77px; height: 60px">
-                                <img src="<?php echo url_for('/images/ico_3-90x77.png'); ?>" alt="services">
-                            </li>
-                            <li class="serv_card_img" style="width: 77px; height: 60px">
-                                <img src="<?php echo url_for('/images/ico_4-90x77.png'); ?>" alt="services">
-                            </li>
-                            <li class="serv_card_img">
-                                <img src="<?php echo url_for('/images/ico_5-77x77.png'); ?>" alt="services">
-                            </li>
-                            <li class="serv_card_img">
-                                <img src="<?php echo url_for('/images/ico_1-77x77.png'); ?>" alt="services">
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <div class="serv_card_inner">
+            <div class="serv_card_header">Crop Foundation<br> Farm Ecology Products</div>
+            <div class="serv-cover">
+                <div class="cow-img">
+                    <img src="<?php echo url_for('/images/79cb8a70129685.5b990b414065d.jpg') ?>" alt="landing image">
+                </div>
+                <div class="serv_card_content">
+                    <h4> Smells racy free announcing than durable zesty smart exotic
+                        far feel. Screamin' affordable secret way absolutely.</h4>
+                    <p>Evaluates vast a real proven works discount secure care. Market invigorate a awesome
+                        handcrafted bigger comes newer recommended lifetime. Odor to yummy high racy bonus soaking
+                        mouthwatering. First superior full-bodied drink. Like outstanding odor economical deal
+                        clinically.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
 <section class="about top_gap bottom_gap">
-    <ul class="about_wrapper valign section_wrapper">
-        <li class="about_sections">
-            <ul class="about_header">
-                <li>text</li>
-                <li>link to about page</li>
-            </ul>
-        </li>
-        <li class="about_sections">
-            <span>image</span>
-        </li>
-        <li class="about_sections">
-            <p class="about_content">text</p>
-        </li>
-    </ul>
+    <div class="container">
+        <div class="serv_card_inner">
+            <div class="serv_card_header">The Largest Crop Ever</div>
+            <div class="serv-cover">
+                <div class="serv_card_content">
+                    <h4> Smells racy free announcing than durable zesty smart exotic far feel.
+                        Screamin' affordable secret way absolutely.</h4>
+                    <p>Stimulates vast a real proven works discount secure care. Market invigorate a awesome handcrafted
+                        bigger comes newer recommended lifetime.<br><br>
+                        Stimulates vast a real proven works discount secure care. Market invigorate a awesome
+                        handcrafted bigger comes newer recommended lifetime. Evulates vast a real proven works discount
+                        secure care. Market invigorate a awesome handcrafted bigger comes newer recommended lifetime.
+                        Odor to yummy high racy bonus soaking mouthwatering. First superior
+                    </p>
+                </div>
+                <div class="services-list">
+                    <div class="valign" style="display: flex;">
+                        <div style="height: fit-content; width: fit-content; text-align: center">
+                            <div class="service-img"
+                                 style="background-image: url('<?php echo url_for('/images/ico_1-77x77.png') ?>');
+                                         width:90px; height:90px;"></div>
+                            <label>Agriculture<br>Products</label>
+                        </div>
+                        <div style="height: fit-content; width: fit-content; text-align: center">
+                            <div class="service-img"
+                                 style="background-image: url('<?php echo url_for('/images/ico_2-77x77.png') ?>');
+                                         width:90px; height:90px;"></div>
+                            <label>Fresh<br>Vegatables</label>
+                        </div>
+                        <div style="height: fit-content; width: fit-content; text-align: center">
+                            <div class="service-img"
+                                 style="background-image: url('<?php echo url_for('/images/ico_3-90x77.png') ?>');
+                                         width:90px; height:90px;"></div>
+                            <label>Different<br>Livestock</label>
+                        </div>
+                        <div style="height: fit-content; width: fit-content; text-align: center">
+                            <div class="service-img"
+                                 style="background-image: url('<?php echo url_for('/images/ico_4-90x77.png') ?>');
+                                         width:90px; height:90px;"></div>
+                            <label>Modern<br>Technique</label>
+                        </div>
+                        <div style="height: fit-content; width: fit-content; text-align: center">
+                            <div class="service-img"
+                                 style="background-image: url('<?php echo url_for('/images/ico_5-77x77.png') ?>');
+                                         width:90px; height:90px;"></div>
+                            <label>Farm<br>Factory</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="comp_status bottom_gap">
-    <ul class="status_list valign section_wrapper">
-        <li class="stat">
-            <ul class="stat_cont">
-                <li class="stat_year">0000</li>
-                <li class="stat_title">text</li>
-                <li class="stat_content">
-                    <p>details</p>
-                </li>
-            </ul>
-        </li>
-        <li class="stat">
-            <ul class="stat_cont">
-                <li class="stat_year">0000</li>
-                <li class="stat_title">text</li>
-                <li class="stat_content">
-                    <p>details</p>
-                </li>
-            </ul>
-        </li>
-        <li class="stat">
-            <ul class="stat_cont">
-                <li class="stat_year">0000</li>
-                <li class="stat_title">text</li>
-                <li class="stat_content">
-                    <p>details</p>
-                </li>
-            </ul>
-        </li>
-        <li class="stat">
-            <ul class="stat_cont">
-                <li class="stat_year">0000</li>
-                <li class="stat_title">text</li>
-                <li class="stat_content">
-                    <p>details</p>
-                </li>
-            </ul>
-        </li>
-        <li class="stat">
-            <ul class="stat_cont">
-                <li class="stat_year">0000</li>
-                <li class="stat_title">text</li>
-                <li class="stat_content">
-                    <p>details</p>
-                </li>
-            </ul>
-        </li>
-    </ul>
+    <div class="product-gallery container valign">
+        <ul class="status_list section_wrapper">
+            <li class="stat ">
+                <ul class="stat_cont">
+                    <li class="stat_year"><h3>Our Products</h3></li>
+                    <li class="stat_title"><p>Appetizing luscious savor hot senses.
+                            Effervescent the secure special. Kids spicey chance</p></li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/frutes.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Oranges</li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/green_apple.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Green Apples</li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/tea.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Tea</li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="status_list section_wrapper">
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/cabage.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Lettuce</li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/carrots.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Carrot</li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/potato.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Potato</li>
+                </ul>
+            </li>
+            <li class="stat top_layer"
+                style="background-image: url('<?php echo url_for('/images/products/tomato.jpg') ?>');">
+                <ul class="stat_cont">
+                    <li class="stat_title">Tomato</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </section>
 
 <section class="tiny_store bottom_gap">
@@ -286,37 +295,22 @@ $page_title = 'Crop Foundation';
     </ul>
 </section>
 
-<section class="testimonial bottom_gap">
-    <div class="test_wrapper valign section_wrapper">
-        <ul class="review">
-            <li class="review_header">text</li>
-            <li class="review_subheader">text</li>
-            <li class="review_content">
-                <p>text</p>
-            </li>
-            <li class="review_author">
-                img
-                <span>name</span>
-            </li>
-        </ul>
-    </div>
-</section>
-
-<section class="events_gal bottom_gap">
-    <div class="event_gal_wrapper valign section_wrapper">
+<section class="events_gal">
+    <div class="event_gal_wrapper section_wrapper" style="width: 100%">
         <ul class="event_gal_list">
-            <li class="public_events">
-                <div class="event">event headline image</div>
-            </li>
-            <li class="public_events">
-                <div class="event">event headline image</div>
-            </li>
-            <li class="public_events">
-                <div class="event">event headline image</div>
-            </li>
-            <li class="public_events">
-                <div class="event">event headline image</div>
-            </li>
+            <?php while ($event = mysqli_fetch_assoc($event_dtl)) { ?>
+                <li class="public_events">
+                    <div class="event"
+                         style="background-image: url('data:image/jpg;base64,<?php echo base64_encode($event["event_banner"]); ?>');
+                                 height: inherit; background-position: left; background-repeat: no-repeat;
+                                 background-size: cover;">
+                    </div>
+                    <a class="event-link"
+                       href="<?php echo url_for('/shared/show.php?page=' . base64_encode(xss('events')) . '&event=' . base64_encode(xss($event['event_id']))); ?>">
+                        <?php echo $event['headline'] ?>
+                    </a>
+                </li>
+            <?php } ?>
         </ul>
     </div>
 </section>

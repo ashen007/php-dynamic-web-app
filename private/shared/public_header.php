@@ -35,6 +35,7 @@ if (!isset($page_title)) {
                 <li class="menu_item"><a href="<?php echo url_for('/shop.php'); ?>">shop</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/about.php'); ?>">about</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/contacts.php'); ?>">contact</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/members/login.php'); ?>">Members</a></li>
             </ul>
         </nav>
     </div>

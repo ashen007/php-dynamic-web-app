@@ -107,4 +107,4 @@ $headlines = get_top_headlines();
 </div>
 
 <!--call footer hook-->
-<?php include(SHARED_PATH . '/members_footer.php'); ?>
+<?php include(SHARED_PATH . '/profile_footer.php'); ?>

@@ -4,7 +4,17 @@
 <!--page title-->
 <?php
 $page_title = 'Crop Foundation';
-$event_dtl = get_top_events()
+$event_dtl = get_top_events();
+
+
+if (request_is_post()) {
+    $result = add_comment($_POST);
+
+    if ($result !== true) {
+        $errors = $result;
+    }
+}
+
 ?>
 
 <!--call header hook-->
@@ -315,48 +325,52 @@ $event_dtl = get_top_events()
     </div>
 </section>
 
-<section class="queries bottom_gap">
-    <div class="queries_wrapper valign section_wrapper">
-        <form id="queries" action="#" method="post">
+<section class="queries bottom_gap" style="display: flex">
+    <div class="comment-img"
+         style="width: 50%;
+                 padding: 150px 0;
+                 background-image: url('<?php echo url_for('/images/fe8f81120512813.60b36e22d2ec3.jpg') ?>');
+                 background-position: center;
+                 background-size: cover;"></div>
+    <div class="queries_wrapper section_wrapper"
+         style="width: 50%;
+             padding: 150px 110px;
+             background-color: #000;
+             color: #fff;
+             box-sizing: border-box;">
+        <h2>Get In Touch</h2>
+        <form id="queries" action="<?php echo url_for('/index.php') ?>" method="post">
             <dl>
-                <dt>field name</dt>
+                <dt>Name</dt>
                 <dd>
-                    <input type="text" value="" placeholder="enter your details">
+                    <input type="text" value="" name="name_of_user" style="color: #fff;">
+                </dd>
+                <?php
+                if (isset($errors['name_error'])) {
+                    echo "<span class=\"error\">{$errors['name_error']}</span>";
+                }
+                ?>
+            </dl>
+            <dl>
+                <dt>Email</dt>
+                <dd>
+                    <input type="email" value="" name="email" style="color: #fff;">
+                </dd>
+                <?php
+                if (isset($errors['email_error'])) {
+                    echo "<span class=\"error\">{$errors['email_error']}</span>";
+                }
+                ?>
+            </dl>
+            <dl>
+                <dt>Comment</dt>
+                <dd>
+                    <textarea rows="10" cols="50" name="comment" style="color: #fff;"></textarea>
                 </dd>
             </dl>
             <dl>
-                <dt>field name</dt>
                 <dd>
-                    <input type="text" value="" placeholder="enter your details">
-                </dd>
-            </dl>
-            <dl>
-                <dt>field name</dt>
-                <dd>
-                    <input type="text" value="" placeholder="enter your details">
-                </dd>
-            </dl>
-            <dl>
-                <dt>field name</dt>
-                <dd>
-                    <input type="text" value="" placeholder="enter your details">
-                </dd>
-            </dl>
-            <dl>
-                <dt>field name</dt>
-                <dd>
-                    <input type="text" value="" placeholder="enter your details">
-                </dd>
-            </dl>
-            <dl>
-                <dt>field name</dt>
-                <dd>
-                    <input type="text" value="" placeholder="enter your details">
-                </dd>
-            </dl>
-            <dl>
-                <dd>
-                    <input type="submit" value="submit">
+                    <input style="background-color: #DFA58D" type="submit" value="submit">
                 </dd>
             </dl>
         </form>

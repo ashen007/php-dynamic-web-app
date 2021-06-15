@@ -17,6 +17,7 @@ if (!isset($page_title)) {
     <link rel="shortcut icon" type="image/jpg" href="<?php echo url_for('/images/WT_logo-1.png') ?>"/>
     <link rel="stylesheet" href="<?php echo url_for('/stylesheets/member.css'); ?>">
     <link rel="stylesheet" href="<?php echo url_for('/stylesheets/public.css'); ?>">
+    <link rel="stylesheet" href="<?php echo url_for('/stylesheets/form.css'); ?>">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap"
           rel="stylesheet">

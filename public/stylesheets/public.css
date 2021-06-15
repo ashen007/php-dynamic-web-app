@@ -302,7 +302,7 @@ li.public_events {
 section.queries.bottom_gap {
     position: relative;
     width: 100%;
-    height: 65vh;
+    height: fit-content;
 }
 
 section.landing_bg {

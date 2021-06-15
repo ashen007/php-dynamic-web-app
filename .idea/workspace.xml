@@ -5,17 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/private/shared/profile_footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/shared/show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/Biopesticide-Summit-May-2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/TA-Conference-Sustainable-Manufacturing-in-Africa-23-March-2021.v1-1024x474.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/dozynki_polish_harvest_fest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/eng-farming-conf-2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/future-of-british-farming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/innov-preception-2017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/lincolnshire-agri-con-2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/perception-agri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/rhs_london_harvest_fest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/smart-agri-2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/south-eng-farmind-conf-2021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/spring-conf-2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/strawbalewineryharvestfest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/walse-new-food.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/events/world-trendsin-agri-london-summit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/fe8f81120512813.60b36e22d2ec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/public_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/WT_landings1.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/acount/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/acount/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/form.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/public.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

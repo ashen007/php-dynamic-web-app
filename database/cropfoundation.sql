@@ -54,6 +54,16 @@ create table crop_foundation.price
 alter table crop_foundation.price
     add column prod_img longblob not null;
 
+create table crop_foundation.events(
+    event_id int not null auto_increment,
+    event_date datetime not null ,
+    headline text not null ,
+    content longtext not null,
+    event_banner blob not null ,
+
+    primary key (event_id)
+);
+
 
 
 # create special user client for mysql server to

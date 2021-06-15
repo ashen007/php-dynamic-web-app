@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="create product" />
+    <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/database/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +71,7 @@
     <MESSAGE value="add insert data" />
     <MESSAGE value="add headlines table" />
     <MESSAGE value="populate headline table with dummy data" />
-    <option name="LAST_COMMIT_MESSAGE" value="populate headline table with dummy data" />
+    <MESSAGE value="add image column to product price table (long blob)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image column to product price table (long blob)" />
   </component>
 </project>

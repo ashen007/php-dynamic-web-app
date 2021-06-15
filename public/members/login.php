@@ -24,7 +24,7 @@ if (request_is_post()) {
     <div class="bg_image" style="background-image: url('<?php echo url_for('/images/log_.jpg') ?>')"></div>
     <div id="form">
         <div id="toback">
-            <a class="back" href="<?php echo url_for('/members/index.php') ?>">
+            <a class="back" href="<?php echo url_for('/index.php') ?>">
                 <i class="far fa-times-circle"></i>
             </a>
         </div>

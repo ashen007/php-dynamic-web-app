@@ -294,22 +294,6 @@ $page_title = 'Crop Foundation';
     </ul>
 </section>
 
-<section class="testimonial bottom_gap">
-    <div class="test_wrapper valign section_wrapper">
-        <ul class="review">
-            <li class="review_header">text</li>
-            <li class="review_subheader">text</li>
-            <li class="review_content">
-                <p>text</p>
-            </li>
-            <li class="review_author">
-                img
-                <span>name</span>
-            </li>
-        </ul>
-    </div>
-</section>
-
 <section class="events_gal bottom_gap">
     <div class="event_gal_wrapper valign section_wrapper">
         <ul class="event_gal_list">

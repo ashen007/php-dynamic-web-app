@@ -19,16 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="create product">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
-    </list>
+    <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="create product" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="db" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pw5CBjQEMOPIfJe8VBp3b04vr6" />
@@ -68,55 +70,5 @@
     <MESSAGE value="add headlines table" />
     <MESSAGE value="populate headline table with dummy data" />
     <option name="LAST_COMMIT_MESSAGE" value="populate headline table with dummy data" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616081292864">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616081292864" />
-    <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1623685252406">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1623685252406" />
-    <state x="587" y="93" key="CommitChangelistDialog2" timestamp="1623684591102">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="587" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1623684591102" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1616081410159">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1616081410159" />
-    <state width="1292" height="285" key="GridCell.Tab.0.bottom" timestamp="1617108257932">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617108257932" />
-    <state width="1292" height="285" key="GridCell.Tab.0.center" timestamp="1617108257932">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617108257932" />
-    <state width="1292" height="285" key="GridCell.Tab.0.left" timestamp="1617108257932">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617108257932" />
-    <state width="1292" height="285" key="GridCell.Tab.0.right" timestamp="1617108257932">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1292" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617108257932" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1617088216331">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1617088216331" />
-    <state x="838" y="412" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1617088110292">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="838" y="412" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1050@0.0.1920.1050" timestamp="1617088110292" />
-    <state x="883" y="470" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1616085151910">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="883" y="470" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1920.1050@0.0.1920.1050" timestamp="1616085151910" />
-    <state x="706" y="394" key="data.grid.dml.preview.dialog" timestamp="1616341535236">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="706" y="394" key="data.grid.dml.preview.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616341535236" />
   </component>
 </project>

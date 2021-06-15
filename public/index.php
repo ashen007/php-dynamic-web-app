@@ -4,6 +4,7 @@
 <!--page title-->
 <?php
 $page_title = 'Crop Foundation';
+$event_dtl = get_top_events()
 ?>
 
 <!--call header hook-->
@@ -297,18 +298,16 @@ $page_title = 'Crop Foundation';
 <section class="events_gal bottom_gap">
     <div class="event_gal_wrapper valign section_wrapper">
         <ul class="event_gal_list">
-            <li class="public_events">
-                <div class="event">event headline image</div>
-            </li>
-            <li class="public_events">
-                <div class="event">event headline image</div>
-            </li>
-            <li class="public_events">
-                <div class="event">event headline image</div>
-            </li>
-            <li class="public_events">
-                <div class="event">event headline image</div>
-            </li>
+            <?php while ($head = mysqli_fetch_assoc($event_dtl)) { ?>
+                <li class="public_events">
+                    <div class="event"
+                    style="">
+                        <h4>
+                            <?php echo $head['headline'] ?>
+                        </h4>
+                    </div>
+                </li>
+            <?php } ?>
         </ul>
     </div>
 </section>

@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/database/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/events.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/crop_foundation_events.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/insert_other.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SERVER\htdocs\WT_final\database" />
       <recent name="C:\Users\ashen\DatagripProjects\php-dynamic-web-app\database" />
       <recent name="C:\Users\ashen\DatagripProjects\php-dynamic-web-app\database files" />
     </key>
@@ -78,6 +77,7 @@
     <MESSAGE value="create event page content table" />
     <MESSAGE value="add data to events table" />
     <MESSAGE value="create comments table" />
-    <option name="LAST_COMMIT_MESSAGE" value="create comments table" />
+    <MESSAGE value="add insert files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add insert files" />
   </component>
 </project>

@@ -67,6 +67,13 @@ create table crop_foundation.events
     primary key (event_id)
 );
 
+alter table crop_foundation.events
+    add column location varchar(255) not null;
+
+alter table crop_foundation.events
+    add column cover_by varchar(255) not null;
+
+# create comment table
 create table crop_foundation.comments
 (
     comment_id int          not null auto_increment,
@@ -89,6 +96,8 @@ create table crop_foundation.office
     primary_tel_no   varchar(20)  not null,
     secondary_tel_no varchar(20)  null
 );
+
+
 
 # create special user client for mysql server to
 # handle web app connections

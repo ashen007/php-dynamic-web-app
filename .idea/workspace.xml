@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +45,10 @@
   <component name="PropertiesComponent">
     <property name="DBE.Init.BalloonShown" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunConfigurationTargetLRU" value="37a5728a-4ead-466e-bcac-29f290330279&#10;37a5728a-4ead-466e-bcac-29f290330279/schema/&quot;crop_foundation&quot;" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/events.sql" />
+    <property name="last_opened_file_path" value="D:/SERVER/htdocs/WT_final/database/events.sql" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -53,6 +56,19 @@
       <recent name="C:\Users\ashen\DatagripProjects\php-dynamic-web-app\database" />
       <recent name="C:\Users\ashen\DatagripProjects\php-dynamic-web-app\database files" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="events.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="D:/SERVER/htdocs/WT_final/database/events.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="37a5728a-4ead-466e-bcac-29f290330279" namespace="schema/&quot;crop_foundation&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.events.sql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +94,8 @@
     <MESSAGE value="add data to events table" />
     <MESSAGE value="create comments table" />
     <MESSAGE value="add insert files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add insert files" />
+    <MESSAGE value="add data to office table" />
+    <MESSAGE value="add deatail column to product dtl table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add deatail column to product dtl table" />
   </component>
 </project>

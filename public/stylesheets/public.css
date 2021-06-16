@@ -354,3 +354,37 @@ li.event_gal_col {
     width: 30%;
     padding: 0px 46px;
 }
+
+/*public pages*/
+.event_land_img {
+    position: relative;
+}
+
+.event_land_img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 68, 3, 0.25);
+}
+
+.landing_header .header_content h1 {
+    font-size: 5rem;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+.landing_header .header_content h2 {
+    font-size: 1.8rem;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-weight: 100;
+}

@@ -3,7 +3,7 @@
 
 <!--page title-->
 <?php
-$page_title = 'Crop Foundation';
+$page_title = 'Crop Foundation Blog';
 ?>
 
 <!--call header hook-->
@@ -15,8 +15,8 @@ $page_title = 'Crop Foundation';
     <div class="event_land_img"
          style="background-image: url('<?php echo url_for('/images/precision_agriculture.jpg'); ?>')">
         <ul class="landing_header valign">
-            <li class="header_content">title</li>
-            <li class="header_content">sub title</li>
+            <li class="header_content"><h1>title</h1></li>
+            <li class="header_content"><h2>sub title</h2></li>
             <li class="header_content">
                 <p>moto</p>
             </li>

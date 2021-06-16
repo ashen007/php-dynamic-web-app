@@ -4,6 +4,8 @@
 <!--page title-->
 <?php
 $page_title = 'Events Happening Around You';
+$page_sub = 'All Kind Agricultural Event Happening Around Your Area';
+$moto = 'There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don’t look even slightly believable.';
 ?>
 
 <!--call header hook-->
@@ -14,10 +16,10 @@ $page_title = 'Events Happening Around You';
     <div class="event_land_img"
          style="background-image: url('<?php echo url_for('/images/Agricultural-Heritage-scaled.jpg'); ?>')">
         <ul class="landing_header valign">
-            <li class="header_content"><h1>title</h1></li>
-            <li class="header_content"><h2>sub title</h2></li>
+            <li class="header_content"><h1><?php echo $page_title ?></h1></li>
+            <li class="header_content"><h2><?php echo $page_sub ?></h2></li>
             <li class="header_content">
-                <p>moto</p>
+                <p><?php echo $moto ?></p>
             </li>
         </ul>
     </div>

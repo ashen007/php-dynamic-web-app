@@ -4,6 +4,8 @@
 <!--page title-->
 <?php
 $page_title = 'Crop Foundation Blog';
+$page_sub = 'News & Trends';
+$moto = '';
 ?>
 
 <!--call header hook-->
@@ -15,10 +17,10 @@ $page_title = 'Crop Foundation Blog';
     <div class="event_land_img"
          style="background-image: url('<?php echo url_for('/images/precision_agriculture.jpg'); ?>')">
         <ul class="landing_header valign">
-            <li class="header_content"><h1>title</h1></li>
-            <li class="header_content"><h2>sub title</h2></li>
+            <li class="header_content"><h1><?php echo $page_title ?></h1></li>
+            <li class="header_content"><h2><?php echo $page_sub ?></h2></li>
             <li class="header_content">
-                <p>moto</p>
+                <p><?php echo $moto ?></p>
             </li>
         </ul>
     </div>

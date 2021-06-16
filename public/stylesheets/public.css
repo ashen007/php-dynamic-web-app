@@ -343,7 +343,8 @@ section.landing_bg {
 }
 
 ul.landing_header {
-    left: 9%;
+    left: 5%;
+    transform: unset !important;
 }
 
 ul.event_gal_cards {
@@ -377,6 +378,7 @@ li.event_gal_col {
     margin-top: 15px;
     margin-bottom: 0px;
     color: #ffffff;
+    text-align: left;
 }
 
 .landing_header .header_content h2 {
@@ -387,4 +389,10 @@ li.event_gal_col {
     margin-bottom: 0px;
     color: #ffffff;
     font-weight: 100;
+    text-align: left;
+}
+
+.landing_header .header_content p {
+    color: #ffffff;
+    text-align: left;
 }

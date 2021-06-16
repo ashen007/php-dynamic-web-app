@@ -3,7 +3,9 @@
 
 <!--page title-->
 <?php
-$page_title = 'Farmer Shop';
+$page_title = 'Product Detail Portal';
+$page_sub = 'Have a Question?';
+$moto = '';
 ?>
 
 <!--call header hook-->
@@ -14,10 +16,10 @@ $page_title = 'Farmer Shop';
     <div class="event_land_img"
          style="background-image: url('<?php echo url_for('/images/insideLexington.png'); ?>')">
         <ul class="landing_header valign">
-            <li class="header_content"><h1>title</h1></li>
-            <li class="header_content"><h2>sub title</h2></li>
+            <li class="header_content"><h1><?php echo $page_title ?></h1></li>
+            <li class="header_content"><h2><?php echo $page_sub ?></h2></li>
             <li class="header_content">
-                <p>moto</p>
+                <p><?php echo $moto ?></p>
             </li>
         </ul>
     </div>

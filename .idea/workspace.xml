@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="comment form completed. update form validation rules to match comment form">
-      <change afterPath="$PROJECT_DIR$/public/images/57da42105059643.5f71adf1cb5cf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/insideLexington.png" afterDir="false" />
+    <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/contacts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/product_detail_portal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/public.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="public" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

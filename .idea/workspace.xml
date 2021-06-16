@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/blog.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/blogs/Asian_woman_with_child_in_a_rice_field_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/blogs/blog1-770x428.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/blogs/blog3-1-770x428.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/events.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/events.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +201,7 @@
       <workItem from="1623651051964" duration="21077000" />
       <workItem from="1623687379425" duration="820000" />
       <workItem from="1623811403403" duration="4903000" />
-      <workItem from="1623845608190" duration="11895000" />
+      <workItem from="1623845608190" duration="16849000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -412,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623845427348</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="event page completed.">
+      <created>1623859520817</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1623859520817</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +451,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create header hook and footer hook for public page" />
     <MESSAGE value="create landing background" />
     <MESSAGE value="create public navigation, add public pages and create landing background" />
     <MESSAGE value="add img,main header, sub header to landing" />
@@ -468,7 +475,8 @@
     <MESSAGE value="comment form completed. update form validation rules to match comment form" />
     <MESSAGE value="public static pages header title and sub titles" />
     <MESSAGE value="contact and about pages completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact and about pages completed" />
+    <MESSAGE value="event page completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="event page completed." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

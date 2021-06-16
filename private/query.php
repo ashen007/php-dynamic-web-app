@@ -131,6 +131,17 @@ function get_evets()
     return $result;
 }
 
+function get_blog_posts()
+{
+    global $db;
+
+    $sql = 'select post_id, post_headline, author, content, post_banner, publish_at from blog ';
+    $sql .= 'order by publish_at desc;';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
 function check_availability($data)
 {
 //    check username and email availability

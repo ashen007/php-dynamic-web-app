@@ -5,30 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/events/Biopesticide-Summit-May-2019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/TA-Conference-Sustainable-Manufacturing-in-Africa-23-March-2021.v1-1024x474.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/dozynki_polish_harvest_fest.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/eng-farming-conf-2020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/future-of-british-farming.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/innov-preception-2017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/lincolnshire-agri-con-2019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/perception-agri.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/rhs_london_harvest_fest.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/smart-agri-2019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/south-eng-farmind-conf-2021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/spring-conf-2019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/strawbalewineryharvestfest.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/walse-new-food.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/events/world-trendsin-agri-london-summit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/fe8f81120512813.60b36e22d2ec3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/blog.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/blogs/Asian_woman_with_child_in_a_rice_field_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/blogs/blog1-770x428.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/blogs/blog3-1-770x428.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/public_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="public" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -216,6 +200,8 @@
       <workItem from="1623650751083" duration="192000" />
       <workItem from="1623651051964" duration="21077000" />
       <workItem from="1623687379425" duration="820000" />
+      <workItem from="1623811403403" duration="4903000" />
+      <workItem from="1623845608190" duration="16849000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -406,7 +392,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623680169773</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="comment form completed. update form validation rules to match comment form">
+      <created>1623780369826</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1623780369826</updated>
+    </task>
+    <task id="LOCAL-00041" summary="public static pages header title and sub titles">
+      <created>1623831641214</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1623831641214</updated>
+    </task>
+    <task id="LOCAL-00042" summary="contact and about pages completed">
+      <created>1623845427348</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1623845427348</updated>
+    </task>
+    <task id="LOCAL-00043" summary="event page completed.">
+      <created>1623859520817</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1623859520817</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,10 +451,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change some error displaying techs in registration from and add availability check before register a new user for existing records" />
-    <MESSAGE value="add profile name and profile image to edit page" />
-    <MESSAGE value="adding profile picture to edit page" />
-    <MESSAGE value="create header hook and footer hook for public page" />
     <MESSAGE value="create landing background" />
     <MESSAGE value="create public navigation, add public pages and create landing background" />
     <MESSAGE value="add img,main header, sub header to landing" />
@@ -462,7 +472,11 @@
     <MESSAGE value="service section complete" />
     <MESSAGE value="about section completed" />
     <MESSAGE value="product section completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="product section completed" />
+    <MESSAGE value="comment form completed. update form validation rules to match comment form" />
+    <MESSAGE value="public static pages header title and sub titles" />
+    <MESSAGE value="contact and about pages completed" />
+    <MESSAGE value="event page completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="event page completed." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

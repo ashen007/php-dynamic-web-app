@@ -21,6 +21,7 @@ if (!isset($page_title)) {
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap"
           rel="stylesheet">
+    <script src="https://kit.fontawesome.com/94d8d2468d.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
@@ -33,7 +34,7 @@ if (!isset($page_title)) {
                 <li class="menu_item"><a href="<?php echo url_for('/index.php'); ?>">Home</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/events.php'); ?>">events</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/blog.php'); ?>">blog</a></li>
-                <li class="menu_item"><a href="<?php echo url_for('/shop.php'); ?>">shop</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/product_detail_portal.php'); ?>">shop</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/about.php'); ?>">about</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/contacts.php'); ?>">contact</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/members/login.php'); ?>">Members</a></li>

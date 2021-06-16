@@ -3,7 +3,11 @@
 
 <!--page title-->
 <?php
-$page_title = 'Crop Foundation';
+$page_title = 'Crop Foundation Blog';
+$page_sub = 'News & Trends';
+$moto = '';
+
+$blog_dtl = get_blog_posts()
 ?>
 
 <!--call header hook-->
@@ -15,39 +19,38 @@ $page_title = 'Crop Foundation';
     <div class="event_land_img"
          style="background-image: url('<?php echo url_for('/images/precision_agriculture.jpg'); ?>')">
         <ul class="landing_header valign">
-            <li class="header_content">title</li>
-            <li class="header_content">sub title</li>
+            <li class="header_content"><h1><?php echo $page_title ?></h1></li>
+            <li class="header_content"><h2><?php echo $page_sub ?></h2></li>
             <li class="header_content">
-                <p>moto</p>
+                <p><?php echo $moto ?></p>
             </li>
         </ul>
     </div>
 </section>
 
-<section class="blog_posts bottom_gap">
-    <div class="blog_wrapper container">
-        <ul class="blog_filter"></ul>
-        <ul class="blog_cards">
-            <li class="blog_col">
-                <ul class="blog_row">
-                    <li>card</li>
-                    <li>card</li>
-                </ul>
+<section class="event_gallery bottom_gap">
+    <ul class="event_wrapper container event_gal_cards">
+        <?php while ($blog_post = mysqli_fetch_assoc($blog_dtl)) { ?>
+            <li class="event_gal_col" style="height: 52vh;">
+                <div class="event_gal_wrapper">
+                    <div style="background-image: url('data:image/jpg;base64,<?php echo base64_encode($blog_post["post_banner"]); ?>');
+                            height: inherit; background-position: left; background-repeat: no-repeat;
+                            background-size: cover; height: 225px"></div>
+                    <div>
+                        <a class="event-link" style="position: relative; top: 0; left: 0; color: #000000"
+                           href="<?php echo url_for('/shared/show.php?page=' . base64_encode(xss('blog')) . '&post_id=' . base64_encode(xss($blog_post['post_id']))); ?>">
+                            <?php echo $blog_post['post_headline'] ?>
+                        </a>
+                        <p style="margin-top: 12px; color: #181c18">
+                            <?php echo substr($blog_post['content'], 0, 300) ?></p>
+                        <p style="margin-top: 4px; margin-bottom: 2px; color: #656464">
+                            author <?php echo $blog_post['author'] ?></p>
+                        <p style="margin-top: 2px; margin-bottom: 4px; color: #656464"><?php echo $blog_post['publish_at'] ?></p>
+                    </div>
+                </div>
             </li>
-            <li class="blog_col">
-                <ul class="blog_row">
-                    <li>card</li>
-                    <li>card</li>
-                </ul>
-            </li>
-            <li class="blog_col">
-                <ul class="blog_row">
-                    <li>card</li>
-                    <li>card</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+        <?php } ?>
+    </ul>
 </section>
 
 <!--call footer hook-->

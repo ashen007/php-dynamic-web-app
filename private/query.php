@@ -110,13 +110,43 @@ function get_top_events()
     return $result;
 }
 
+function get_page_content($page)
+{
+    global $db;
+
+    $sql = 'select * from ' . $page . ';';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
+function get_evets()
+{
+    global $db;
+
+    $sql = 'select event_id, headline, location, cover_by, event_banner,DATE(event_date) as event_date from events ';
+    $sql .= 'order by event_date desc;';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
+function get_blog_posts()
+{
+    global $db;
+
+    $sql = 'select post_id, post_headline, author, content, post_banner, publish_at from blog ';
+    $sql .= 'order by publish_at desc;';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
 function check_availability($data)
 {
 //    check username and email availability
     global $db;
     global $errors;
-
-
 }
 
 function add_comment($data)

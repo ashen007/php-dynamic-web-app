@@ -343,14 +343,107 @@ section.landing_bg {
 }
 
 ul.landing_header {
-    left: 9%;
+    left: 5%;
+    transform: unset !important;
 }
 
-ul.event_gal_cards {
+/*public pages*/
+.event_land_img {
+    position: relative;
+}
+
+.event_land_img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 68, 3, 0.25);
+}
+
+.landing_header .header_content h1 {
+    font-size: 5rem;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.landing_header .header_content h2 {
+    font-size: 1.8rem;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-weight: 100;
+    text-align: left;
+}
+
+.landing_header .header_content p {
+    color: #ffffff;
+    text-align: left;
+}
+
+.contact_wrapper, .about_wrapper {
+    width: 81%;
+    margin: 0 auto;
+}
+
+.about_wrapper {
     display: flex;
 }
 
-li.event_gal_col {
-    width: 30%;
-    padding: 0px 46px;
+ul.contact_content_wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+li.contact_content {
+    width: 32%;
+}
+
+ul.about_content_wrapper {
+    width: 50%;
+    text-align: justify;
+}
+
+.org-logo {
+    width: 50%;
+    text-align: center;
+}
+
+.org-logo img {
+    width: 50vh;
+    height: 50vh;
+    margin: 0 0 0 64px;
+}
+
+
+.event_gal_cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event_gal_col {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    height: 42vh;
+    padding: 0px 18px;
+    box-sizing: border-box;
+}
+
+.event_gal_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+i.fas.fa-map-marker-alt {
+    margin-right: 6px;
 }

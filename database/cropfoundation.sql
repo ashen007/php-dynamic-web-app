@@ -40,7 +40,7 @@ alter table crop_foundation.members
     change column pp pp longblob null;
 
 # create product detail table
-create table crop_foundation.price
+create table crop_foundation.product_dtl
 (
     id       int          not null auto_increment,
     category varchar(255) not null,
@@ -51,8 +51,10 @@ create table crop_foundation.price
     primary key (id)
 );
 
-alter table crop_foundation.price
+alter table crop_foundation.product_dtl
     add column prod_img longblob not null;
+alter table crop_foundation.product_dtl
+    add column details text not null;
 
 create table crop_foundation.events
 (

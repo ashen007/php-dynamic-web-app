@@ -78,6 +78,16 @@ create table crop_foundation.comments
 alter table crop_foundation.comments
     add column email varchar(255) not null;
 
+create table crop_foundation.office
+(
+    office_id        int auto_increment
+        primary key,
+    city             varchar(255) not null,
+    address          mediumtext   not null,
+    primary_tel_no   varchar(20)  not null,
+    secondary_tel_no varchar(20)  null
+);
+
 # create special user client for mysql server to
 # handle web app connections
 # to execute this section you need admin privileges

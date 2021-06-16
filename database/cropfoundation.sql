@@ -97,7 +97,17 @@ create table crop_foundation.office
     secondary_tel_no varchar(20)  null
 );
 
+# create blog table
+create table crop_foundation.blog(
+    post_id int not null auto_increment,
+    publish_at date not null ,
+    author varchar(255) not null,
+    post_banner longblob null,
+    post_headline mediumtext not null,
+    content longtext not null ,
 
+    primary key (post_id)
+);
 
 # create special user client for mysql server to
 # handle web app connections

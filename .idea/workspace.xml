@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/events.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/insert_other.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/contacts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/product_detail_portal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/public.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -398,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623780369826</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="public static pages header title and sub titles">
+      <created>1623831641214</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1623831641214</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +436,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add profile name and profile image to edit page" />
     <MESSAGE value="adding profile picture to edit page" />
     <MESSAGE value="create header hook and footer hook for public page" />
     <MESSAGE value="create landing background" />
@@ -454,7 +460,8 @@
     <MESSAGE value="about section completed" />
     <MESSAGE value="product section completed" />
     <MESSAGE value="comment form completed. update form validation rules to match comment form" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment form completed. update form validation rules to match comment form" />
+    <MESSAGE value="public static pages header title and sub titles" />
+    <option name="LAST_COMMIT_MESSAGE" value="public static pages header title and sub titles" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

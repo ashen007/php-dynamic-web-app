@@ -110,13 +110,21 @@ function get_top_events()
     return $result;
 }
 
+function get_page_content($page)
+{
+    global $db;
+
+    $sql = 'select * from ' . $page . ';';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
 function check_availability($data)
 {
 //    check username and email availability
     global $db;
     global $errors;
-
-
 }
 
 function add_comment($data)

@@ -396,3 +396,38 @@ li.event_gal_col {
     color: #ffffff;
     text-align: left;
 }
+
+.contact_wrapper, .about_wrapper {
+    width: 81%;
+    margin: 0 auto;
+}
+
+.about_wrapper {
+    display: flex;
+}
+
+ul.contact_content_wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+li.contact_content {
+    width: 32%;
+}
+
+ul.about_content_wrapper {
+    width: 50%;
+    text-align: justify;
+}
+
+.org-logo {
+    width: 50%;
+    text-align: center;
+}
+
+.org-logo img {
+    width: 50vh;
+    height: 50vh;
+    margin: 0 0 0 64px;
+}

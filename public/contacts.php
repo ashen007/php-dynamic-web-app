@@ -6,6 +6,8 @@
 $page_title = 'Connect With Us';
 $page_sub = 'Have a Question?';
 $moto = 'Happen active county. Winding for the morning am shyness evident to poor. Garrets because elderly new to the point.';
+
+$page_data = get_page_content('office')
 ?>
 
 <!--call header hook-->
@@ -28,14 +30,16 @@ $moto = 'Happen active county. Winding for the morning am shyness evident to poo
 <section class="contact_info top_gap bottom_gap">
     <div class="contact_wrapper">
         <ul class="contact_content_wrapper">
-            <li class="contact_content">
-                <div>
-                    <h2>title</h2>
-                    <h4>moto</h4>
-                    <p>text</p>
-                </div>
-            </li>
-            <li class="contact_content">img</li>
+            <?php while ($page = mysqli_fetch_assoc($page_data)) { ?>
+                <li class="contact_content">
+                    <div>
+                        <h2><?php echo $page['city'] ?></h2>
+                        <h4><?php echo $page['address'] ?></h4>
+                        <p><?php echo $page['primary_tel_no'] ?></p>
+                        <p><?php echo $page['secondary_tel_no'] ?></p>
+                    </div>
+                </li>
+            <?php } ?>
         </ul>
     </div>
 </section>

@@ -31,13 +31,30 @@ $moto = 'Beautiful landscapes and the farmers Who bring us our food';
         <ul class="about_content_wrapper">
             <li class="about_content">
                 <div>
-                    <h2>title</h2>
-                    <h4>moto</h4>
-                    <p>text</p>
+                    <h2>We are Agriculture Farm</h2>
+                    <h4>Smells racy free announcing than durable zesty smart exotic far feel. Screamin' affordable
+                        secret way absolutely.</h4>
+                    <p>Stimulates vast a real proven works discount secure care. Market invigorate a awesome handcrafted
+                        bigger comes newer recommended lifetime.<br>
+                        <br>
+                        Evulates vast a real proven works discount secure care. Market invigorate a awesome handcrafted
+                        bigger comes newer recommended lifetime. Odor to yummy high racy bonus soaking mouthwatering.
+                        First superior full-bodied drink. Like outstanding odor economical deal clinically<br>
+                        <br>
+                        Evulates vast a real proven works discount secure care. Market invigorate a awesome handcrafted
+                        bigger comes newer recommended lifetime. Odor to yummy high racy bonus soaking mouthwatering.
+                        First superior<br>
+                        <br>
+                        Delectable absorbent ordinary full-bodied out durable whopping value when. Coming supreme
+                        tropical dual locked-in sharpest effervescent zesty bigger. Opportunity and affordable
+                        clinically. Ordinary whenever appearance first first unlimited compact.
+                    </p>
                 </div>
             </li>
-            <li class="about_content">img</li>
         </ul>
+        <div class="org-logo">
+            <img src="<?php echo url_for('images/WT_logo-1.png'); ?>">
+        </div>
     </div>
 </section>
 

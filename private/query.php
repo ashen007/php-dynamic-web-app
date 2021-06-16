@@ -120,6 +120,17 @@ function get_page_content($page)
     return $result;
 }
 
+function get_evets()
+{
+    global $db;
+
+    $sql = 'select event_id, headline, location, cover_by, event_banner,DATE(event_date) as event_date from events ';
+    $sql .= 'order by event_date desc;';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
 function check_availability($data)
 {
 //    check username and email availability

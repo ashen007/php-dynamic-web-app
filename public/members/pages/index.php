@@ -107,9 +107,59 @@ $headlines = get_top_headlines();
             </section>
         </div>
         <div class="sec_bottom container">
-            <section class="left"></section>
+            <section class="left">
+                <div id="farmer-change" style="width: 100%; height: 460px; margin-top: 24px"></div>
+                <script>
+                    <?php
+                    $data = get_data('agg_change');
+                    $country = array();
+                    $change_by = array();
+
+
+                    while ($x = mysqli_fetch_assoc($data)) {
+                        array_push($country, $x['country']);
+                        array_push($change_by, $x['change_by']);
+                    }
+                    ?>
+                    let country = <?php echo json_encode($country);?>;
+                    let change_by = <?php echo json_encode($change_by);?>;
+                    change_by = change_by.map(Number);
+
+                    var data = [
+                        {
+                            x: country,
+                            y: change_by,
+                            type: 'bar',
+                            marker: {
+                                color: '#D7F205'
+                            }
+                        }
+                    ];
+
+                    CHANGE = document.getElementById('farmer-change');
+                    Plotly.newPlot(CHANGE, data,
+                        {
+                            title: 'Change in income from agriculture activity across the EU',
+                            font: {
+                                color: '#fff'
+                            },
+                            xaxis: {
+                                tickfont: {color: '#fff'},
+                                showgrid: false,
+                                zeroline: false
+                            },
+                            yaxis: {
+                                tickfont: {color: '#fff'},
+                                showgrid: false
+                            },
+                            showlegend: false,
+                            plot_bgcolor: "#000",
+                            paper_bgcolor: "#000",
+                            margin: {t: 30, b: 100, l: 40, r: 25}
+                        });
+                </script>
+            </section>
             <section class="right">
-                <div id="farmer-change" style="width: 100%; height: 440px; margin-top: 24px"></div>
             </section>
         </div>
     </section>

@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/analatic_data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/blog.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/members/pages/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +196,7 @@
       <workItem from="1623687379425" duration="820000" />
       <workItem from="1623811403403" duration="4903000" />
       <workItem from="1623845608190" duration="16849000" />
-      <workItem from="1623894229678" duration="15356000" />
+      <workItem from="1623894229678" duration="16818000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -420,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623859520817</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add area chart for farmer account">
+      <created>1623941917378</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1623941917378</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +453,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create landing background" />
     <MESSAGE value="create public navigation, add public pages and create landing background" />
     <MESSAGE value="add img,main header, sub header to landing" />
     <MESSAGE value="complete landing area" />
@@ -476,7 +477,8 @@
     <MESSAGE value="public static pages header title and sub titles" />
     <MESSAGE value="contact and about pages completed" />
     <MESSAGE value="event page completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="event page completed." />
+    <MESSAGE value="add area chart for farmer account" />
+    <option name="LAST_COMMIT_MESSAGE" value="add area chart for farmer account" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

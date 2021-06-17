@@ -1,5 +1,5 @@
 <!--don't change this path to dynamicly genarate!!!!!-->
-<?php require_once('../private/initialize.php'); ?>
+<?php require_once('private/initialize.php'); ?>
 
 <!--page title-->
 <?php
@@ -18,7 +18,7 @@ if (request_is_post()) {
 ?>
 
 <!--call header hook-->
-<?php include(SHARED_PATH . '/public_header.php'); ?>
+<?php include(SHARED_PATH . '/public_header.php');?>
 
 <section id="public_landing">
     <div class="wrapper container">

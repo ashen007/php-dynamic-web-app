@@ -1,4 +1,4 @@
-<?php require_once('../../../private/initialize.php');
+<?php require_once('../../private/initialize.php');
 
 $id = $_GET['id'];
 $id = base64_decode($id);

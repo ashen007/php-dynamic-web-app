@@ -1,5 +1,5 @@
 <!--don't change this path to dynamicly genarate!!!!!-->
-<?php require_once('../private/initialize.php'); ?>
+<?php require_once('private/initialize.php'); ?>
 
 <!--page title-->
 <?php

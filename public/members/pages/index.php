@@ -125,19 +125,17 @@ $headlines = get_top_headlines();
                     let change_by = <?php echo json_encode($change_by);?>;
                     change_by = change_by.map(Number);
 
-                    var data = [
-                        {
-                            x: country,
-                            y: change_by,
-                            type: 'bar',
-                            marker: {
-                                color: '#D7F205'
-                            }
-                        }
-                    ];
-
                     CHANGE = document.getElementById('farmer-change');
-                    Plotly.newPlot(CHANGE, data,
+                    Plotly.newPlot(CHANGE, [
+                            {
+                                x: country,
+                                y: change_by,
+                                type: 'bar',
+                                marker: {
+                                    color: '#D7F205'
+                                }
+                            }
+                        ],
                         {
                             title: 'Change in income from agriculture activity across the EU',
                             font: {
@@ -160,6 +158,41 @@ $headlines = get_top_headlines();
                 </script>
             </section>
             <section class="right">
+                <div id="farmer-compare" style="width: 95%; height: 470px;
+                margin-top: 30px; margin-left: auto; margin-right: auto;"></div>
+                <script>
+                    COMPARE = document.getElementById('farmer-compare');
+                    Plotly.newPlot(COMPARE, [{
+                        x: income,
+                        y: income_per_awu,
+                        mode: 'markers',
+                        type: 'scatter',
+                        marker: {
+                            color: '#F2A391',
+                            size: 12
+                        }
+                    }], {
+                        title: 'Total income VS. income per AWU',
+                        font: {
+                            color: '#fff'
+                        },
+                        xaxis: {
+                            title: 'Total income',
+                            tickfont: {color: '#fff'},
+                            showgrid: false,
+                            zeroline: false
+                        },
+                        yaxis: {
+                            title: 'Income per AWU',
+                            tickfont: {color: '#fff'},
+                            showgrid: false
+                        },
+                        showlegend: false,
+                        plot_bgcolor: "#000",
+                        paper_bgcolor: "#000",
+                        margin: {t: 30, b: 100, l: 40, r: 25}
+                    });
+                </script>
             </section>
         </div>
     </section>

@@ -98,16 +98,119 @@ create table crop_foundation.office
 );
 
 # create blog table
-create table crop_foundation.blog(
-    post_id int not null auto_increment,
-    publish_at date not null ,
-    author varchar(255) not null,
-    post_banner longblob null,
-    post_headline mediumtext not null,
-    content longtext not null ,
+create table crop_foundation.blog
+(
+    post_id       int          not null auto_increment,
+    publish_at    date         not null,
+    author        varchar(255) not null,
+    post_banner   longblob     null,
+    post_headline mediumtext   not null,
+    content       longtext     not null,
 
     primary key (post_id)
 );
+
+# analytical data tables
+create table crop_foundation.agg_account
+(
+    year         int           not null,
+    total_income double(12, 2) not null,
+    per_AWU      int           not null,
+
+    primary key (year)
+);
+
+create table crop_foundation.agg_change
+(
+    country_id int          not null auto_increment,
+    country    varchar(255) not null,
+    change_by  int default 0,
+
+    primary key (country_id)
+);
+
+create table crop_foundation.agg_productivity_factor
+(
+    year                      int           not null,
+    all_input                 double(12, 2) not null,
+    all_output                double(12, 2) not null,
+    total_productivity        double(12, 2) not null,
+    prod_by_intermidete_consu double(12, 2) not null,
+    prod_by_capital_consu     double(12, 2) not null,
+    prod_by_labor             double(12, 2) not null,
+    prod_by_land              double(12, 2) not null,
+
+    foreign key (year) references agg_account (year)
+);
+
+create table crop_foundation.livestock_production
+(
+    year             int           not null,
+    total_production double(12, 2) not null,
+    total_vaue       double(12, 2) not null,
+
+    foreign key (year) references agg_account (year)
+);
+
+create table crop_foundation.land_use
+(
+    year      int          not null,
+    grassland double(5, 2) null,
+    crops     double(5, 2) null,
+    set_aside double(5, 2) null,
+    uncropped double(5, 2) null,
+
+    primary key (year)
+);
+
+create table crop_foundation.pesticide
+(
+    year              int          not null,
+    Fungicides        double(5, 2) null,
+    Growth_regulators double(5, 2) null,
+    Herbicides        double(5, 2) null,
+    Insecticides      double(5, 2) null,
+    Molluscicides     double(5, 2) null,
+
+    primary key (year)
+);
+
+create table crop_foundation.water_usage
+(
+    year              int          not null,
+    Spray_irrigation  double(5, 2) null,
+    Other_Agriculture double(5, 2) null,
+
+    primary key (year)
+);
+
+create table crop_foundation.fertiliser_applied
+(
+    year                   int          not null,
+    Cropped_land_nitrogen  double(5, 2) null,
+    Grassland_nitrogen     double(5, 2) null,
+    Cropped_land_phosphate double(5, 2) null,
+    Grassland_phosphate    double(5, 2) null,
+
+    primary key (year)
+);
+
+create table crop_foundation.emissions
+(
+    year                          int          not null,
+    UK_total_nitrous_oxide        double(5, 2) null,
+    Non_agriculture_nitrous_oxide double(5, 2) null,
+    Agriculture_nitrous_oxide     double(5, 2) null,
+    UK_total_methane              double(5, 2) null,
+    Non_agriculture_methane       double(5, 2) null,
+    Agriculture_methane           double(5, 2) null,
+    UK_total_ammonia              double(5, 2) null,
+    Non_agriculture_ammonia       double(5, 2) null,
+    Agriculture_ammonia           double(5, 2) null,
+
+    primary key (year)
+);
+
 
 # create special user client for mysql server to
 # handle web app connections

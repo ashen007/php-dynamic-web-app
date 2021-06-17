@@ -96,6 +96,8 @@
     <MESSAGE value="add insert files" />
     <MESSAGE value="add data to office table" />
     <MESSAGE value="add deatail column to product dtl table" />
-    <option name="LAST_COMMIT_MESSAGE" value="add deatail column to product dtl table" />
+    <MESSAGE value="edit comment table" />
+    <MESSAGE value="create blog post table" />
+    <option name="LAST_COMMIT_MESSAGE" value="create blog post table" />
   </component>
 </project>

@@ -1399,370 +1399,366 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <Position>7</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="390" parent="340" name="UK_total_ammonia">
+    <column id="390" parent="340" name="Non_agriculture_ammonia">
       <Position>8</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="391" parent="340" name="Non_agriculture_ammonia">
+    <column id="391" parent="340" name="Agriculture_ammonia">
       <Position>9</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="392" parent="340" name="Agriculture_ammonia">
-      <Position>10</Position>
-      <DataType>double(5,2 digit)|0s</DataType>
-    </column>
-    <key id="393" parent="340" name="PRIMARY">
+    <key id="392" parent="340" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>year</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="394" parent="341" name="event_id">
+    <column id="393" parent="341" name="event_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="395" parent="341" name="event_date">
+    <column id="394" parent="341" name="event_date">
       <Position>2</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="396" parent="341" name="headline">
+    <column id="395" parent="341" name="headline">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="397" parent="341" name="content">
+    <column id="396" parent="341" name="content">
       <Position>4</Position>
       <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="398" parent="341" name="event_banner">
+    <column id="397" parent="341" name="event_banner">
       <Position>5</Position>
       <DataType>longblob|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="399" parent="341" name="location">
+    <column id="398" parent="341" name="location">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="400" parent="341" name="cover_by">
+    <column id="399" parent="341" name="cover_by">
       <Position>7</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="401" parent="341" name="PRIMARY">
+    <key id="400" parent="341" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>event_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="402" parent="342" name="year">
+    <column id="401" parent="342" name="year">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="403" parent="342" name="Cropped_land_nitrogen">
+    <column id="402" parent="342" name="Cropped_land_nitrogen">
       <Position>2</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="404" parent="342" name="Grassland_nitrogen">
+    <column id="403" parent="342" name="Grassland_nitrogen">
       <Position>3</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="405" parent="342" name="Cropped_land_phosphate">
+    <column id="404" parent="342" name="Cropped_land_phosphate">
       <Position>4</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="406" parent="342" name="Grassland_phosphate">
+    <column id="405" parent="342" name="Grassland_phosphate">
       <Position>5</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <key id="407" parent="342" name="PRIMARY">
+    <key id="406" parent="342" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>year</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="408" parent="343" name="head_id">
+    <column id="407" parent="343" name="head_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="409" parent="343" name="head_body">
+    <column id="408" parent="343" name="head_body">
       <Position>2</Position>
       <DataType>varchar(128)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="410" parent="343" name="created_at">
+    <column id="409" parent="343" name="created_at">
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>current_timestamp()</DefaultExpression>
     </column>
-    <key id="411" parent="343" name="PRIMARY">
+    <key id="410" parent="343" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>head_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="412" parent="344" name="year">
+    <column id="411" parent="344" name="year">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="413" parent="344" name="grassland">
+    <column id="412" parent="344" name="grassland">
       <Position>2</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="414" parent="344" name="crops">
+    <column id="413" parent="344" name="crops">
       <Position>3</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="415" parent="344" name="set_aside">
+    <column id="414" parent="344" name="set_aside">
       <Position>4</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="416" parent="344" name="uncropped">
+    <column id="415" parent="344" name="uncropped">
       <Position>5</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <key id="417" parent="344" name="PRIMARY">
+    <key id="416" parent="344" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>year</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="418" parent="345" name="year">
+    <column id="417" parent="345" name="year">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="419" parent="345" name="total_production">
+    <column id="418" parent="345" name="total_production">
       <Position>2</Position>
       <DataType>double(12,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="420" parent="345" name="total_vaue">
+    <column id="419" parent="345" name="total_vaue">
       <Position>3</Position>
       <DataType>double(12,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="421" parent="345" name="year">
+    <index id="420" parent="345" name="year">
       <ColNames>year</ColNames>
       <Type>btree</Type>
     </index>
-    <foreign-key id="422" parent="345" name="livestock_production_ibfk_1">
+    <foreign-key id="421" parent="345" name="livestock_production_ibfk_1">
       <ColNames>year</ColNames>
       <RefTableName>agg_account</RefTableName>
       <RefColNames>year</RefColNames>
     </foreign-key>
-    <column id="423" parent="346" name="id">
+    <column id="422" parent="346" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="424" parent="346" name="name">
+    <column id="423" parent="346" name="name">
       <Position>2</Position>
       <DataType>varchar(32)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="425" parent="346" name="path">
+    <column id="424" parent="346" name="path">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="426" parent="346" name="PRIMARY">
+    <key id="425" parent="346" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="427" parent="347" name="id">
+    <column id="426" parent="347" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="428" parent="347" name="firstname">
+    <column id="427" parent="347" name="firstname">
       <Position>2</Position>
       <DataType>varchar(32)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="429" parent="347" name="lastname">
+    <column id="428" parent="347" name="lastname">
       <Position>3</Position>
       <DataType>varchar(64)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="430" parent="347" name="username">
+    <column id="429" parent="347" name="username">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="431" parent="347" name="email">
+    <column id="430" parent="347" name="email">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="432" parent="347" name="password">
+    <column id="431" parent="347" name="password">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="433" parent="347" name="pp">
+    <column id="432" parent="347" name="pp">
       <Position>7</Position>
       <DataType>longblob|0s</DataType>
     </column>
-    <column id="434" parent="347" name="create_at">
+    <column id="433" parent="347" name="create_at">
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>current_timestamp()</DefaultExpression>
     </column>
-    <column id="435" parent="347" name="dob">
+    <column id="434" parent="347" name="dob">
       <Position>9</Position>
       <DataType>timestamp|0s</DataType>
     </column>
-    <column id="436" parent="347" name="bio">
+    <column id="435" parent="347" name="bio">
       <Position>10</Position>
       <DataType>tinytext|0s</DataType>
     </column>
-    <index id="437" parent="347" name="username">
+    <index id="436" parent="347" name="username">
       <ColNames>username</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="438" parent="347" name="email">
+    <index id="437" parent="347" name="email">
       <ColNames>email</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="439" parent="347" name="PRIMARY">
+    <key id="438" parent="347" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id
 email</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="440" parent="347" name="username">
+    <key id="439" parent="347" name="username">
       <ColNames>username</ColNames>
       <UnderlyingIndexName>username</UnderlyingIndexName>
     </key>
-    <key id="441" parent="347" name="email">
+    <key id="440" parent="347" name="email">
       <ColNames>email</ColNames>
       <UnderlyingIndexName>email</UnderlyingIndexName>
     </key>
-    <column id="442" parent="348" name="office_id">
+    <column id="441" parent="348" name="office_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="443" parent="348" name="city">
+    <column id="442" parent="348" name="city">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="444" parent="348" name="address">
+    <column id="443" parent="348" name="address">
       <Position>3</Position>
       <DataType>mediumtext|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="445" parent="348" name="primary_tel_no">
+    <column id="444" parent="348" name="primary_tel_no">
       <Position>4</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="446" parent="348" name="secondary_tel_no">
+    <column id="445" parent="348" name="secondary_tel_no">
       <Position>5</Position>
       <DataType>varchar(20)|0s</DataType>
     </column>
-    <key id="447" parent="348" name="PRIMARY">
+    <key id="446" parent="348" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>office_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="448" parent="349" name="year">
+    <column id="447" parent="349" name="year">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="449" parent="349" name="Fungicides">
+    <column id="448" parent="349" name="Fungicides">
       <Position>2</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="450" parent="349" name="Growth_regulators">
+    <column id="449" parent="349" name="Growth_regulators">
       <Position>3</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="451" parent="349" name="Herbicides">
+    <column id="450" parent="349" name="Herbicides">
       <Position>4</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="452" parent="349" name="Insecticides">
+    <column id="451" parent="349" name="Insecticides">
       <Position>5</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="453" parent="349" name="Molluscicides">
+    <column id="452" parent="349" name="Molluscicides">
       <Position>6</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <key id="454" parent="349" name="PRIMARY">
+    <key id="453" parent="349" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>year</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="455" parent="350" name="id">
+    <column id="454" parent="350" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="456" parent="350" name="category">
+    <column id="455" parent="350" name="category">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="457" parent="350" name="item">
+    <column id="456" parent="350" name="item">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="458" parent="350" name="unit">
+    <column id="457" parent="350" name="unit">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="459" parent="350" name="price">
+    <column id="458" parent="350" name="price">
       <Position>5</Position>
       <DataType>double(5,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="460" parent="350" name="prod_img">
+    <column id="459" parent="350" name="prod_img">
       <Position>6</Position>
       <DataType>longblob|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="461" parent="350" name="details">
+    <column id="460" parent="350" name="details">
       <Position>7</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="462" parent="350" name="PRIMARY">
+    <key id="461" parent="350" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="463" parent="351" name="year">
+    <column id="462" parent="351" name="year">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="464" parent="351" name="Spray_irrigation">
+    <column id="463" parent="351" name="Spray_irrigation">
       <Position>2</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <column id="465" parent="351" name="Other_Agriculture">
+    <column id="464" parent="351" name="Other_Agriculture">
       <Position>3</Position>
       <DataType>double(5,2 digit)|0s</DataType>
     </column>
-    <key id="466" parent="351" name="PRIMARY">
+    <key id="465" parent="351" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>year</ColNames>
       <Primary>1</Primary>

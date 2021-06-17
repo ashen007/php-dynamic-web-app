@@ -204,13 +204,11 @@ create table crop_foundation.emissions
     UK_total_methane              double(5, 2) null,
     Non_agriculture_methane       double(5, 2) null,
     Agriculture_methane           double(5, 2) null,
-    UK_total_ammonia              double(5, 2) null,
     Non_agriculture_ammonia       double(5, 2) null,
     Agriculture_ammonia           double(5, 2) null,
 
     primary key (year)
 );
-
 
 # create special user client for mysql server to
 # handle web app connections

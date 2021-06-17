@@ -168,8 +168,12 @@ $headlines = get_top_headlines();
                         mode: 'markers',
                         type: 'scatter',
                         marker: {
-                            color: '#F2A391',
-                            size: 12
+                            color: '#52BF04',
+                            size: 12,
+                            line: {
+                                color: '#fff',
+                                width: 1
+                            }
                         }
                     }], {
                         title: 'Total income VS. income per AWU',

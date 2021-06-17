@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d21e4373-c46e-416c-92e1-15e53bc1d63c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +97,7 @@
     <MESSAGE value="edit comment table" />
     <MESSAGE value="create blog post table" />
     <MESSAGE value="create analytic data tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="create analytic data tables" />
+    <MESSAGE value="populate analytic data tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="populate analytic data tables" />
   </component>
 </project>

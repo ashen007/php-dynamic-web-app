@@ -142,6 +142,16 @@ function get_blog_posts()
     return $result;
 }
 
+function get_data($table)
+{
+    global $db;
+
+    $sql = 'select * from '.$table.';';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
 function check_availability($data)
 {
 //    check username and email availability

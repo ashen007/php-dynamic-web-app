@@ -14,7 +14,7 @@ if (request_is_post()) {
         $errors = $result;
     }
 }
-
+echo WWW_ROOT;
 ?>
 
 <!--call header hook-->

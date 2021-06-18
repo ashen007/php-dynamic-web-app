@@ -1,8 +1,8 @@
 <?php
 
-define('DB_SERVER','127.0.0.1');
-define('DB_USER','wt_bridge');
-define('DB_PASS','wt2021#cis');
-define('DB_SCHEMA','crop_foundation');
+define('DB_SERVER', 'us-cdbr-east-04.cleardb.com');
+define('DB_USER', 'b5a44a0ee93349');
+define('DB_PASS', '20a0250a');
+define('DB_SCHEMA', 'heroku_452bfa94c7c919b');
 
 ?>

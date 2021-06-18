@@ -1,4 +1,3 @@
-USE crop_foundation;
 INSERT INTO members(firstName, lastName, username, email, password) VALUES ('L', 'Murphy', '@LMurphy', 'LMurphy1964@earthlink.com', '0000');
 INSERT INTO members(firstName, lastName, username, email, password) VALUES ('Hanah', 'Schmidt', '@HanahSchmidt', 'Hanah_Schmidt1965@gmail.edu', '0000');
 INSERT INTO members(firstName, lastName, username, email, password) VALUES ('Aanya', 'Lee', '@AanyaLee', 'AanyaLee@gmail.info', '0000');

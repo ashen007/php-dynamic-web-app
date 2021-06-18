@@ -6,54 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/57da42105059643.5f71adf1cb5cf.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/57da42105059643.5f71adf1cb5cf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/79cb8a70129685.5b990b414065d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/79cb8a70129685.5b990b414065d.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/Agricultural-Heritage-scaled.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Agricultural-Heritage-scaled.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/BC-Blog_OrganicFarmingCareers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/BC-Blog_OrganicFarmingCareers.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/WT_logo-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/WT_logo-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cow___sheep.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/cow___sheep.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/edit-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/edit-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/fe8f81120512813.60b36e22d2ec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/fe8f81120512813.60b36e22d2ec3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ico_1-77x77.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ico_1-77x77.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ico_2-77x77.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ico_2-77x77.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ico_3-90x77.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ico_3-90x77.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ico_4-90x77.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ico_4-90x77.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ico_5-77x77.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ico_5-77x77.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/insideLexington.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/insideLexington.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/log_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/log_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo offset.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo offset.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/member_landing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/member_landing.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/precision_agriculture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/precision_agriculture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/cabage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/products/cabage.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/carrots.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/products/carrots.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/frutes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/products/frutes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/green_apple.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/products/green_apple.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/potato.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/products/potato.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/tea.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/products/tea.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/tomato.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/products/tomato.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/public_landing.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/public_landing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/reg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/reg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/services.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/services.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/tumblr_mdo83xsqnv1rn3wcfo1_1280.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/tumblr_mdo83xsqnv1rn3wcfo1_1280.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/acount/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/members/acount/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/members/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/members/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/pages/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/members/pages/show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/members/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/members/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/product_detail_portal.php" beforeDir="false" afterPath="$PROJECT_DIR$/product_detail_portal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/members.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/members.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/shared/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/shared/show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/member.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/member.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/analatic_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/analatic_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/insert.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -244,7 +201,8 @@
       <workItem from="1623687379425" duration="820000" />
       <workItem from="1623811403403" duration="4903000" />
       <workItem from="1623845608190" duration="16849000" />
-      <workItem from="1623894229678" duration="22636000" />
+      <workItem from="1623894229678" duration="25162000" />
+      <workItem from="1623981083557" duration="1491000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -491,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623946641225</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="change file structure - get public folder content into root">
+      <created>1623952269589</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1623952269589</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +487,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add hover effects to headers" />
     <MESSAGE value="add services section and it contains links to specified areas." />
     <MESSAGE value="complete service detail area" />
     <MESSAGE value="add brief about section and company status section" />
@@ -547,7 +511,8 @@
     <MESSAGE value="add bar chart for income change" />
     <MESSAGE value="add scatter plot for income comparison" />
     <MESSAGE value="update composer file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update composer file" />
+    <MESSAGE value="change file structure - get public folder content into root" />
+    <option name="LAST_COMMIT_MESSAGE" value="change file structure - get public folder content into root" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

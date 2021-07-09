@@ -35,7 +35,7 @@ $product_dtl = get_products()
                 <div class="event_gal_wrapper">
                     <div style="background-image: url('<?php echo WWW_ROOT . $product['prod_img']; ?>');
                             height: inherit; background-position: left; background-repeat: no-repeat;
-                            background-size: cover; height: 225px"></div>
+                            background-size: contain; height: 225px"></div>
                     <div>
                         <p style="margin-top: 12px; color: #056f05"><i
                                     class="fas fa-map-marker-alt"></i><?php echo $product['category'] ?></p>

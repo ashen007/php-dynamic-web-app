@@ -14,11 +14,10 @@ if (request_is_post()) {
         $errors = $result;
     }
 }
-echo WWW_ROOT;
 ?>
 
 <!--call header hook-->
-<?php include(SHARED_PATH . '/public_header.php');?>
+<?php include(SHARED_PATH . '/public_header.php'); ?>
 
 <section id="public_landing">
     <div class="wrapper container">

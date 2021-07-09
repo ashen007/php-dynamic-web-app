@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="" />
+    <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -84,13 +90,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00002" summary="log in mechanism enabled">
-      <created>1616161440019</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1616161440019</updated>
-    </task>
     <task id="LOCAL-00003" summary="update profile mechanism enabled">
       <created>1616173431921</created>
       <option name="number" value="00003" />
@@ -189,7 +188,9 @@
       <workItem from="1623811403403" duration="4903000" />
       <workItem from="1623845608190" duration="16849000" />
       <workItem from="1623894229678" duration="25162000" />
-      <workItem from="1623981083557" duration="2260000" />
+      <workItem from="1623981083557" duration="4388000" />
+      <workItem from="1624938785768" duration="2496000" />
+      <workItem from="1625802512971" duration="1496000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -457,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623982859946</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="debugging - 1.1 change WWW_ROOT directory">
+      <created>1623983545042</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1623983545042</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +496,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add brief about section and company status section" />
     <MESSAGE value="add structure to about section and company status section" />
     <MESSAGE value="add tiny store and complete structure" />
     <MESSAGE value="add testimonial section" />
@@ -513,7 +520,8 @@
     <MESSAGE value="change file structure - get public folder content into root" />
     <MESSAGE value="update cred file to connect with remote database" />
     <MESSAGE value="debugging - 1 css didn't load" />
-    <option name="LAST_COMMIT_MESSAGE" value="debugging - 1 css didn't load" />
+    <MESSAGE value="debugging - 1.1 change WWW_ROOT directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugging - 1.1 change WWW_ROOT directory" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

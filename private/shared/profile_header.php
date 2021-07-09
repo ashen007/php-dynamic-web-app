@@ -50,7 +50,7 @@ $picture = get_account_dtl(xss(base64_decode($id)))['pp'];
             <img src="data:image/jpg;base64,<?php echo base64_encode($picture); ?>">
         </div>
     </div>
-    <div id="drop_down">
+    <div id="drop_down" class="chicken">
         <ul>
             <li>
                 <a href="<?php echo url_for('/members/acount/edit.php?id=' . xss($id)); ?>">edit profile</a>

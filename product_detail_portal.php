@@ -44,7 +44,7 @@ $product_dtl = get_products()
                             <?php echo $product['item'] ?>
                         </a>
                         <p style="margin-top: 4px; margin-bottom: 2px; color: #656464"><?php echo $product['brand'] ?></p>
-                        <p style="margin-top: 2px; margin-bottom: 4px; color: #656464"><?php echo $product['lowest_most_usual_price'] . ' - ' . $product['upper_most_usual_price'] ?></p>
+                        <p style="margin-top: 2px; margin-bottom: 4px; color: #656464"><?php echo $product['lowest_most_ususal_price'] . ' - ' . $product['upper_most_ususal_price'] ?></p>
                     </div>
                 </div>
             </li>

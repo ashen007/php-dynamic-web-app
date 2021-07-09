@@ -6,6 +6,9 @@
 $page_title = 'Product Detail Portal';
 $page_sub = 'Have a Question?';
 $moto = '';
+
+$product_dtl = get_products()
+
 ?>
 
 <!--call header hook-->
@@ -25,19 +28,28 @@ $moto = '';
     </div>
 </section>
 
-<section class="shop_info top_gap bottom_gap">
-    <div class="shop_wrapper">
-        <ul class="shop_content_wrapper">
-            <li class="shop_content">
-                <div>
-                    <h2>title</h2>
-                    <h4>moto</h4>
-                    <p>text</p>
+<section class="event_gallery bottom_gap">
+    <ul class="event_wrapper container event_gal_cards">
+        <?php while ($product = mysqli_fetch_assoc($product_dtl)) { ?>
+            <li class="event_gal_col">
+                <div class="event_gal_wrapper">
+                    <div style="background-image: url('<?php echo WWW_ROOT . $product['prod_img']; ?>');
+                            height: inherit; background-position: left; background-repeat: no-repeat;
+                            background-size: cover; height: 225px"></div>
+                    <div>
+                        <p style="margin-top: 12px; color: #056f05"><i
+                                    class="fas fa-map-marker-alt"></i><?php echo $product['category'] ?></p>
+                        <a class="event-link" style="position: relative; top: 0; left: 0; color: #000000"
+                           href="<?php echo url_for('/shared/show.php?page=' . base64_encode(xss('product')) . '&prod=' . base64_encode(xss($product['id']))); ?>">
+                            <?php echo $product['item'] ?>
+                        </a>
+                        <p style="margin-top: 4px; margin-bottom: 2px; color: #656464"><?php echo $product['brand'] ?></p>
+                        <p style="margin-top: 2px; margin-bottom: 4px; color: #656464"><?php echo $product['avg_price'] ?></p>
+                    </div>
                 </div>
             </li>
-            <li class="shop_content">img</li>
-        </ul>
-    </div>
+        <?php } ?>
+    </ul>
 </section>
 
 <!--call footer hook-->

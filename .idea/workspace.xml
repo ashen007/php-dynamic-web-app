@@ -5,11 +5,172 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/product.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/product_dtl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/02189.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/02537_01_plumregal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/05137-pk-p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/1614070375297apple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/400-Seeds-Bag-Arugula-Seeds-of-Vegetables-known-as-Rocket-Nutrient-rich-Heirloom-less-light-grow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/Beans-Mixed-Dry-bigstock-136082984-1024x683.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/Cabbage_-Savoy---Vertus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/Red-Creole.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/Screen_Shot_2018-11-10_at_1.10.19_pm_580x@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/Spring Onion 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/Spring Onion 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/a7dd3e29-d956-4778-a0de-9fd88edb4053-9413f97.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/apples-braeburn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/asparagus 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/asparagus 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/asparagus 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/beans 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/beetroot 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/beetroot 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/beetroot 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/begonia elatior 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/begonia elatior 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/begonia elatior vermilion red.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/blackberries 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/blackberries 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/blackberries 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/blackcurrants 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/blackcurrants 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/blackcurrants 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/blueberries 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/blueberries 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/broad beans 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/brussels sprouts 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/brussels sprouts 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/brussels sprouts 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/bulb onions 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/bulb onions 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cabbage 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cabbage 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cabbage white.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/calabrese  1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/calabrese  3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/capsicum 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/capsicum 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/capsicum 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/capsicum 4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/carrots 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/carrots 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/carrots 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cauliflower 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cauliflower 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/celeriac 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/celery 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/celery 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cherries 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cherries 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cherries 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/chinese leaf 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/chrysanthemum 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/chrysanthemum 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cooking apples 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cooking apples 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cooking apples 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/coriander 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/coriander 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/coriander 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/courgettes 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cox_orange_pippin_apple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cucumbers 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cucumbers 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/curly kale 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/currants 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/currants 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/currants 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cyclamen 1(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cyclamen 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cyclamen 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/cyclamen 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/dwarf french 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/dwarf french 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/geranium 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/gooseberries 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/gooseberries 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/gooseberries 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/gooseberries 4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/greengage plums 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/irises.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/late-season.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/leeks 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/lettuce 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/lettuce 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/lettuce-crisp-mint-lss-dsc_6242.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/lillies 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/lillies 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/mixed baby leaf salad 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/mixed baby leaf salad 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/mushrooms 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/mushrooms 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/narcissus 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/narcissus 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/onion 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/oriental_lilies 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/oriental_lilies 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/pak choi 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/pak choi 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/parsnips 1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/parsnips 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/pears 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/pears 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/pears 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/peas 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/peony 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/peony 2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/peony 3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/plums 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/plums 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/poinsettia 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/poinsettia 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/raspberries 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/raspberries 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/raspberries 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/raspberries 4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/red currants 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/red currants 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/rhubarb 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/rhubarb 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/rocket  1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/rocket  2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/runner beans 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/runner beans 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/scarlet-runner-bean-seeds-growing-guide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/shelling peas 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/sp52932.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/spinach leaf 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/spring greens.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/sprzedam_owoce-świeże-jabłka-royal gala-_agro market24_ogłoszenia rolnicze-724974-39761.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/stocks 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/strawberries 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/strawberries 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/strawberries 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/swede 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/sweet_williams 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/sweet_williams 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/sweetcorn 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/sweetcorn 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/sweetie-cherry-tomato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/tomatoes 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/tomatoes 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/triumph-apple_basket.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/tulips 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/tulips 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/tulips 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/turnip 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/v-cabba000001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/watercress 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/store/watercress 2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/cropfoundation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cropfoundation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/events.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/events.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_detail_portal.php" beforeDir="false" afterPath="$PROJECT_DIR$/product_detail_portal.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +251,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00003" summary="update profile mechanism enabled">
-      <created>1616173431921</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1616173431921</updated>
-    </task>
     <task id="LOCAL-00004" summary="add basic form validation functions to form validation script">
       <created>1616237446605</created>
       <option name="number" value="00004" />
@@ -190,7 +344,7 @@
       <workItem from="1623894229678" duration="25162000" />
       <workItem from="1623981083557" duration="4388000" />
       <workItem from="1624938785768" duration="2496000" />
-      <workItem from="1625802512971" duration="1496000" />
+      <workItem from="1625802512971" duration="13521000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -465,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623983545042</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="debugging - 1.1 change WWW_ROOT directory">
+      <created>1625804053005</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1625804053005</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

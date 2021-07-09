@@ -110,6 +110,17 @@ function get_top_events()
     return $result;
 }
 
+function get_top_products()
+{
+    global $db;
+
+    $sql = 'select * from product_dtl ';
+    $sql .= 'order by weekly_change asc limit 8;';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
 function get_page_content($page)
 {
     global $db;
@@ -131,6 +142,16 @@ function get_evets()
     return $result;
 }
 
+function get_products()
+{
+    global $db;
+
+    $sql = 'select * from product_dtl;';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
 function get_blog_posts()
 {
     global $db;
@@ -146,7 +167,7 @@ function get_data($table)
 {
     global $db;
 
-    $sql = 'select * from '.$table.';';
+    $sql = 'select * from ' . $table . ';';
     $result = mysqli_query($db, $sql);
     confirm_result($result);
     return $result;

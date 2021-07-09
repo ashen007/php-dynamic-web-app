@@ -177,10 +177,24 @@ create table product_dtl
         primary key,
     category varchar(255) not null,
     item     varchar(255) not null,
+    brand tinytext null,
     unit     varchar(255) not null,
-    price    double(5, 2) not null,
+    lowest_most_ususal_price    double(5, 2) null,
+    upper_most_ususal_price    double(5, 2) null,
+    price_range    double(5, 2) null,
+    avg_price    double(5, 2) null,
+    prev_week_avg_price    double(5, 2) null,
+    weekly_price_change    double(5, 2) null,
+    weekly_change    double(5, 2) null,
     prod_img longblob     not null,
-    details  text         not null
+    details  text         null
+);
+
+create table product_queries(
+    id int auto_increment primary key ,
+    user_id int not null ,
+    product_id int not null,
+    additional_note text null
 );
 
 create table water_usage

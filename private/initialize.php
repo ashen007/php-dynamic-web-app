@@ -9,9 +9,9 @@ define("PUBLIC_PATH", PROJECT_PATH);
 define("SHARED_PATH", PRIVATE_PATH . '/shared');
 define("HOOKS_PATH", PRIVATE_PATH . '/hooks');
 
-$public_end = strpos($_SERVER['SCRIPT_NAME'], '') + 10;
-$doc_root = substr($_SERVER['SCRIPT_NAME'], 0, $public_end);
-define("WWW_ROOT", $doc_root);
+// $public_end = strpos($_SERVER['SCRIPT_NAME'], '') + 10;
+// $doc_root = substr($_SERVER['SCRIPT_NAME'], 0, $public_end);
+define("WWW_ROOT", '');
 
 require_once('functions.php');
 require_once('db.php');

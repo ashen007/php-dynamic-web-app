@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_detail_portal.php" beforeDir="false" afterPath="$PROJECT_DIR$/product_detail_portal.php" afterDir="false" />
-    </list>
+    <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,13 +84,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00007" summary="add validations for email,date of birth,username and password">
-      <created>1616249658229</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1616249658229</updated>
-    </task>
     <task id="LOCAL-00008" summary="change form processing from duel to single page">
       <created>1616253394225</created>
       <option name="number" value="00008" />
@@ -159,7 +149,7 @@
       <workItem from="1623894229678" duration="25162000" />
       <workItem from="1623981083557" duration="4388000" />
       <workItem from="1624938785768" duration="2496000" />
-      <workItem from="1625802512971" duration="15982000" />
+      <workItem from="1625802512971" duration="16381000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -462,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625855620571</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="change box size">
+      <created>1625855864276</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1625855864276</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +490,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add structure to about section and company status section" />
     <MESSAGE value="add tiny store and complete structure" />
     <MESSAGE value="add testimonial section" />
     <MESSAGE value="re-organize css class" />
@@ -518,7 +514,8 @@
     <MESSAGE value="update cred file to connect with remote database" />
     <MESSAGE value="debugging - 1 css didn't load" />
     <MESSAGE value="debugging - 1.1 change WWW_ROOT directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="debugging - 1.1 change WWW_ROOT directory" />
+    <MESSAGE value="change box size" />
+    <option name="LAST_COMMIT_MESSAGE" value="change box size" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

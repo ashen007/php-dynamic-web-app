@@ -31,7 +31,7 @@ $product_dtl = get_products()
 <section class="event_gallery bottom_gap">
     <ul class="event_wrapper container event_gal_cards">
         <?php while ($product = mysqli_fetch_assoc($product_dtl)) { ?>
-            <li class="event_gal_col">
+            <li class="event_gal_col" style="width: 20% !important;">
                 <div class="event_gal_wrapper">
                     <div style="background-image: url('<?php echo WWW_ROOT . $product['prod_img']; ?>');
                             height: inherit; background-position: left; background-repeat: no-repeat;

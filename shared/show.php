@@ -19,7 +19,7 @@ if ($page == 'product_dtl') {
         <div class="prod_img" style="width: 48%;
                                      height: fit-content;">
             <div style="
-                    background-image: url('<?php echo WWW_ROOT . $content['prod_img']; ?>');
+                    background-image: url('<?php echo url_for($content['prod_img']); ?>');
                     height: 68vh;
                     background-position: center;
                     background-repeat: no-repeat;

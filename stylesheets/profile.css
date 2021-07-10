@@ -199,17 +199,19 @@ ul.brand_list {
     padding: 0px;
     margin: 0px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .brand_list li {
     position: relative;
     height: 150px;
     padding: 32px 0px;
-    width: 16.67%;
+    width: 12.67%;
 }
 
 section#brands {
     border-bottom: 1px solid #000000;
+    background-color: #F1F2E4;
 }
 
 /*footer {*/

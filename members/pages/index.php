@@ -203,57 +203,339 @@ $headlines = get_top_headlines();
     <section id="brands">
         <div class="brand_wrapper container">
             <ul class="brand_list">
-                <li><a class="valign" href="#">logo</a></li>
-                <li><a class="valign" href="#">logo</a></li>
-                <li><a class="valign" href="#">logo</a></li>
-                <li><a class="valign" href="#">logo</a></li>
-                <li><a class="valign" href="#">logo</a></li>
-                <li><a class="valign" href="#">logo</a></li>
+                <li style="background-image: url('<?php echo url_for('/images/logos/rcg.jpg'); ?>');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;"><a class="valign" href="#"></a></li>
+                <li style="background-image: url('<?php echo url_for('/images/logos/aifco.jpg'); ?>');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;"><a class="valign" href="#"></a></li>
+                <li style="background-image: url('<?php echo url_for('/images/logos/baharkafood.jpg'); ?>');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;"><a class="valign" href="#"></a></li>
+                <li style="background-image: url('<?php echo url_for('/images/logos/farmnextdoor.jpg'); ?>');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;"><a class="valign" href="#"></a></li>
+                <li style="background-image: url('<?php echo url_for('/images/logos/mora.jpg'); ?>');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;"><a class="valign" href="#"></a></li>
+                <li style="background-image: url('<?php echo url_for('/images/logos/primiumhoneybee.jpg'); ?>');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;"><a class="valign" href="#"></a></li>
             </ul>
         </div>
     </section>
     <section class="basic_report">
         <div class="container">
             <section class="sec_top">
-                <div class="left" style="border-right: 1px solid #000000;border-bottom: 1px solid #000000"></div>
-                <div class="right"></div>
+                <div class="left" style="border-right: 1px solid #000000;border-bottom: 1px solid #000000">
+                    <div id="test_0" style="margin-top: 24px;"></div>
+                    <script>
+                        <?php
+                        $data = get_data('land_use');
+                        $year = array();
+                        $grass = array();
+                        $crop = array();
+                        $aside = array();
+                        $uncrop = array();
+
+                        while ($x = mysqli_fetch_assoc($data)) {
+                            array_push($year, $x['year']);
+                            array_push($grass, $x['grassland']);
+                            array_push($crop, $x['crops']);
+                            array_push($aside, $x['set_aside']);
+                            array_push($uncrop, $x['uncropped']);
+                        }
+                        ?>
+                        year = <?php echo json_encode($year);?>;
+                        let grass = <?php echo json_encode($grass);?>;
+                        let crop = <?php echo json_encode($crop);?>;
+                        let aside = <?php echo json_encode($aside);?>;
+                        let uncrop = <?php echo json_encode($uncrop);?>;
+
+                        year = year.map(Number);
+                        grass = grass.map(Number)
+                        crop = crop.map(Number)
+                        aside = aside.map(Number)
+                        uncrop = uncrop.map(Number)
+
+                        TESTER = document.getElementById('test_0');
+                        Plotly.newPlot(TESTER, [
+                            {
+                                x: year,
+                                y: grass,
+                                line: {
+                                    color: '#1E6638'
+                                },
+                                name: 'grass lands'
+                            },
+                            {
+                                x: year,
+                                y: crop,
+                                line: {
+                                    color: '#1E6638'
+                                },
+                                name: 'cropped lands'
+                            },
+                            {
+                                x: year,
+                                y: aside,
+                                line: {
+                                    color: '#F4A405'
+                                },
+                                name: 'aside lands'
+                            },
+                            {
+                                x: year,
+                                y: uncrop,
+                                line: {
+                                    color: '#F4A405'
+                                },
+                                name: 'ungrouped lands'
+                            }
+                        ], {
+                            xaxis: {
+                                tickfont: {color: '#000'},
+                                showgrid: false,
+                                zeroline: false
+                            },
+                            yaxis: {
+                                tickfont: {color: '#000'},
+                                showgrid: false
+                            },
+                            showlegend: true,
+                            legend: {
+                                orientation: "h",
+                                font: {color: "#000"}
+                            },
+                            plot_bgcolor: "#fff",
+                            paper_bgcolor: "#fff",
+                            margin: {t: 0, b: 25, l: 40, r: 25}
+                        });
+                    </script>
+                </div>
+                <div class="right">
+                    <div id="test_1" style="margin-top: 24px;"></div>
+                    <script>
+                        <?php
+                        $data = get_data('fertiliser_applied');
+                        $year = array();
+                        $cln = array();
+                        $gln = array();
+                        $clp = array();
+                        $glp = array();
+
+                        while ($x = mysqli_fetch_assoc($data)) {
+                            array_push($year, $x['year']);
+                            array_push($cln, $x['Cropped_land_nitrogen']);
+                            array_push($gln, $x['Grassland_nitrogen']);
+                            array_push($clp, $x['Cropped_land_phosphate']);
+                            array_push($glp, $x['Grassland_phosphate']);
+                        }
+                        ?>
+                        year = <?php echo json_encode($year);?>;
+                        let cln = <?php echo json_encode($cln);?>;
+                        let gln = <?php echo json_encode($gln);?>;
+                        let clp = <?php echo json_encode($clp);?>;
+                        let glp = <?php echo json_encode($glp);?>;
+
+                        year = year.map(Number);
+                        cln = cln.map(Number);
+                        gln = gln.map(Number);
+                        clp = clp.map(Number);
+                        glp = glp.map(Number);
+
+                        TESTER = document.getElementById('test_1');
+                        Plotly.newPlot(TESTER, [
+                            {
+                                x: year,
+                                y: cln,
+                                line: {
+                                    color: '#1E6638'
+                                },
+                                name: 'Cropped land nitrogen'
+                            },
+                            {
+                                x: year,
+                                y: gln,
+                                line: {
+                                    color: '#1E6638'
+                                },
+                                name: 'Grass land nitrogen'
+                            },
+                            {
+                                x: year,
+                                y: clp,
+                                line: {
+                                    color: '#F4A405'
+                                },
+                                name: 'Cropped land phosphate'
+                            },
+                            {
+                                x: year,
+                                y: glp,
+                                line: {
+                                    color: '#F4A405'
+                                },
+                                name: 'Grass land phosphate'
+                            }
+                        ], {
+                            xaxis: {
+                                tickfont: {color: '#000'},
+                                showgrid: false,
+                                zeroline: false
+                            },
+                            yaxis: {
+                                tickfont: {color: '#000'},
+                                showgrid: false
+                            },
+                            showlegend: true,
+                            legend: {
+                                orientation: "h",
+                                font: {color: "#000"}
+                            },
+                            plot_bgcolor: "#fff",
+                            paper_bgcolor: "#fff",
+                            margin: {t: 0, b: 25, l: 40, r: 25}
+                        });
+                    </script>
+                </div>
             </section>
             <section class="sec_bottom">
-                <div class="left"></div>
+                <div class="left">
+                    <div id="test_2" style="margin-top: 24px;"></div>
+                    <script>
+                        <?php
+                        $data = get_data('water_usage');
+                        $year = array();
+                        $spray = array();
+                        $other = array();
+
+
+                        while ($x = mysqli_fetch_assoc($data)) {
+                            array_push($year, $x['year']);
+                            array_push($spray, $x['Spray_irrigation']);
+                            array_push($other, $x['Other_Agriculture']);
+                        }
+                        ?>
+                        year = <?php echo json_encode($year); ?>;
+                        let spray = <?php echo json_encode($spray);?>;
+                        let other = <?php echo json_encode($other);?>;
+
+                        year = year.map(Number);
+                        spray = spray.map(Number);
+                        other = other.map(Number);
+
+                        CHANGE = document.getElementById('test_2');
+                        Plotly.newPlot(CHANGE, [
+                                {
+                                    x: year,
+                                    y: spray,
+                                    type: 'bar',
+                                    marker: {
+                                        color: '#F4A405'
+                                    }
+                                },
+                                {
+                                    x: year,
+                                    y: other,
+                                    type: 'bar',
+                                    marker: {
+                                        color: '#1E6638'
+                                    }
+                                }
+                            ],
+                            {
+                                title: 'Water usage in every year 2000-2017',
+                                font: {
+                                    color: '#000'
+                                },
+                                xaxis: {
+                                    tickfont: {color: '#000'},
+                                    showgrid: false,
+                                    zeroline: false
+                                },
+                                yaxis: {
+                                    tickfont: {color: '#000'},
+                                    showgrid: false
+                                },
+                                showlegend: false,
+                                plot_bgcolor: "#fff",
+                                paper_bgcolor: "#fff",
+                                margin: {t: 30, b: 100, l: 40, r: 25}
+                            });
+                    </script>
+                </div>
                 <div class="right"
-                     style="border-left: 1px solid #000000;border-top: 1px solid #000000;margin: -1px 0px 0px -1px;"></div>
-            </section>
-        </div>
-    </section>
-    <section class="more">
-        <div class="container">
-            <section class="sec_top">
-                <div class="left"></div>
-                <div class="right" style="border-bottom: 1px solid #ffffff;"></div>
-            </section>
-            <section class="sec_mid">
-                <div class="left"></div>
-                <div class="right"></div>
-            </section>
-            <section class="sec_bottom">
-                <div class="left"></div>
-                <div class="right"></div>
-            </section>
-        </div>
-    </section>
-    <section class="news_events">
-        <div class="container">
-            <section class="sec_top">
-                <div class="left"></div>
-                <div class="right"></div>
-            </section>
-        </div>
-    </section>
-    <section class="forms">
-        <div class="container">
-            <section class="sec_top">
-                <div class="left" style="border-bottom: none"></div>
-                <div class="right"></div>
+                     style="border-left: 1px solid #000000;border-top: 1px solid #000000;margin: -1px 0px 0px -1px;">
+                    <div id="test_3" style="margin-top: 24px;"></div>
+                    <script>
+                        <?php
+                        $data = get_data('livestock_production');
+                        $year = array();
+                        $prod = array();
+                        $value = array();
+
+
+                        while ($x = mysqli_fetch_assoc($data)) {
+                            array_push($year, $x['year']);
+                            array_push($prod, $x['total_production']);
+                            array_push($value, $x['total_vaue']);
+                        }
+                        ?>
+                        year = <?php echo json_encode($year); ?>;
+                        let prod = <?php echo json_encode($prod);?>;
+                        let value = <?php echo json_encode($value);?>;
+
+                        year = year.map(Number);
+                        prod = prod.map(Number);
+                        value = value.map(Number);
+
+                        CHANGE = document.getElementById('test_3');
+                        Plotly.newPlot(CHANGE, [
+                                {
+                                    x: year,
+                                    y: prod,
+                                    type: 'bar',
+                                    marker: {
+                                        color: '#F4A405'
+                                    }
+                                },
+                                {
+                                    x: year,
+                                    y: value,
+                                    type: 'bar',
+                                    marker: {
+                                        color: '#1E6638'
+                                    }
+                                }
+                            ],
+                            {
+                                title: 'Livestock production and Value',
+                                font: {
+                                    color: '#000'
+                                },
+                                xaxis: {
+                                    tickfont: {color: '#000'},
+                                    showgrid: false,
+                                    zeroline: false
+                                },
+                                yaxis: {
+                                    tickfont: {color: '#000'},
+                                    showgrid: false
+                                },
+                                showlegend: false,
+                                plot_bgcolor: "#fff",
+                                paper_bgcolor: "#fff",
+                                margin: {t: 30, b: 100, l: 40, r: 25}
+                            });
+                    </script>
+                </div>
             </section>
         </div>
     </section>

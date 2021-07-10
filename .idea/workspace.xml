@@ -118,28 +118,7 @@
       <workItem from="1623894229678" duration="25162000" />
       <workItem from="1623981083557" duration="4388000" />
       <workItem from="1624938785768" duration="2496000" />
-      <workItem from="1625802512971" duration="33156000" />
-    </task>
-    <task id="LOCAL-00018" summary="create header hook and footer hook for public page">
-      <created>1617276935396</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1617276935396</updated>
-    </task>
-    <task id="LOCAL-00019" summary="create public navigation, add public pages and create landing background">
-      <created>1617339158346</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1617339158346</updated>
-    </task>
-    <task id="LOCAL-00020" summary="add img,main header, sub header to landing">
-      <created>1617341241781</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1617341241781</updated>
+      <workItem from="1625802512971" duration="33597000" />
     </task>
     <task id="LOCAL-00021" summary="complete landing area">
       <created>1617352737651</created>
@@ -463,7 +442,28 @@
       <option name="project" value="LOCAL" />
       <updated>1625907193708</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="product show page complete">
+      <created>1625907468038</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1625907468038</updated>
+    </task>
+    <task id="LOCAL-00068" summary="product show page complete">
+      <created>1625907578209</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1625907578209</updated>
+    </task>
+    <task id="LOCAL-00069" summary="product show page complete">
+      <created>1625907726296</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1625907726296</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,9 +517,9 @@
     <MESSAGE value="change links and id for get page content from database" />
     <MESSAGE value="add tiny rack to main page" />
     <MESSAGE value="create shared show page for all 3rd level links to share target contents" />
-    <MESSAGE value="product show page complete" />
     <MESSAGE value="debug show product images" />
-    <option name="LAST_COMMIT_MESSAGE" value="debug show product images" />
+    <MESSAGE value="product show page complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="product show page complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

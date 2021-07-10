@@ -88,11 +88,8 @@ if ($page == 'product_dtl') {
         <ul class="event_wrapper container event_gal_cards">
             <?php while ($product = mysqli_fetch_assoc($product_dtl)) { ?>
                 <li class="event_gal_col" style="width: 20% !important;">
-                    <?php
-                    echo PUBLIC_PATH;
-                    ?>
                     <div class="event_gal_wrapper">
-                        <div style="background-image: url('<?php echo WWW_ROOT . $product['prod_img']; ?>');
+                        <div style="background-image: url('<?php echo url_for($product['prod_img']); ?>');
                                 height: inherit; background-position: left; background-repeat: no-repeat;
                                 background-size: cover; height: 225px"></div>
                         <div>

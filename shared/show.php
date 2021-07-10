@@ -86,9 +86,12 @@ if ($page == 'product_dtl') {
                                                margin: 0 auto;">
         <h2>Related products</h2>
 
+        <?php echo WWW_ROOT; ?>
+
         <ul class="event_wrapper container event_gal_cards">
             <?php while ($product = mysqli_fetch_assoc($product_dtl)) { ?>
                 <li class="event_gal_col" style="width: 20% !important;">
+                    <?php echo $product['prod_img']; ?>
                     <div class="event_gal_wrapper">
                         <div style="background-image: url('<?php echo WWW_ROOT . $product['prod_img']; ?>');
                                 height: inherit; background-position: left; background-repeat: no-repeat;

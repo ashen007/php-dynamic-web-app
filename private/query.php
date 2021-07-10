@@ -115,7 +115,7 @@ function get_top_products()
     global $db;
 
     $sql = 'select * from product_dtl ';
-    $sql .= 'order by weekly_change asc limit 8;';
+    $sql .= 'order by weekly_change asc limit 16;';
     $result = mysqli_query($db, $sql);
     confirm_result($result);
     return $result;

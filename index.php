@@ -5,7 +5,7 @@
 <?php
 $page_title = 'Crop Foundation';
 $event_dtl = get_top_events();
-
+$product_dtl = get_top_products();
 
 if (request_is_post()) {
     $result = add_comment($_POST);
@@ -179,75 +179,38 @@ if (request_is_post()) {
     </div>
 </section>
 
-<section class="tiny_store bottom_gap">
-    <ul class="tiny_store_wrapper valign section_wrapper">
-        <li class="tiny_rack">
-            <ul class="tiny_rack_list">
-                <?php ?>
-                <?php ?>
+<section class="prod_gallery bottom_gap" style="padding-top: 36px">
+    <ul class="event_wrapper container event_gal_cards">
+        <li class="stat ">
+            <ul class="stat_cont">
+                <li class="stat_year"><h3>Product Portal</h3></li>
+                <li class="stat_title"><p>Appetizing luscious savor hot senses.
+                        Effervescent the secure special. Kids spicey chance</p></li>
             </ul>
         </li>
-        <li class="tiny_rack">
-            <ul class="tiny_rack_list">
-                <li class="tiny_product">
-                    <ul class="tiny_prod_dtl">
-                        <li class="tiny_prod_img">img</li>
-                        <li class="tiny_prod_title">title</li>
-                        <li class="tiny_prod_price">price</li>
-                    </ul>
-                </li>
-                <li class="tiny_product">
-                    <ul class="tiny_prod_dtl">
-                        <li class="tiny_prod_img">img</li>
-                        <li class="tiny_prod_title">title</li>
-                        <li class="tiny_prod_price">price</li>
-                    </ul>
-                </li>
-                <li class="tiny_product">
-                    <ul class="tiny_prod_dtl">
-                        <li class="tiny_prod_img">img</li>
-                        <li class="tiny_prod_title">title</li>
-                        <li class="tiny_prod_price">price</li>
-                    </ul>
-                </li>
-                <li class="tiny_product">
-                    <ul class="tiny_prod_dtl">
-                        <li class="tiny_prod_img">img</li>
-                        <li class="tiny_prod_title">title</li>
-                        <li class="tiny_prod_price">price</li>
-                    </ul>
-                </li>
-                <li class="tiny_product">
-                    <ul class="tiny_prod_dtl">
-                        <li class="tiny_prod_img">img</li>
-                        <li class="tiny_prod_title">title</li>
-                        <li class="tiny_prod_price">price</li>
-                    </ul>
-                </li>
-                <li class="tiny_product">
-                    <ul class="tiny_prod_dtl">
-                        <li class="tiny_prod_img">img</li>
-                        <li class="tiny_prod_title">title</li>
-                        <li class="tiny_prod_price">price</li>
-                    </ul>
-                </li>
-                <li class="tiny_product">
-                    <ul class="tiny_prod_dtl">
-                        <li class="tiny_prod_img">img</li>
-                        <li class="tiny_prod_title">title</li>
-                        <li class="tiny_prod_price">price</li>
-                    </ul>
-                </li>
-                <li class="tiny_product">
-                    <ul class="tiny_prod_dtl">
-                        <li class="tiny_prod_img">img</li>
-                        <li class="tiny_prod_title">title</li>
-                        <li class="tiny_prod_price">price</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
+        <?php while ($product = mysqli_fetch_assoc($product_dtl)) { ?>
+            <li class="event_gal_col" style="width: 20% !important;">
+                <div class="event_gal_wrapper">
+                    <div style="background-image: url('<?php echo WWW_ROOT . $product['prod_img']; ?>');
+                            height: inherit; background-position: left; background-repeat: no-repeat;
+                            background-size: cover; height: 225px"></div>
+                    <div>
+                        <p style="margin-top: 12px; color: #056f05"><i
+                                    class="fas fa-map-marker-alt"></i><?php echo $product['category'] ?></p>
+                        <a class="event-link" style="position: relative; top: 0; left: 0; color: #000000"
+                           href="<?php echo url_for('/shared/show.php?page=' . base64_encode(xss('product')) . '&prod=' . base64_encode(xss($product['id']))); ?>">
+                            <?php echo $product['item'] ?>
+                        </a>
+                        <p style="margin-top: 4px; margin-bottom: 2px; color: #656464"><?php echo $product['brand'] ?></p>
+                        <p style="margin-top: 2px; margin-bottom: 4px; color: #656464"><?php echo $product['lowest_most_ususal_price'] . ' - ' . $product['upper_most_ususal_price'] ?></p>
+                    </div>
+                </div>
+            </li>
+        <?php } ?>
     </ul>
+    <div class="prod_link">
+        <a href="<?php echo url_for('/product_detail_portal.php'); ?>">Explore all</a>
+    </div>
 </section>
 
 <section class="events_gal">

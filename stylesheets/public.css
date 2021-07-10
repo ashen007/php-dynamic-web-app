@@ -447,3 +447,14 @@ ul.about_content_wrapper {
 i.fas.fa-map-marker-alt {
     margin-right: 6px;
 }
+
+.prod_link {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 36px;
+}
+
+.prod_link a {
+    padding: 18px 32px;
+}

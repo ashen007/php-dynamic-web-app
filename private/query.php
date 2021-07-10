@@ -121,6 +121,17 @@ function get_top_products()
     return $result;
 }
 
+function get_related_products($category, $item)
+{
+    global $db;
+
+    $sql = 'select * from product_dtl ';
+    $sql .= 'where category like "%' . $category . '%" or item like "%' . $item . '%" ;';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
 function get_page_content($page)
 {
     global $db;

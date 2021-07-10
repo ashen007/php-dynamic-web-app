@@ -89,7 +89,7 @@ if ($page == 'product_dtl') {
             <?php while ($product = mysqli_fetch_assoc($product_dtl)) { ?>
                 <li class="event_gal_col" style="width: 20% !important;">
                     <?php
-                    echo WWW_ROOT . $product['prod_img'];
+                    echo PUBLIC_PATH;
                     ?>
                     <div class="event_gal_wrapper">
                         <div style="background-image: url('<?php echo WWW_ROOT . $product['prod_img']; ?>');

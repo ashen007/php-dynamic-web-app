@@ -1,0 +1,3 @@
+INSERT INTO crop_foundation.office (office_id, city, address, primary_tel_no, secondary_tel_no) VALUES (1, 'Oxfordshire', '22 Texas West Hills', '+44-20-7328-4499', '+844 123 456 789');
+INSERT INTO crop_foundation.office (office_id, city, address, primary_tel_no, secondary_tel_no) VALUES (2, 'Lincolnshire', '5919 Trussville Crossings Pkwy,<br> Birmingham AL 35235', '+99-34-8878-9989', '+844 123 456 789');
+INSERT INTO crop_foundation.office (office_id, city, address, primary_tel_no, secondary_tel_no) VALUES (3, 'Norfolk', '22 Baker Street,London, <br>United Kingdom,<br>W1U 3BW', '+123 456 7890', '+844 123 456 789');

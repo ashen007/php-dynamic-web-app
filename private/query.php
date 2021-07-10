@@ -103,7 +103,7 @@ function get_top_events()
 {
     global $db;
 
-    $sql = 'select event_id, headline,event_banner,DATE(event_date) as event_date from events ';
+    $sql = 'select id, headline,event_banner,DATE(event_date) as event_date from events ';
     $sql .= 'order by event_date desc limit 4;';
     $result = mysqli_query($db, $sql);
     confirm_result($result);
@@ -135,7 +135,7 @@ function get_evets()
 {
     global $db;
 
-    $sql = 'select event_id, headline, location, cover_by, event_banner,DATE(event_date) as event_date from events ';
+    $sql = 'select id, headline, location, cover_by, event_banner,DATE(event_date) as event_date from events ';
     $sql .= 'order by event_date desc;';
     $result = mysqli_query($db, $sql);
     confirm_result($result);
@@ -156,7 +156,7 @@ function get_blog_posts()
 {
     global $db;
 
-    $sql = 'select post_id, post_headline, author, content, post_banner, publish_at from blog ';
+    $sql = 'select id, post_headline, author, content, post_banner, publish_at from blog ';
     $sql .= 'order by publish_at desc;';
     $result = mysqli_query($db, $sql);
     confirm_result($result);
@@ -168,6 +168,17 @@ function get_data($table)
     global $db;
 
     $sql = 'select * from ' . $table . ';';
+    $result = mysqli_query($db, $sql);
+    confirm_result($result);
+    return $result;
+}
+
+function get_content($table, $item_id)
+{
+    global $db;
+
+    $sql = 'select * from ' . $table;
+    $sql .= ' where id=' . $item_id . ';';
     $result = mysqli_query($db, $sql);
     confirm_result($result);
     return $result;

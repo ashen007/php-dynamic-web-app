@@ -38,7 +38,7 @@ $blog_dtl = get_blog_posts()
                             background-size: cover; height: 225px"></div>
                     <div>
                         <a class="event-link" style="position: relative; top: 0; left: 0; color: #000000"
-                           href="<?php echo url_for('/shared/show.php?page=' . base64_encode(xss('blog')) . '&post_id=' . base64_encode(xss($blog_post['post_id']))); ?>">
+                           href="<?php echo url_for('/shared/show.php?page=' . base64_encode(xss('blog')) . '&item=' . base64_encode(xss($blog_post['id']))); ?>">
                             <?php echo $blog_post['post_headline'] ?>
                         </a>
                         <p style="margin-top: 12px; color: #181c18">

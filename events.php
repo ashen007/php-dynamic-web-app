@@ -39,7 +39,7 @@ $event_dtl = get_evets();
                         <p style="margin-top: 12px; color: #056f05"><i
                                     class="fas fa-map-marker-alt"></i><?php echo $event['location'] ?></p>
                         <a class="event-link" style="position: relative; top: 0; left: 0; color: #000000"
-                           href="<?php echo url_for('/shared/show.php?page=' . base64_encode(xss('events')) . '&event=' . base64_encode(xss($event['event_id']))); ?>">
+                           href="<?php echo url_for('/shared/show.php?page=' . base64_encode(xss('events')) . '&item=' . base64_encode(xss($event['id']))); ?>">
                             <?php echo $event['headline'] ?>
                         </a>
                         <p style="margin-top: 4px; margin-bottom: 2px; color: #656464">cover

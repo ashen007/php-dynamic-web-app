@@ -5,13 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_agg_account.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_agg_change.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_agg_productivity_factor.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_blog.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_comments.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_emissions.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_events.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_fertiliser_applied.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_headlines.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_land_use.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_livestock_production.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_member_privilege.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_members.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_office.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_pesticide.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_product_dtl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_product_queries.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/crop_foundation_water_usage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/backup/events.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/events.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/events.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_detail_portal.php" beforeDir="false" afterPath="$PROJECT_DIR$/product_detail_portal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/shared/show.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +115,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00011" summary="use custom function to prevent sqli">
-      <created>1616257162972</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1616257162972</updated>
-    </task>
     <task id="LOCAL-00012" summary="use custom function to prevent sqli">
       <created>1616258575186</created>
       <option name="number" value="00012" />
@@ -136,7 +152,7 @@
       <workItem from="1623894229678" duration="25162000" />
       <workItem from="1623981083557" duration="4388000" />
       <workItem from="1624938785768" duration="2496000" />
-      <workItem from="1625802512971" duration="19181000" />
+      <workItem from="1625802512971" duration="22195000" />
     </task>
     <task id="LOCAL-00013" summary="edit page complete">
       <created>1616322938618</created>
@@ -467,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625856714595</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="add tiny rack to main page">
+      <created>1625891801172</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1625891801172</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +521,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add tiny store and complete structure" />
     <MESSAGE value="add testimonial section" />
     <MESSAGE value="re-organize css class" />
     <MESSAGE value="add recent event gallery structure" />
@@ -523,7 +545,8 @@
     <MESSAGE value="debugging - 1 css didn't load" />
     <MESSAGE value="debugging - 1.1 change WWW_ROOT directory" />
     <MESSAGE value="change box size" />
-    <option name="LAST_COMMIT_MESSAGE" value="change box size" />
+    <MESSAGE value="add tiny rack to main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tiny rack to main page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

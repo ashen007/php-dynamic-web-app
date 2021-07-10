@@ -34,7 +34,8 @@ if (!isset($page_title)) {
                 <li class="menu_item"><a href="<?php echo url_for('/index.php'); ?>">Home</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/events.php'); ?>">events</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/blog.php'); ?>">blog</a></li>
-                <li class="menu_item"><a href="<?php echo url_for('/product_detail_portal.php'); ?>">shop</a></li>
+                <li class="menu_item"><a href="<?php echo url_for('/product_detail_portal.php'); ?>">product portal</a>
+                </li>
                 <li class="menu_item"><a href="<?php echo url_for('/about.php'); ?>">about</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/contacts.php'); ?>">contact</a></li>
                 <li class="menu_item"><a href="<?php echo url_for('/members/login.php'); ?>">Members</a></li>

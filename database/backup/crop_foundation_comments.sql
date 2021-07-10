@@ -1,0 +1,2 @@
+INSERT INTO crop_foundation.comments (comment_id, created_at, name, comment, email) VALUES (4, '2021-06-15 23:29:28', 'ashen iranga hewarathna', 'this is a dummy comment.', 'hewarathna@outlook.com');
+INSERT INTO crop_foundation.comments (comment_id, created_at, name, comment, email) VALUES (5, '2021-07-09 16:48:58', 'Hewarathna Ashen Iranga', 'dummy text', 'asheniranga@gmail.com');

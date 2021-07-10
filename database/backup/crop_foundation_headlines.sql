@@ -1,0 +1,5 @@
+INSERT INTO crop_foundation.headlines (head_id, head_body, created_at) VALUES (1, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', '2021-03-30 12:38:49');
+INSERT INTO crop_foundation.headlines (head_id, head_body, created_at) VALUES (2, 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.', '2021-03-30 12:38:49');
+INSERT INTO crop_foundation.headlines (head_id, head_body, created_at) VALUES (3, 'Contrary to popular belief, Lorem Ipsum is not simply random text.', '2021-03-30 12:38:49');
+INSERT INTO crop_foundation.headlines (head_id, head_body, created_at) VALUES (4, 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.', '2021-03-30 12:38:49');
+INSERT INTO crop_foundation.headlines (head_id, head_body, created_at) VALUES (5, 'Contrary to popular belief, Lorem Ipsum is not simply random text.', '2021-03-30 12:38:49');

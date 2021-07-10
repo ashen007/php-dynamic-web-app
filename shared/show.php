@@ -89,7 +89,6 @@ if ($page == 'product_dtl') {
             <?php while ($product = mysqli_fetch_assoc($product_dtl)) { ?>
                 <li class="event_gal_col" style="width: 20% !important;">
                     <?php
-                    echo $product['prod_img'];
                     echo WWW_ROOT . $product['prod_img'];
                     ?>
                     <div class="event_gal_wrapper">

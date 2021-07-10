@@ -2,7 +2,7 @@
 <?php
 $page = xss(base64_decode($_GET['page']));
 $id = xss(base64_decode($_GET['item']));
-$content = get_content($page, $id)
+$content = get_content($page, $id);
 ?>
 <?php include(SHARED_PATH . '/public_header.php'); ?>
 

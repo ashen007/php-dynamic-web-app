@@ -40,7 +40,7 @@ $product_dtl = get_products()
                         <p style="margin-top: 12px; color: #056f05"><i
                                     class="fas fa-map-marker-alt"></i><?php echo $product['category'] ?></p>
                         <a class="event-link" style="position: relative; top: 0; left: 0; color: #000000"
-                           href="<?php echo url_for('/shared/show.php?page=' . base64_encode(xss('product')) . '&item=' . base64_encode(xss($product['id']))); ?>">
+                           href="<?php echo url_for('/shared/show.php?page=' . base64_encode(xss('product_dtl')) . '&item=' . base64_encode(xss($product['id']))); ?>">
                             <?php echo $product['item'] ?>
                         </a>
                         <p style="margin-top: 4px; margin-bottom: 2px; color: #656464"><?php echo $product['brand'] ?></p>

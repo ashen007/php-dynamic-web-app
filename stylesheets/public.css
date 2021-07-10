@@ -344,6 +344,7 @@ section.landing_bg {
 
 ul.landing_header {
     left: 5%;
+    top: 25%;
     transform: unset !important;
 }
 
@@ -457,4 +458,10 @@ i.fas.fa-map-marker-alt {
 
 .prod_link a {
     padding: 18px 32px;
+}
+
+.event_body {
+    width: 50%;
+    margin: 0 auto;
+    padding: 36px;
 }

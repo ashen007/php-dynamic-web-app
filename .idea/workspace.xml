@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="add tiny rack to main page">
+    <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="product show page complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/query.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/shared/show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/public.css" afterDir="false" />
     </list>
@@ -120,14 +120,7 @@
       <workItem from="1623894229678" duration="25162000" />
       <workItem from="1623981083557" duration="4388000" />
       <workItem from="1624938785768" duration="2496000" />
-      <workItem from="1625802512971" duration="26211000" />
-    </task>
-    <task id="LOCAL-00014" summary="change some error displaying techs in registration from and add availability check before register a new user for existing records">
-      <created>1616335456275</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1616335456275</updated>
+      <workItem from="1625802512971" duration="31563000" />
     </task>
     <task id="LOCAL-00015" summary="add profile name and profile image to edit page">
       <created>1616340438979</created>
@@ -465,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625896714541</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="create shared show page for all 3rd level links to share target contents">
+      <created>1625900579984</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1625900579984</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +496,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="re-organize css class" />
     <MESSAGE value="add recent event gallery structure" />
     <MESSAGE value="add query form structure" />
     <MESSAGE value="events landing" />
@@ -521,7 +520,8 @@
     <MESSAGE value="change box size" />
     <MESSAGE value="change links and id for get page content from database" />
     <MESSAGE value="add tiny rack to main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tiny rack to main page" />
+    <MESSAGE value="create shared show page for all 3rd level links to share target contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="create shared show page for all 3rd level links to share target contents" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -465,3 +465,14 @@ i.fas.fa-map-marker-alt {
     margin: 0 auto;
     padding: 36px;
 }
+
+.topic h3 {
+    font-weight: normal;
+    font-size: 20px;
+    /*text-decoration: underline;*/
+    text-transform: capitalize;
+}
+
+.topic p {
+    color: #707070;
+}

@@ -5,25 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="product show page complete">
-      <change afterPath="$PROJECT_DIR$/images/logos/a8b8b3121878877.60cec142be700.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/aifco.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/baharkafood.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/farmnextdoor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/mora.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/primiumhoneybee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/rcg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WT_final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WT_final.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/members/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/pages/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/members/pages/show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/profile.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false">
+  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -127,14 +121,10 @@
       <workItem from="1623894229678" duration="25162000" />
       <workItem from="1623981083557" duration="4388000" />
       <workItem from="1624938785768" duration="2496000" />
-      <workItem from="1625802512971" duration="43025000" />
-    </task>
-    <task id="LOCAL-00023" summary="add hover effects to headers">
-      <created>1617353015936</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1617353015936</updated>
+      <workItem from="1625802512971" duration="43866000" />
+      <workItem from="1627903416191" duration="645000" />
+      <workItem from="1627904144846" duration="544000" />
+      <workItem from="1627904777847" duration="502000" />
     </task>
     <task id="LOCAL-00024" summary="add services section and it contains links to specified areas.">
       <created>1617353579430</created>
@@ -472,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625908156210</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="complete members index page">
+      <created>1625918487906</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1625918487906</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +500,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="events landing" />
     <MESSAGE value="event gallery structure added" />
     <MESSAGE value="blog showcase structure created" />
     <MESSAGE value="about page basic structure" />
@@ -528,7 +524,8 @@
     <MESSAGE value="create shared show page for all 3rd level links to share target contents" />
     <MESSAGE value="debug show product images" />
     <MESSAGE value="product show page complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="product show page complete" />
+    <MESSAGE value="complete members index page" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete members index page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

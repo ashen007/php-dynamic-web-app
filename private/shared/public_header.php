@@ -21,10 +21,12 @@ if (!isset($page_title)) {
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/94d8d2468d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
+<header style="display: inline-flex;">
     <div id="logo">
         <img src="<?php echo url_for('images/WT_logo-1.png'); ?>">
     </div>

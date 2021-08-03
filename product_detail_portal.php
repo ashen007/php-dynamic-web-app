@@ -28,8 +28,8 @@ $product_dtl = get_products()
     </div>
 </section>
 
-<section class="event_gallery bottom_gap">
-    <ul class="event_wrapper container event_gal_cards">
+<section class="event_gallery bottom_gap top_gap container-fluid">
+    <ul class="event_wrapper col-10 event_gal_cards" style="margin: 0 auto;">
         <?php while ($product = mysqli_fetch_assoc($product_dtl)) { ?>
             <li class="event_gal_col" style="width: 20% !important;">
                 <div class="event_gal_wrapper">

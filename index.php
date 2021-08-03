@@ -44,15 +44,15 @@ if (request_is_post()) {
     </div>
 </section>
 
-<section class="services top_gap bottom_gap">
-    <div class="container">
-        <div class="serv_card_inner">
+<section class="services top_gap bottom_gap container-fluid">
+    <div class="row">
+        <div class="serv_card_inner col-12">
             <div class="serv_card_header">Crop Foundation<br> Farm Ecology Products</div>
-            <div class="serv-cover">
-                <div class="cow-img">
+            <div class="serv-cover row">
+                <div class="cow-img col-5">
                     <img src="<?php echo url_for('/images/79cb8a70129685.5b990b414065d.jpg') ?>" alt="landing image">
                 </div>
-                <div class="serv_card_content">
+                <div class="serv_card_content col-4">
                     <h4> Smells racy free announcing than durable zesty smart exotic
                         far feel. Screamin' affordable secret way absolutely.</h4>
                     <p>Evaluates vast a real proven works discount secure care. Market invigorate a awesome
@@ -66,12 +66,12 @@ if (request_is_post()) {
     </div>
 </section>
 
-<section class="about top_gap bottom_gap">
-    <div class="container">
-        <div class="serv_card_inner">
+<section class="about top_gap bottom_gap container-fluid">
+    <div class="row">
+        <div class="serv_card_inner col-12">
             <div class="serv_card_header">The Largest Crop Ever</div>
-            <div class="serv-cover">
-                <div class="serv_card_content">
+            <div class="serv-cover row">
+                <div class="serv_card_content col-4">
                     <h4> Smells racy free announcing than durable zesty smart exotic far feel.
                         Screamin' affordable secret way absolutely.</h4>
                     <p>Stimulates vast a real proven works discount secure care. Market invigorate a awesome handcrafted
@@ -82,33 +82,33 @@ if (request_is_post()) {
                         Odor to yummy high racy bonus soaking mouthwatering. First superior
                     </p>
                 </div>
-                <div class="services-list">
+                <div class="services-list col-6">
                     <div class="valign" style="display: flex;">
-                        <div style="height: fit-content; width: fit-content; text-align: center">
+                        <div class="col-2" style="height: fit-content; width: fit-content; text-align: center">
                             <div class="service-img"
                                  style="background-image: url('<?php echo url_for('/images/ico_1-77x77.png') ?>');
                                          width:90px; height:90px;"></div>
                             <label>Agriculture<br>Products</label>
                         </div>
-                        <div style="height: fit-content; width: fit-content; text-align: center">
+                        <div class="col-2" style="height: fit-content; width: fit-content; text-align: center">
                             <div class="service-img"
                                  style="background-image: url('<?php echo url_for('/images/ico_2-77x77.png') ?>');
                                          width:90px; height:90px;"></div>
                             <label>Fresh<br>Vegatables</label>
                         </div>
-                        <div style="height: fit-content; width: fit-content; text-align: center">
+                        <div class="col-2" style="height: fit-content; width: fit-content; text-align: center">
                             <div class="service-img"
                                  style="background-image: url('<?php echo url_for('/images/ico_3-90x77.png') ?>');
                                          width:90px; height:90px;"></div>
                             <label>Different<br>Livestock</label>
                         </div>
-                        <div style="height: fit-content; width: fit-content; text-align: center">
+                        <div class="col-2" style="height: fit-content; width: fit-content; text-align: center">
                             <div class="service-img"
                                  style="background-image: url('<?php echo url_for('/images/ico_4-90x77.png') ?>');
                                          width:90px; height:90px;"></div>
                             <label>Modern<br>Technique</label>
                         </div>
-                        <div style="height: fit-content; width: fit-content; text-align: center">
+                        <div class="col-2" style="height: fit-content; width: fit-content; text-align: center">
                             <div class="service-img"
                                  style="background-image: url('<?php echo url_for('/images/ico_5-77x77.png') ?>');
                                          width:90px; height:90px;"></div>
@@ -121,8 +121,8 @@ if (request_is_post()) {
     </div>
 </section>
 
-<section class="comp_status bottom_gap">
-    <div class="product-gallery container valign">
+<section class="comp_status bottom_gap container-fluid">
+    <div class="product-gallery col-9 valign">
         <ul class="status_list section_wrapper">
             <li class="stat ">
                 <ul class="stat_cont">
@@ -179,8 +179,8 @@ if (request_is_post()) {
     </div>
 </section>
 
-<section class="prod_gallery bottom_gap" style="padding-top: 36px">
-    <ul class="event_wrapper container event_gal_cards">
+<section class="prod_gallery container-fluid bottom_gap" style="padding-top: 36px">
+    <ul class="event_wrapper event_gal_cards col-10" style="margin: 0 auto;">
         <li class="stat ">
             <ul class="stat_cont">
                 <li class="stat_year"><h3>Product Portal</h3></li>

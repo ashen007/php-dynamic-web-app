@@ -26,7 +26,7 @@ $moto = 'Beautiful landscapes and the farmers Who bring us our food';
     </div>
 </section>
 
-<section class="about_info top_gap bottom_gap">
+<section class="about_info top_gap bottom_gap top_gap">
     <div class="about_wrapper">
         <ul class="about_content_wrapper">
             <li class="about_content">

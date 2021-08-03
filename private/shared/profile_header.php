@@ -23,11 +23,13 @@ $picture = get_account_dtl(xss(base64_decode($id)))['pp'];
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald&family=Playfair+Display:wght@600&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap" rel="stylesheet">
     <script src="https://cdn.plot.ly/plotly-2.0.0.min.js"></script>
 </head>
 <body>
-<header>
+<header style="display: inline-flex;">
     <div class="block_l">
         <div class="logo_offset">
             <img src="<?php echo url_for('/images/logo offset.png') ?>">

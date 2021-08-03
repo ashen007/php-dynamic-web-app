@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="product show page complete">
-      <change beforePath="$PROJECT_DIR$/.idea/WT_final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WT_final.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37a5728a-4ead-466e-bcac-29f290330279.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members/pages/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/members/pages/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/events.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_detail_portal.php" beforeDir="false" afterPath="$PROJECT_DIR$/product_detail_portal.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +80,16 @@
       <recent name="C:\xampp\htdocs\WT_final\database" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SearchEverywhereConfiguration">
     <file-type-list>
       <filtered-out-file-type name="com.intellij.ide.actions.searcheverywhere.CalculatorSEContributor" />
@@ -124,14 +139,8 @@
       <workItem from="1625802512971" duration="43866000" />
       <workItem from="1627903416191" duration="645000" />
       <workItem from="1627904144846" duration="544000" />
-      <workItem from="1627904777847" duration="502000" />
-    </task>
-    <task id="LOCAL-00024" summary="add services section and it contains links to specified areas.">
-      <created>1617353579430</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1617353579430</updated>
+      <workItem from="1627904777847" duration="1569000" />
+      <workItem from="1627962044935" duration="6293000" />
     </task>
     <task id="LOCAL-00025" summary="complete service detail area">
       <created>1618300422386</created>
@@ -469,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625918487906</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="add member are show page">
+      <created>1627905915884</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1627905915886</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +516,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="event gallery structure added" />
     <MESSAGE value="blog showcase structure created" />
     <MESSAGE value="about page basic structure" />
     <MESSAGE value="service section complete" />
@@ -525,7 +540,8 @@
     <MESSAGE value="debug show product images" />
     <MESSAGE value="product show page complete" />
     <MESSAGE value="complete members index page" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete members index page" />
+    <MESSAGE value="add member are show page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add member are show page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

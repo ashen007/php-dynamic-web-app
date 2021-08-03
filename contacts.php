@@ -27,7 +27,7 @@ $page_data = get_page_content('office')
     </div>
 </section>
 
-<section class="contact_info top_gap bottom_gap">
+<section class="contact_info top_gap bottom_gap top_gap">
     <div class="contact_wrapper">
         <ul class="contact_content_wrapper">
             <?php while ($page = mysqli_fetch_assoc($page_data)) { ?>

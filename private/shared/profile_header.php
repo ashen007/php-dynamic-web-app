@@ -18,6 +18,7 @@ $picture = get_account_dtl(xss(base64_decode($id)))['pp'];
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $page_title; ?></title>
     <link rel="shortcut icon" type="image/jpg" href="<?php echo url_for('/images/logo offset.png') ?>"/>
+    <link rel="stylesheet" href="<?php echo url_for('/stylesheets/public.css'); ?>">
     <link rel="stylesheet" href="<?php echo url_for('/stylesheets/member.css'); ?>">
     <link rel="stylesheet" href="<?php echo url_for('/stylesheets/profile.css'); ?>">
     <link rel="preconnect" href="https://fonts.gstatic.com">

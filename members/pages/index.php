@@ -26,7 +26,7 @@ $headlines = get_top_headlines();
         </div>
     </section>
     <section id="basic_dash">
-        <div class="sec_top container">
+        <div class="sec_top container-fluid">
             <section class="left">
                 <div class="dash_text">
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
@@ -106,7 +106,7 @@ $headlines = get_top_headlines();
                 </script>
             </section>
         </div>
-        <div class="sec_bottom container">
+        <div class="sec_bottom container-fluid">
             <section class="left">
                 <div id="farmer-change" style="width: 100%; height: 460px; margin-top: 24px"></div>
                 <script>
@@ -201,7 +201,7 @@ $headlines = get_top_headlines();
         </div>
     </section>
     <section id="brands">
-        <div class="brand_wrapper container">
+        <div class="brand_wrapper container-fluid">
             <ul class="brand_list">
                 <li style="background-image: url('<?php echo url_for('/images/logos/rcg.jpg'); ?>');
                         background-position: center;
@@ -231,7 +231,7 @@ $headlines = get_top_headlines();
         </div>
     </section>
     <section class="basic_report">
-        <div class="container">
+        <div class="container-fluid">
             <section class="sec_top">
                 <div class="left" style="border-right: 1px solid #000000;border-bottom: 1px solid #000000">
                     <div id="test_0" style="margin-top: 24px;"></div>

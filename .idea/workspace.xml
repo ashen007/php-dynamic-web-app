@@ -6,16 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="product show page complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/members/pages/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/profile_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_detail_portal.php" beforeDir="false" afterPath="$PROJECT_DIR$/product_detail_portal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/public_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,14 +136,7 @@
       <workItem from="1627903416191" duration="645000" />
       <workItem from="1627904144846" duration="544000" />
       <workItem from="1627904777847" duration="1569000" />
-      <workItem from="1627962044935" duration="6293000" />
-    </task>
-    <task id="LOCAL-00025" summary="complete service detail area">
-      <created>1618300422386</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1618300422386</updated>
+      <workItem from="1627962044935" duration="8221000" />
     </task>
     <task id="LOCAL-00026" summary="add brief about section and company status section">
       <created>1618328558040</created>
@@ -485,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627905915886</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="add responsive properties">
+      <created>1627970198800</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1627970198800</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +512,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="blog showcase structure created" />
     <MESSAGE value="about page basic structure" />
     <MESSAGE value="service section complete" />
     <MESSAGE value="about section completed" />
@@ -541,7 +536,8 @@
     <MESSAGE value="product show page complete" />
     <MESSAGE value="complete members index page" />
     <MESSAGE value="add member are show page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add member are show page" />
+    <MESSAGE value="add responsive properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="add responsive properties" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

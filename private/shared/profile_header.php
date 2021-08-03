@@ -41,7 +41,7 @@ $picture = get_account_dtl(xss(base64_decode($id)))['pp'];
             <ul class="pm_nav">
                 <?php while ($page = mysqli_fetch_assoc($page_set)) { ?>
                     <li>
-                        <a href="<?php echo url_for($page['path'] . "'" . xss($id) . "'&page='" . xss($page['name']) . "'"); ?>">
+                        <a href="<?php echo url_for($page['path'] . "'" . xss($id) . "'&page='" . base64_encode(xss($page['name'])) . "'"); ?>">
                             <?php echo $page['name']; ?></a>
                     </li>
                 <?php } ?>

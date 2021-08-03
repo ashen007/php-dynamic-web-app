@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="product show page complete">
-      <change afterPath="$PROJECT_DIR$/images/research/3P2A7247.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/research/IMG_4979-min-scaled.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/research/IMG_7904-scaled.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/research/Schermata-men.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/members/pages/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/members/pages/show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/profile_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/profile_header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,14 +133,7 @@
       <workItem from="1627903416191" duration="645000" />
       <workItem from="1627904144846" duration="544000" />
       <workItem from="1627904777847" duration="1569000" />
-      <workItem from="1627962044935" duration="13147000" />
-    </task>
-    <task id="LOCAL-00027" summary="add structure to about section and company status section">
-      <created>1618328912467</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1618328912467</updated>
+      <workItem from="1627962044935" duration="14436000" />
     </task>
     <task id="LOCAL-00028" summary="add tiny store and complete structure">
       <created>1618330859020</created>
@@ -483,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627972009332</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="research page">
+      <created>1627977156222</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1627977156222</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +509,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="service section complete" />
     <MESSAGE value="about section completed" />
     <MESSAGE value="product section completed" />
     <MESSAGE value="comment form completed. update form validation rules to match comment form" />
@@ -539,7 +533,8 @@
     <MESSAGE value="add member are show page" />
     <MESSAGE value="add responsive properties" />
     <MESSAGE value="page footers" />
-    <option name="LAST_COMMIT_MESSAGE" value="page footers" />
+    <MESSAGE value="research page" />
+    <option name="LAST_COMMIT_MESSAGE" value="research page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

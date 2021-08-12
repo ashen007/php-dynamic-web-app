@@ -121,7 +121,7 @@ if (request_is_post()) {
     </div>
 </section>
 
-<section class="comp_status bottom_gap container-fluid">
+<section class="comp_status bottom_gap container-fluid col-12">
     <div class="product-gallery col-9 valign">
         <ul class="status_list section_wrapper">
             <li class="stat ">
@@ -180,7 +180,7 @@ if (request_is_post()) {
 </section>
 
 <section class="prod_gallery container-fluid bottom_gap" style="padding-top: 36px">
-    <ul class="event_wrapper event_gal_cards col-10" style="margin: 0 auto;">
+    <ul class="event_wrapper event_gal_cards col-10 prod_port" style="margin: 0 auto;">
         <li class="stat ">
             <ul class="stat_cont">
                 <li class="stat_year"><h3>Product Portal</h3></li>

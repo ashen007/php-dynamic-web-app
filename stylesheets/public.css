@@ -476,3 +476,45 @@ i.fas.fa-map-marker-alt {
 .topic p {
     color: #707070;
 }
+
+@media screen and (min-width: 1440px) {
+    section.comp_status {
+        height: 92vh;
+    }
+
+    ul.prod_port > li {
+        height: 378px;
+    }
+
+    .blog_card {
+        height: 92vh;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    section.comp_status {
+        height: 92vh;
+    }
+
+    ul.prod_port > li {
+        height: 378px;
+    }
+
+    .blog_card {
+        height: 92vh;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    section.comp_status {
+        height: 92vh;
+    }
+
+    ul.prod_port > li {
+        height: 378px;
+    }
+
+    .blog_card {
+        height: 92vh;
+    }
+}

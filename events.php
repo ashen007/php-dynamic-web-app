@@ -28,7 +28,7 @@ $event_dtl = get_evets();
 </section>
 
 <section class="event_gallery bottom_gap top_gap">
-    <ul class="event_wrapper container event_gal_cards">
+    <ul class="event_wrapper container event_gal_cards prod_port">
         <?php while ($event = mysqli_fetch_assoc($event_dtl)) { ?>
             <li class="event_gal_col">
                 <div class="event_gal_wrapper">

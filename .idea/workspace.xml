@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="eaaab38a-117d-44d4-84af-6ae965f83453" name="Default Changelist" comment="product show page complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/events.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_detail_portal.php" beforeDir="false" afterPath="$PROJECT_DIR$/product_detail_portal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/public.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +141,8 @@
       <workItem from="1628747140692" duration="1606000" />
       <workItem from="1628785754297" duration="376000" />
       <workItem from="1628787003567" duration="144000" />
-      <workItem from="1628789005113" duration="310000" />
-    </task>
-    <task id="LOCAL-00030" summary="re-organize css class">
-      <created>1618332605184</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1618332605184</updated>
+      <workItem from="1628789005113" duration="451000" />
+      <workItem from="1628790400620" duration="2240000" />
     </task>
     <task id="LOCAL-00031" summary="add recent event gallery structure">
       <created>1618364571469</created>
@@ -482,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628787138172</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="debug">
+      <created>1628789446991</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1628789446992</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +518,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comment form completed. update form validation rules to match comment form" />
     <MESSAGE value="public static pages header title and sub titles" />
     <MESSAGE value="contact and about pages completed" />
     <MESSAGE value="event page completed." />
@@ -538,7 +542,8 @@
     <MESSAGE value="research page" />
     <MESSAGE value="disease report page" />
     <MESSAGE value="change text type password type in password input area." />
-    <option name="LAST_COMMIT_MESSAGE" value="change text type password type in password input area." />
+    <MESSAGE value="debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

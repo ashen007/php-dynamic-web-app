@@ -29,7 +29,7 @@ $blog_dtl = get_blog_posts()
 </section>
 
 <section class="event_gallery bottom_gap top_gap">
-    <ul class="event_wrapper container event_gal_cards">
+    <ul class="event_wrapper container event_gal_cards prod_port blog_card">
         <?php while ($blog_post = mysqli_fetch_assoc($blog_dtl)) { ?>
             <li class="event_gal_col" style="height: 52vh;">
                 <div class="event_gal_wrapper">

@@ -39,7 +39,7 @@ if (request_is_post()) {
                 </dl>
                 <dl>
                     <dt>Password</dt>
-                    <dd><input type="text" name="password" value=""/></dd>
+                    <dd><input type="password" name="password" value=""/></dd>
                 </dl>
                 <div id="operation">
                     <input type="submit" value="Next"/>

@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/cred.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/cred.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/form.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,13 +136,8 @@
       <workItem from="1627962044935" duration="14739000" />
       <workItem from="1628747140692" duration="1606000" />
       <workItem from="1628785754297" duration="376000" />
-    </task>
-    <task id="LOCAL-00029" summary="add testimonial section">
-      <created>1618332282509</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1618332282509</updated>
+      <workItem from="1628787003567" duration="144000" />
+      <workItem from="1628789005113" duration="310000" />
     </task>
     <task id="LOCAL-00030" summary="re-organize css class">
       <created>1618332605184</created>
@@ -479,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627978723928</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="change text type password type in password input area.">
+      <created>1628787138172</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1628787138172</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +513,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="product section completed" />
     <MESSAGE value="comment form completed. update form validation rules to match comment form" />
     <MESSAGE value="public static pages header title and sub titles" />
     <MESSAGE value="contact and about pages completed" />
@@ -535,7 +537,8 @@
     <MESSAGE value="page footers" />
     <MESSAGE value="research page" />
     <MESSAGE value="disease report page" />
-    <option name="LAST_COMMIT_MESSAGE" value="disease report page" />
+    <MESSAGE value="change text type password type in password input area." />
+    <option name="LAST_COMMIT_MESSAGE" value="change text type password type in password input area." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

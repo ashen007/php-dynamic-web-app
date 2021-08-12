@@ -34,7 +34,7 @@ h2 {
     margin: 52px 0px;
 }
 
-input[type="text"], input[type="email"], textarea {
+input[type="text"], input[type="email"], input[type="password"], textarea {
     width: 75%;
     background-color: rgba(0, 0, 0, 0);
     border-width: 0px 0px 1px 0px;
@@ -43,7 +43,7 @@ input[type="text"], input[type="email"], textarea {
     transition-timing-function: linear;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
     padding: 0px;
     border-width: 0px 0px 2px 0px;
     border-color: #4856fd;
@@ -112,6 +112,11 @@ div.login {
 }
 
 .date input[type="text"] {
+    width: 20%;
+    margin: 0px 39px 0px 0px;
+}
+
+.date input[type="password"] {
     width: 20%;
     margin: 0px 39px 0px 0px;
 }
